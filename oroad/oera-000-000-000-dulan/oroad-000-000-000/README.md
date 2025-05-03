@@ -62,7 +62,7 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 
 **T1** features a push towards rendering content which will the initial validation of Ordered Atomic Collaboration (OAC). 
 
-**T1** attempts to accomplish the following itemized intentions:
+**T1** seeks to accomplish the following itemized objectives:
 
 #### T1.1: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md) 
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -96,7 +96,7 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 
 **T2** focuses on validating the initial content and establishing contribution frameworks for Ordered Atomic Collaboration (OAC) and [`robles`](https://github.com/ramate-io/robles).
 
-**T2** attempts to accomplish the following itemized intentions:
+**T2** seeks to accomplish the following itemized objectives:
 
 #### T2.1: Share and gather feedback on [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)s
@@ -131,7 +131,7 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 
 **T3** focuses on continued validation of core concepts and the development of the Fuste MVP as a proof of concept for Ordered Atomic Collaboration (OAC).
 
-**T3** attempts to accomplish the following itemized intentions:
+**T3** seeks to accomplish the following itemized objectives:
 
 #### T3.1: Continue sharing and updating [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -159,7 +159,7 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 
 **T4** focuses on exploring exotic execution models and probabilistic distributed systems for Ordered Atomic Collaboration (OAC).
 
-**T4** attempts to accomplish the following itemized intentions:
+**T4** seeks to accomplish the following itemized objectives:
 
 #### T4.1: Draft and share [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -187,7 +187,7 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 
 **T5** focuses on stabilizing core implementations and preparing academic work for broader dissemination within the Ordered Atomic Collaboration (OAC) framework.
 
-**T5** attempts to accomplish the following itemized intentions:
+**T5** seeks to accomplish the following itemized objectives:
 
 #### T5.1: Stabilize [`gwrdfa`](https://github.com/ramate-io/gwrdfa) implementation
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -222,7 +222,7 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 
 **T6** focuses on developing traditional L1 blockchain applications within the Ordered Atomic Collaboration (OAC) framework.
 
-**T6** attempts to accomplish the following itemized intentions:
+**T6** seeks to accomplish the following itemized objectives:
 
 #### T6.1: Design and implement traditional L1 blockchain applications using OAC principles
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -250,7 +250,7 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 
 **T7** focuses on developing collaborative streaming applications and expanding the OAC ecosystem through partnerships and demonstrations.
 
-**T7** attempts to accomplish the following itemized intentions:
+**T7** seeks to accomplish the following itemized objectives:
 
 #### T7.1: Begin building collaborative streaming platform using [`gwrdfa`](https://github.com/ramate-io/gwrdfa) and [`srcavei`](https://github.com/ramate-io/srcavei)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -278,7 +278,7 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 
 **T8** focuses on finalizing demonstrations, exploring swarm coordination, and pushing for broader academic recognition of Ordered Atomic Collaboration (OAC).
 
-**T8** attempts to accomplish the following itemized intentions:
+**T8** seeks to accomplish the following itemized objectives:
 
 #### T8.1: Guide and support L1 blockchain applications demonstration
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -296,4 +296,29 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T8.6: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+### T9: Reorganization and Swarm Coordination App
+> [!IMPORTANT]
+> **T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application. 
+
+- **Starts:** T8 + 1 month
+- **Depends-on:** [T8](#t8-the-decision-and-swarm-coordination)
+- **Ends:** T9 + 1 month
+- **Contents:**
+    - **[T9.1](#t91-update-the-governance-of-oac-for-greater-decentralization):**  Update the governance of OAC for greater decentralization
+    - **[T9.2](#t92-develop-demo-swarm-coordination-app-with-oac):** Develop demo swarm coordination app with OAC
+
+**T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application. 
+
+**T9** seeks to accomplish the following itemized objectives:
+
+#### T9.1: Update the governance of OAC for greater decentralization
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+We intend to push for greater decentralization of OAC governance. OAC should be organization whose development is guided openly and transparently by many parties. Just as our technology derives consequence through participation, so to should the organization developing said technology.
+
+In the very least, this update of governance should include moving OAC out from under [Ramate LLC's](ramate.io) governance if such has not already occurred. 
+
+#### T9.2: Develop demo swarm coordination app with OAC
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
