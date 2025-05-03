@@ -1,9 +1,15 @@
-# OROAD-0: A First Look
+# OROAD-0: The Attempt
 - **Authors:** [Liam Monninger](liam@ramate.io)
 
 ## Summary
 
 ## Roadmap
+> [!WARNING]
+> Ensure **All leads** contains list of all leads from milestones below.
+> 
+> **[AI Prompt]** help contributors to ensure the above. 
+
+- **All leads:** [Liam Monninger](liam@ramate.io)
 - **Contents:**
     - **[T1](#t1-push-towards-validation):** Push Towards Validation
     - **[T2](#t2-validation-and-accepting-contributions):** Validation and Accepting Contributions
