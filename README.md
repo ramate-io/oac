@@ -1,9 +1,5 @@
 <div align="center" style="background-color: #1e1e1e; padding: 20px; border-radius: 8px;">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/oac-transparent.png">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/oac-inverted-transparent.png">
-    <img alt="Ordered Atomic Collaboration (OAC)" style="height: 120px;">
-  </picture>
+  <img width="400" src="assets/oac.svg" alt="Ordered Atomic Collaboration (OAC)">
 </div>
 <br/>
 
