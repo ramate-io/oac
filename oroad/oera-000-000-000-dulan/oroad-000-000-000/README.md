@@ -2,6 +2,28 @@
 - **Authors:** [Liam Monninger](liam@ramate.io)
 
 ## Summary
+**OROAD-0** is the foundational roadmap for OAC. It seeks to develop and validate a series of foundational papers, render a series of implementations from these papers, and the output applications demonstrating the utility of these papers. In the end, **OROAD-0** describes the series efforts which will be used to determine whether OAC is worth pursuing.  
+
+The foundational papers anticipated by **OROAD-0** are: 
+- **[OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md):** describes a class of sampling protocols which accept Byzantine minority decisions with some non-zero probability; additionally formalizes the expected value of said decisions arguing for the ability for them to be rendered irrational. BFA are still deterministic and final.
+- **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md):** describes a class of sortition-based transaction broadcast protocols. These allow incentivization to be shifted out of native token and into discretionary "super" protocols.
+- **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md):** describes a generalization of [Block-STM](https://arxiv.org/abs/2203.06871) which plays forward best-case latency. 
+
+The foundational implementations anticipated by **OROAD-0** are: 
+- **[`gwrdfa`](https://github.com/ramate-io/gwrdfa):** an implementation of **[OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)** protocol substack. This forms the basis for high-throughput and large footprint OAC applications.
+2. **[`srcavei`](https://github.com/ramate-io/srcavei):** an implementation of the **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)** substack. This forms the basis for incentivization—which would no longer be strictly coin-based.
+3. **[`fuste`](https://github.com/ramate-io/fuste):** a RISC-V VM with a set of adapters tailored to DLT—particularly plugging into the stack above. This is also critical to throughput and large footprint. 
+4. **[`zhiye`](https://github.com/ramate-io/zhiye):** implementation of **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)**. This takes advantage of some properties of BFA to greatly reduce best-case latency. 
+
+All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](https://github.com/ramate-io/robles) stack. 
+
+> [!INFO]
+> **[[Liam Monninger](liam@ramate.io)]**
+> 
+> **OROAD-0** speculates much more into specific implementations and applications than I would expect later roadmaps to do. We justify this on the basis of the concept needing to initial validate itself and so needing to demonstrate end-goal utility. 
+> 
+> After **OROAD-0** our initial intent is to shift the planning done by OAC to the more conceptually focused--almost taking the stance of a journal or academic institution. 
+
 
 ## Roadmap
 > [!WARNING]
