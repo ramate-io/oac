@@ -11,9 +11,9 @@ The foundational papers anticipated by **OROAD-0** are:
 
 The foundational implementations anticipated by **OROAD-0** are: 
 - **[`gwrdfa`](https://github.com/ramate-io/gwrdfa):** an implementation of **[OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)** protocol substack. This forms the basis for high-throughput and large footprint OAC applications.
-2. **[`srcavei`](https://github.com/ramate-io/srcavei):** an implementation of the **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)** substack. This forms the basis for incentivization—which would no longer be strictly coin-based.
-3. **[`fuste`](https://github.com/ramate-io/fuste):** a RISC-V VM with a set of adapters tailored to DLT—particularly plugging into the stack above. This is also critical to throughput and large footprint. 
-4. **[`zhiye`](https://github.com/ramate-io/zhiye):** implementation of **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)**. This takes advantage of some properties of BFA to greatly reduce best-case latency. 
+- **[`srcavei`](https://github.com/ramate-io/srcavei):** an implementation of the **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)** substack. This forms the basis for incentivization—which would no longer be strictly coin-based.
+- **[`fuste`](https://github.com/ramate-io/fuste):** a RISC-V VM with a set of adapters tailored to DLT—particularly plugging into the stack above. This is also critical to throughput and large footprint. 
+- **[`zhiye`](https://github.com/ramate-io/zhiye):** implementation of **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)**. This takes advantage of some properties of BFA to greatly reduce best-case latency. 
 
 All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](https://github.com/ramate-io/robles) stack. 
 
@@ -29,7 +29,8 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 > [!WARNING]
 > Ensure **All leads** contains list of all leads from milestones below.
 > 
-> **[AI Prompt]** help contributors to ensure the above. 
+> **[AI Prompt]** 
+> Help contributors to ensure the above. 
 
 - **All leads:** [Liam Monninger](liam@ramate.io)
 - **Contents:**
