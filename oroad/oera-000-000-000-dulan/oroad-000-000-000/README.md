@@ -20,6 +20,9 @@
 - **Depends-on:** $\emptyset$
 - **Ends:** T1 + 1 month
 
+> [!IMPORTANT]
+> **T1** focuses on readying OAC for validation. 
+
 **Contents:**
 - **[T1.1](#t11-complete-draft-of-oart-1-bfa)**: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md) 
 - **[T1.2](#t12-complete-draft-of-oart-2-collaborative-transaction-routing)**: Complete draft of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
@@ -45,6 +48,9 @@
 - **Starts:** T1 + 1 month
 - **Depends-on:** [T1](#t1-push-towards-validation)
 - **Ends:** T2 + 1 month
+
+> [!IMPORTANT]
+> **T2** focuses on beginning validation of OAC and adding contributors.
 
 **Contents:**
 - **[T2.1](#t21-share-and-gather-feedback-on-oart-1-bfa)**: Share and gather feedback on [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
@@ -75,6 +81,9 @@
 - **Depends-on:** [T2](#t2-validation-and-accepting-contributions)
 - **Ends:** T3 + 1 month
 
+> [!IMPORTANT]
+> **T3** continues validation and pushes for first proper application built with an OAC implementer's stack. 
+
 **Contents:**
 - **[T3.1](#t31-continue-sharing-and-updating-oart-1-bfa)**: Continue sharing and updating [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
 - **[T3.2](#t32-continue-sharing-and-updating-oart-2-collaborative-transaction-routing)**: Continue sharing and updating [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
@@ -98,6 +107,9 @@
 - **Depends-on:** [T3](#t3-continued-validation-and-fuste-mvp)
 - **Ends:** T4 + 1 month
 
+> [!IMPORTANT]
+> **T4** departs from the drive of previous milestones and takes some time to explore exotic distributed execution. 
+
 **Contents:**
 - **[T4.1](#t41-draft-and-share-oart-3-ris-stm)**: Draft and share [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 - **[T4.2](#t42-collaborate-with-stanford-colleague)**: Collaborate with Stanford colleague working with Mary Wooters on exotic probabilistic distributed VM
@@ -117,6 +129,9 @@
 - **Starts:** T4 + 1 month
 - **Depends-on:** [T4](#t4-exotic-execution)
 - **Ends:** T5 + 1 month
+
+> [!IMPORTANT]
+> **T5** seeks to bring up stable implementations of OAC decentralization and prepare to use these to create a traditional DLT.
 
 **Contents:**
 - **[T5.1](#t51-stabilize-gwrdfa-implementation)**: Stabilize [`gwrdfa`](https://github.com/ramate-io/gwrdfa) implementation
@@ -147,6 +162,9 @@
 - **Depends-on:** [T5](#t5-dlt-push)
 - **Ends:** T6 + 1 month
 
+> [!IMPORTANT]
+> **T6** emphasizes the support of the first killer app built with OAC: a traditional L1 blockchain. 
+
 **Contents:**
 - **[T6.1](#t61-design-and-implement-l1-applications)**: Design and implement traditional L1 blockchain applications using OAC principles
 - **[T6.2](#t62-integrate-core-implementations)**: Integrate [`gwrdfa`](https://github.com/ramate-io/gwrdfa) and [`srcavei`](https://github.com/ramate-io/srcavei) into L1 applications
@@ -170,6 +188,9 @@
 - **Depends-on:** [T6](#t6-killer-apps-phase-1-traditional-l1)
 - **Ends:** T7 + 1 month
 
+> [!IMPORTANT]
+> **T7** emphasizes the support of an collaborative streaming application built with OAC implementations. 
+
 **Contents:**
 - **[T7.1](#t71-build-collaborative-streaming-platform)**: Begin building collaborative streaming platform using [`gwrdfa`](https://github.com/ramate-io/gwrdfa) and [`srcavei`](https://github.com/ramate-io/srcavei)
 - **[T7.2](#t72-seek-streaming-collaborators)**: Seek collaborators from traditional streaming and p2p content sharing communities
@@ -189,6 +210,9 @@
 - **Starts:** T7 + 1 month
 - **Depends-on:** [T7](#t7-killer-apps-phase-2-collaborative-streaming)
 - **Ends:** T8 + 1 month
+
+> [!IMPORTANT]
+> **T8** emphasizes completion of validation, OAC implementations of killer apps, and ultimately seeks to determine whether the project is worth continuing to pursue. 
 
 **Contents:**
 - **[T8.1](#t81-guide-l1-demonstrations)**: Guide and support L1 blockchain applications demonstration
