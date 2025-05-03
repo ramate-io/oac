@@ -1,5 +1,5 @@
 <div align="center" style="background-color: #1e1e1e; padding: 20px; border-radius: 8px;">
-  <img width="400" src="assets/oac.svg" alt="Ordered Atomic Collaboration (OAC)">
+  <img height="120" src="assets/oac.svg" alt="Ordered Atomic Collaboration (OAC)">
 </div>
 <br/>
 
