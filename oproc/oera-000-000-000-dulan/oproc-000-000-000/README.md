@@ -27,6 +27,8 @@ OAC reduces networked compute to a more permissive class of protocols known as [
 #### I3: Expanded Incentivization
 OAC aims to move the problem of incentivization and costliness out from the stake- and work-based systems of today to a broader class of economic structures. 
 
+In some instances, this means NO MORE TOKENS!
+
 #### I4: Pipelining and Exotic Task Distribution
 OAC seeks to maximize pipelining of compute to drive performance and increase opportunities for participation. 
 
