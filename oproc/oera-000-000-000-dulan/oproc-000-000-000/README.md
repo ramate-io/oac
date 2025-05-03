@@ -33,9 +33,12 @@ OAC seeks to maximize pipelining of compute to drive performance and increase op
 #### I5: Penalty-driven
 OAC de-emphasizes perfect consensus. The primary motive of OAC is to track states and generate incentives that make it easy to enforce penalties against malicious actors--and thus provide economies for machines. 
 
-To analogize, it's not about making a farmer rely on the government to grow his crops. It's about the farmer being able to work with the government to petition against a neighbor encroaching on his land.
-
-The clear, direct needs and safety must still be satisfied by individual actors. However, that these individual actors recognize individual benefits of collaborative action renders a system wherein expected behavior is safer. 
+> [!TIP]
+>
+> **[[Liam Monninger](mailto:liam@ramate.io)]**
+> To analogize, it's not about making a farmer rely on the government to grow his crops. It's about the farmer being able to work with the government to petition against a neighbor encroaching on his land.
+>
+> The clear, direct needs and safety must still be satisfied by individual actors. However, that these individual actors recognize individual benefits of collaborative action renders a system wherein expected behavior is safer. 
 
 ### What would be built with OAC?
 We believe OAC can replace traditional and popular decentralized and distributed when used carefully. However, OAC's long-term ambitions lie in machine-to-machine communication. We believe OAC can be used to help solve challenging problems in AI alignment, dPIN verification, and decentralized swarm coordination.
