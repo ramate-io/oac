@@ -10,6 +10,8 @@ Ordered Atomic Collaboration (OAC) is a paradigm for decentralized consequence.
 
 We recommend those new to the paradigm review the latest [OGUIDE](./oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md). 
 
+OAC is intended to be conceptually oriented and implementation agnostic. Before contributing to this repository, consider whether your intents are implementation specific by reviewing the following: 
+
 OAC also refers to the organization that manages this repository. 
 
 > [!NOTE]
@@ -18,8 +20,6 @@ OAC also refers to the organization that manages this repository.
 > The **OAC** repository is licensed under the [MIT License](./LICENSE) and can be used at will.
 
 Currently, OAC is governed by [Ramate LLC](ramate.io). Likewise all implementations of OAC protocols are found under Ramate LLC's [`robles`](https://github.com/ramate-io/robles) project.
-
-OAC is intended to be implementation agnostic. Before contributing to this repository, consider whether your intents are implementation specific by reviewing the following: 
 
 
 ## Organization 
