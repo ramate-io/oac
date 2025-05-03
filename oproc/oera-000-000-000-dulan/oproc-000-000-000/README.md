@@ -36,6 +36,7 @@ OAC de-emphasizes perfect consensus. The primary motive of OAC is to track state
 > [!TIP]
 >
 > **[[Liam Monninger](mailto:liam@ramate.io)]**
+>
 > To analogize, it's not about making a farmer rely on the government to grow his crops. It's about the farmer being able to work with the government to petition against a neighbor encroaching on his land.
 >
 > The clear, direct needs and safety must still be satisfied by individual actors. However, that these individual actors recognize individual benefits of collaborative action renders a system wherein expected behavior is safer. 
