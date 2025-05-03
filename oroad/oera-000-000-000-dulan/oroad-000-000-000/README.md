@@ -4,16 +4,15 @@
 ## Summary
 
 ## Roadmap
-
-**Contents:**
-- **[T1](#t1-push-towards-validation):** Push Towards Validation
-- **[T2](#t2-validation-and-accepting-contributions):** Validation and Accepting Contributions
-- **[T3](#t3-continued-validation-and-fuste-mvp):** Continued Validation and Fuste MVP
-- **[T4](#t4-exotic-execution):** Exotic Execution
-- **[T5](#t5-dlt-push):** DLT Push
-- **[T6](#t6-killer-apps-phase-1-traditional-l1):** Killer Apps Phase 1: Traditional L1
-- **[T7](#t7-killer-apps-phase-2-collaborative-streaming):** Killer Apps Phase 2: Collaborative Streaming
-- **[T8](#t8-the-decision-and-swarm-coordination):** The Decision and Swarm Coordination
+- **Contents:**
+    - **[T1](#t1-push-towards-validation):** Push Towards Validation
+    - **[T2](#t2-validation-and-accepting-contributions):** Validation and Accepting Contributions
+    - **[T3](#t3-continued-validation-and-fuste-mvp):** Continued Validation and Fuste MVP
+    - **[T4](#t4-exotic-execution):** Exotic Execution
+    - **[T5](#t5-dlt-push):** DLT Push
+    - **[T6](#t6-killer-apps-phase-1-traditional-l1):** Killer Apps Phase 1: Traditional L1
+    - **[T7](#t7-killer-apps-phase-2-collaborative-streaming):** Killer Apps Phase 2: Collaborative Streaming
+    - **[T8](#t8-the-decision-and-swarm-coordination):** The Decision and Swarm Coordination
 
 ### T1: Push Towards Validation
 > [!IMPORTANT]
@@ -34,14 +33,19 @@
 **T1** attempts to accomplish the following itemized intentions:
 
 #### T1.1: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md) 
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T1.2: Complete draft of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T1.3: Begin [`gwrdfa`](https://github.com/ramate-io/gwrdfa) implementation
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T1.4: Begin [`srcavei`](https://github.com/ramate-io/srcavei) implementation
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T1.5: Begin [`fuste`](https://github.com/ramate-io/fuste) implementation as lesser priority to [T1.3](#t13-begin-gwrdfa-implementation) and [T1.4](#t14-begin-srcavei-implementation)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ### T2: Validation and Accepting Contributions
 > [!IMPORTANT]
@@ -63,16 +67,22 @@
 **T2** attempts to accomplish the following itemized intentions:
 
 #### T2.1: Share and gather feedback on [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)s
 
 #### T2.2: Share and gather feedback on [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T2.3: Implement and document proposal standards, contributor guidelines, and implementation governance
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T2.4: Complete [`gwrdfa`](https://github.com/ramate-io/gwrdfa) reference implementation
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T2.5: Complete [`srcavei`](https://github.com/ramate-io/srcavei) reference implementation
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T2.6: Continue development of [`fuste`](https://github.com/ramate-io/fuste) as a lower priority task
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ### T3: Continued Validation and [`fuste`](https://github.com/ramate-io/fuste) MVP
 > [!IMPORTANT]
@@ -92,12 +102,16 @@
 **T3** attempts to accomplish the following itemized intentions:
 
 #### T3.1: Continue sharing and updating [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T3.2: Continue sharing and updating [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T3.3: Develop [`fuste`](https://github.com/ramate-io/fuste) MVP 
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T3.4: Use [`fuste`](https://github.com/ramate-io/fuste) MVP to develop centralized embedded database
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ### T4: Exotic Execution
 > [!IMPORTANT]
@@ -116,10 +130,13 @@
 **T4** attempts to accomplish the following itemized intentions:
 
 #### T4.1: Draft and share [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T4.2: Collaborate with Stanford colleague working with Mary Wooters on exotic probabilistic distributed VM
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T4.3: Begin [`zhiye`](https://github.com/ramate-io/zhiye) implementation
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ### T5: DLT Push
 > [!IMPORTANT]
@@ -141,16 +158,22 @@
 **T5** attempts to accomplish the following itemized intentions:
 
 #### T5.1: Stabilize [`gwrdfa`](https://github.com/ramate-io/gwrdfa) implementation
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T5.2: Stabilize [`srcavei`](https://github.com/ramate-io/srcavei) implementation
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T5.3: Seek out additional co-authors for OAC foundational papers: [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md), [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md), and [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T5.4: Prepare [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md) for conference submission
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T5.5: Prepare [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md) for conference submission
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T5.6: Begin search for funding opportunities
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ### T6: Killer Apps Phase 1: Traditional L1
 > [!IMPORTANT]
@@ -170,12 +193,16 @@
 **T6** attempts to accomplish the following itemized intentions:
 
 #### T6.1: Design and implement traditional L1 blockchain applications using OAC principles
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T6.2: Integrate [`gwrdfa`](https://github.com/ramate-io/gwrdfa) and [`srcavei`](https://github.com/ramate-io/srcavei) into L1 applications
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T6.3: Document and share implementation patterns for OAC-based L1 applications
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T6.4: Begin gathering feedback from the broader blockchain community
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ### T7: Killer Apps Phase 2: Collaborative Streaming
 > [!IMPORTANT]
@@ -194,10 +221,13 @@
 **T7** attempts to accomplish the following itemized intentions:
 
 #### T7.1: Begin building collaborative streaming platform using [`gwrdfa`](https://github.com/ramate-io/gwrdfa) and [`srcavei`](https://github.com/ramate-io/srcavei)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T7.2: Seek collaborators from traditional streaming and p2p content sharing communities
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T7.3: Guide and support L1 killer apps demonstration and deployment
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ### T8: The Decision and Swarm Coordination
 > [!IMPORTANT]
@@ -219,13 +249,19 @@
 **T8** attempts to accomplish the following itemized intentions:
 
 #### T8.1: Guide and support L1 blockchain applications demonstration
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T8.2: Guide and support Collaborative Streaming platform demonstration
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T8.3: Research and experiment with swarm coordination mechanisms
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T8.4: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T8.5: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T8.6: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
