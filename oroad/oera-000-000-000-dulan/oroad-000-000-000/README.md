@@ -23,9 +23,9 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 > [!TIP]
 > **[[Liam Monninger](liam@ramate.io)]**
 > 
-> **OROAD-0** speculates much more into specific implementations and applications than I would expect later roadmaps to do. We justify this on the basis of the concept needing to initial validate itself and so needing to demonstrate end-goal utility. 
+> **OROAD-0** speculates much more into specific implementations and applications than I would expect later roadmaps to do. We justify this on the basis of the concept needing to initially validate itself and so needing to demonstrate end-goal utility. 
 > 
-> After **OROAD-0** our initial intent is to shift the planning done by OAC to the more conceptually focused--almost taking the stance of a journal or academic institution. 
+> After **OROAD-0** our intent is to shift the planning done by OAC to the more conceptually-focused--almost taking the stance of a journal or academic institution. 
 
 
 ## Roadmap
@@ -310,6 +310,11 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
     - **[T9.2](#t92-develop-demo-swarm-coordination-app-with-oac):** Develop demo swarm coordination app with OAC
 
 **T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application. 
+
+> [!TIP]
+> **[[Liam Monninger](liam@ramate.io)]**
+> 
+> **T9** was added to **OROAD-0** to help itemize the organizational intents of OAC. 
 
 **T9** seeks to accomplish the following itemized objectives:
 
