@@ -42,4 +42,4 @@ OAC de-emphasizes perfect consensus. The primary motive of OAC is to track state
 > The clear, direct needs and safety must still be satisfied by individual actors. However, that these individual actors recognize individual benefits of collaborative action renders a system wherein expected behavior is safer. 
 
 ### What would be built with OAC?
-We believe OAC can replace traditional and popular decentralized and distributed when used carefully. However, OAC's long-term ambitions lie in machine-to-machine communication. We believe OAC can be used to help solve challenging problems in AI alignment, dPIN verification, and decentralized swarm coordination.
+When used carefully, we believe OAC can supplant traditional and popular decentralized and distributed under requirements for smart execution and state machine replication. However, OAC's long-term ambitions lie in machine-to-machine communication. We believe OAC can be used to help solve challenging problems in AI alignment, dPIN verification, and decentralized swarm coordination.
