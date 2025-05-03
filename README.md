@@ -5,5 +5,5 @@
 
 > Ordered Atomic Collaboration (OAC) is a paradigm for decentralized consequence.
 
-# Orderded Atomic Collaboration (OAC) <img height="26" src="assets/oac.svg" alt="OAC"/>
+# oac <img height="28" src="assets/oac.svg" alt="OAC"/>
 Ordered Atomic Collaboration (OAC) is a paradigm for decentralized consequence. 
