@@ -13,7 +13,7 @@
     <source srcset="./assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
     <img height="32" src="./assets/oac-transparent.png" alt="OAC"/>
   </picture>
-  &ensp;oac
+  oac
 </h1>
 
 We recommend those new to the paradigm review the latest [OGUIDE](./oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md). 
