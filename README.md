@@ -11,7 +11,7 @@
   oac
   <picture>
     <source srcset="./assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
-    <img height="20" src="./assets/oac-transparent.png" alt="OAC"/>
+    <img height="24" src="./assets/oac-transparent.png" alt="OAC"/>
   </picture>
 </h1>
 
