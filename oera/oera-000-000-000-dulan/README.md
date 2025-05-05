@@ -27,8 +27,8 @@
 ### [OCERT](../../ocert/oera-000-000-000-dulan/README.md)
 - **[OCERT-0](../../ocert/oera-000-000-000-dulan/ocert-000-000-000/README.md)**
 
-### [ODES](../../odes/oera-000-000-000-dulan/README.md)
-- **[ODES-0](../../odes/oera-000-000-000-dulan/odes-000-000-000/README.md)**
+### [ODE](../../ode/oera-000-000-000-dulan/README.md)
+- **[ODE-0](../../ode/oera-000-000-000-dulan/ode-000-000-000/README.md)**
 
 ### [ORE](../../ore/oera-000-000-000-dulan/README.md)
 - **[ORE-0](../../ore/oera-000-000-000-dulan/ore-000-000-000/README.md)**
