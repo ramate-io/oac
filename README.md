@@ -32,7 +32,7 @@ Currently, OAC is governed by [Ramate LLC](https://www.ramate.io). Likewise all 
 
 ## Organization 
 - [`oera`](./oera): OAC Eras (OERA) are the periods over which a governing body makes decisions. All other OAC Artifacts are indexed by OERA. 
-- [`ogloss`](./ogloss/): OAC Glosses (OGLOSS) are defined terms for OAC. 
+- [`oglo`](./oglo/): OAC Glosses (OGLO) are defined terms for OAC. 
 - [`oproc`](./opurp/): OAC Proclamations (OPROC) are statements of purpose for OAC. 
 - [`ogov`](./ogov/): OAC Governance (OGOV) are constitutions of, procedures for, and interpretations of OAC governance. 
 - [`oleg`](./oleg/): OAC Legal Documents (OLEG) are published legal documents covering OAC operations in any jurisdiction. 

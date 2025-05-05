@@ -12,8 +12,8 @@
 
 ## Contents
 
-### [OGLOSS](../../ogloss/oera-000-000-000-dulan/README.md)
-- **[OGLOSS-0](../../ogloss/oera-000-000-000-dulan/ogloss-000-000-000/README.md)**
+### [OGLO](../../oglo/oera-000-000-000-dulan/README.md)
+- **[OGLO-0](../../oglo/oera-000-000-000-dulan/oglo-000-000-000/README.md)**
 
 ### [OPROC](../../oproc/oera-000-000-000-dulan/README.md)
 - **[OPROC-0](../../oproc/oera-000-000-000-dulan/oproc-000-000-000/README.md)**
