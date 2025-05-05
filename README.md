@@ -3,6 +3,11 @@
 </div>
 <br/>
 
+<picture>
+  <source srcset="./assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
+  <img src="./assets/oac-transparent.png" alt="Logo" width="400">
+</picture>
+
 > Ordered Atomic Collaboration (OAC) is a paradigm for decentralized consequence.
 
 # oac <img height="28" src="assets/oac.svg" alt="OAC"/>
