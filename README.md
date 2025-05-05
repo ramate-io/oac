@@ -27,7 +27,7 @@ OAC also refers to the organization that manages this repository.
 >
 > The **OAC** repository is licensed under the [MIT License](./LICENSE) and can be used at will.
 
-Currently, OAC is governed by [Ramate LLC](ramate.io). Likewise all implementations of OAC protocols are found under Ramate LLC's [`robles`](https://github.com/ramate-io/robles) project.
+Currently, OAC is governed by [Ramate LLC](https://www.ramate.io). Likewise all implementations of OAC protocols are found under Ramate LLC's [`robles`](https://github.com/ramate-io/robles) project.
 
 
 ## Organization 

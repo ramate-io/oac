@@ -3,4 +3,4 @@ OAC Eras (OERA) are the periods over which a governing body makes decisions. All
 
 The current era is [OERA-0: Dulan](./oera-000-000-000-dulan/README.md).
 
-- **[OERA-0: Dulan](./oera-000-000-000-dulan/README.md):** the foundational era in which OAC is bootstrapped by [Ramate LLC](ramate.io)
+- **[OERA-0: Dulan](./oera-000-000-000-dulan/README.md):** the foundational era in which OAC is bootstrapped by [Ramate LLC](https://www.ramate.io)

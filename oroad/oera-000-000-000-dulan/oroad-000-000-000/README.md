@@ -18,7 +18,7 @@ The foundational implementations anticipated by **OROAD-0** are:
 - **[`fuste`](https://github.com/ramate-io/fuste):** a RISC-V VM with a set of adapters tailored to DLT—particularly plugging into the stack above. This is also critical to throughput and large footprint. 
 - **[`zhiye`](https://github.com/ramate-io/zhiye):** implementation of **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)**. This takes advantage of some properties of BFA to greatly reduce best-case latency. 
 
-All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](https://github.com/ramate-io/robles) stack. 
+All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [`robles`](https://github.com/ramate-io/robles) stack. 
 
 > [!TIP]
 > **[[Liam Monninger](liam@ramate.io)]**
@@ -324,7 +324,7 @@ All of these implementations are part of [Ramate LLC's](ramate.io) [`robles`](ht
 
 We intend to push for greater decentralization of OAC governance. OAC should be organization whose development is guided openly and transparently by many parties. Just as our technology derives consequence through participation, so to should the organization developing said technology.
 
-In the very least, this update of governance should include moving OAC out from under [Ramate LLC's](ramate.io) governance if such has not already occurred. 
+In the very least, this update of governance should include moving OAC out from under [Ramate LLC's](https://www.ramate.io) governance if such has not already occurred. 
 
 #### T9.2: Develop demo swarm coordination app with OAC
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
