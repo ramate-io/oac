@@ -43,3 +43,5 @@ Currently, OAC is governed by [Ramate LLC](https://www.ramate.io). Likewise all 
 - [`oroad`](./oroad/): OAC Roadmaps (OROAD) are roadmaps describing the intents and objectives of the OAC organization. 
 - [`olog`](./olog/): OAC Logs (OLOG) are periodically submitted logs describing various developments within the OAC paradigm. 
 - [`oguide`](./oguide/): OAC Guides (OGUIDE) are guides or summaries of OAC.
+- [`opre`](./opre/): OAC Presentations (OPRE) are presentations about OAC.
+- [`odemo`](./odemo/): OAC Demonstrations (ODEMO) are selected demonstrations and/or projects built with OAC.
