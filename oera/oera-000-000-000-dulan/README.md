@@ -30,8 +30,8 @@
 ### [ODES](../../odes/oera-000-000-000-dulan/README.md)
 - **[ODES-0](../../odes/oera-000-000-000-dulan/odes-000-000-000/README.md)**
 
-### [ORES](../../ores/oera-000-000-000-dulan/README.md)
-- **[ORES-0](../../ores/oera-000-000-000-dulan/ores-000-000-000/README.md)**
+### [ORE](../../ore/oera-000-000-000-dulan/README.md)
+- **[ORE-0](../../ore/oera-000-000-000-dulan/ore-000-000-000/README.md)**
 
 ### [OART](../../oart/oera-000-000-000-dulan/README.md)
 - **[OART-0](../../oart/oera-000-000-000-dulan/oart-000-000-000/README.md)**
