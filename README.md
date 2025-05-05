@@ -1,16 +1,14 @@
-<div align="center" style="background-color: #1e1e1e; padding: 20px; border-radius: 8px;">
-  <img height="120" src="assets/oac.svg" alt="Ordered Atomic Collaboration (OAC)">
-</div>
-<br/>
-
 <picture>
   <source srcset="./assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
-  <img src="./assets/oac-transparent.png" alt="Logo" width="400">
+  <img src="./assets/oac-transparent.png" alt="Ordered Atomic Collaboration (OAC) Logo" height="120">
 </picture>
 
 > Ordered Atomic Collaboration (OAC) is a paradigm for decentralized consequence.
 
-# oac <img height="28" src="assets/oac.svg" alt="OAC"/>
+# oac <picture>
+  <source srcset="./assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
+  <img src="./assets/oac-transparent.png" alt="Ordered Atomic Collaboration (OAC) Logo" height="24">
+</picture>
 We recommend those new to the paradigm review the latest [OGUIDE](./oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md). 
 
 OAC is intended to be conceptually oriented and implementation agnostic. Before contributing to this repository, consider whether your intents are implementation specific by reviewing the following: 
