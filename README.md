@@ -1,7 +1,9 @@
-<picture align="center">
-  <source srcset="./assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
-  <img src="./assets/oac-transparent.png" alt="Ordered Atomic Collaboration (OAC)"" height="120">
-</picture>
+<div align="center">
+  <picture>
+    <source srcset="./assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
+    <img src="./assets/oac-transparent.png" alt="Ordered Atomic Collaboration (OAC)"" height="120">
+  </picture>
+</div>
 
 > Ordered Atomic Collaboration (OAC) is a paradigm for decentralized consequence.
 
