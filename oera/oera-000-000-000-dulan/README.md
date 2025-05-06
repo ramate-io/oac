@@ -59,10 +59,10 @@ In the Dulan Era, the defined governance of OAC concerns purely the acceptance o
 - **[ODEMO-0](../../odemo/oera-000-000-000-dulan/odemo-000-000-000/README.md)**
 
 ## Concurrences
-- **[CON-1: Liam Monninger](./concurrences/c-001-liam-monninger/README.md):** argues that the definition of the Dulan era meets expectations for such a phase as would be necessary to bootstrap the project.
+- **[CON-1: Liam Monninger](./concurrences/c-001-liam-monninger/README.md):** argues that the definition of the Dulan era meets expectations for such a phase as would be necessary to bootstrap the project ([Liam Monninger](mailto:liam@ramate.io)).
 
 ## Dissents
-- **[DIS-1: Liam Monninger](./dissents/d-001-liam-monninger/README.md):** argues that the organization of the era is overcomplicated and does not suit the limited stakeholder set.
+- **[DIS-1: Liam Monninger](./dissents/d-001-liam-monninger/README.md):** argues that the organization of the era is overcomplicated and does not suit the limited stakeholder set ([Liam Monninger](mailto:liam@ramate.io)).
 
 ## Appendix
 $\emptyset$
