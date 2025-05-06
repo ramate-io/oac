@@ -14,7 +14,7 @@ The governing body SHALL make decisions on the inclusion of artifacts in this re
 ### M2: [Ramate LLC](https://www.ramate.io) as the governing body
 [Ramate LLC](https://www.ramate.io) SHALL retain the rite to make decisions pursuant to [M1](#m1-artifacts-are-the-objects-of-governance) as it sees fit. 
 
-> [!HINT] 
+> [!NOTE] 
 >
 > **[[Liam Monninger](mailto:liam@ramate.io)]**
 >
