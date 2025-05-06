@@ -41,7 +41,10 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) file for additional contribution g
 
 
 ## Organization 
-- [`oera`](./oera): OAC Eras (OERA) are the periods over which a governing body makes decisions. All other OAC Artifacts are indexed by OERA. 
+
+### Artifacts
+Under [OGLO-0](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), this subsection defines the recognized artifact types. We recognize the following types:
+- [`oera`](./oera): OAC Eras (OERA) are the periods over which a governing body makes decisions. All other OAC [Artifacts](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) are indexed by OERA. 
 - [`oglo`](./oglo/): OAC Glosses (OGLO) are defined terms for OAC. 
 - [`oproc`](./opurp/): OAC Proclamations (OPROC) are statements of purpose for OAC. 
 - [`ogov`](./ogov/): OAC Governance (OGOV) are constitutions of, procedures for, and interpretations of OAC governance. 
