@@ -29,6 +29,16 @@ OAC also refers to the organization that manages this repository.
 
 Currently, OAC is governed by [Ramate LLC](https://www.ramate.io). Likewise all implementations of OAC protocols are found under Ramate LLC's [`robles`](https://github.com/ramate-io/robles) project.
 
+## Contributing
+
+| Task | Description |
+|------|-------------|
+| [Upcoming Events](https://github.com/ramate-io/oac/issues?q=is%3Aissue%20state%3Aopen%20label%3Apriority%3Ahigh%2Cpriority%3Amedium%20label%3Aevent) | High-priority `event` issues with planned completion dates. |
+| [Release Candidates](https://github.com/ramate-io/oac/issues?q=is%3Aissue%20state%3Aopen%20label%3Arelease-candidate) | Feature-complete versions linked to events. |
+| [Features & Bugs](https://github.com/ramate-io/oac/issues?q=is%3Aissue%20state%3Aopen%20label%3Afeature%2Cbug%20label%3Apriority%3Aurgent%2Cpriority%3Ahigh) | High-priority `feature` and `bug` issues. |
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) file for additional contribution guidelines.
+
 
 ## Organization 
 - [`oera`](./oera): OAC Eras (OERA) are the periods over which a governing body makes decisions. All other OAC Artifacts are indexed by OERA. 

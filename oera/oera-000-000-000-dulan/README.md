@@ -9,6 +9,13 @@
 ## Naming
 
 ## Governance
+In the Dulan Era, the defined governance of OAC concerns purely the acceptance of artifacts in this repository, for which [Ramate LLC](https://www.ramate.io) is the sole governing party. [Ramate LLC](https://www.ramate.io) may decide on its own terms which artifacts to accept. Currently, [Ramate LLC's](https://www.ramate.io) decision making with respect to OAC is delegate by (RAGOV)[https://github.com/ramate-io/ramate/tree/main/ragov] to the [`robles`](https://github.com/ramate-io/robles) project under [ROGOV](https://github.com/ramate-io/robles/tree/main/rogov). 
+
+> [!INFO]
+> 
+> **[[Liam Monninger](mailto:liam@ramate.io)]**
+>
+> At the time of writing, [Ramate LLC](https://www.ramate.io) is my single-member LLC. However, I have intentions both to expand the partnership and open up the governance of the [`robles`](https://github.com/ramate-io/robles). 
 
 ## Contents
 
@@ -45,8 +52,17 @@
 ### [OGUIDE](../../oguide/oera-000-000-000-dulan/README.md)
 - **[OGUIDE-0](../../oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md)**
 
+### [OPRE](../../opre/oera-000-000-000-dulan/README.md)
+- **[OPRE-0](../../opre/oera-000-000-000-dulan/opre-000-000-000/README.md)**
+
+### [ODEMO](../../odemo/oera-000-000-000-dulan/README.md)
+- **[ODEMO-0](../../odemo/oera-000-000-000-dulan/odemo-000-000-000/README.md)**
+
 ## Concurrences
+- **[C1: Liam Monninger](./concurrences/c-001-liam-monninger/README.md):** argues that the definition of the Dulan era meets expectations for such a phase as would be necessary to bootstrap the project.
 
 ## Dissents
+- **[D1: Liam Monninger](./dissents/d-001-liam-monninger/README.md):** argues that the organization of the era is overcomplicated and does not suit the limited stakeholder set.
 
 ## Appendix
+$\emptyset$
