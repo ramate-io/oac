@@ -1,5 +1,13 @@
 # OGOV-0: Founding
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
+- **Contents**
+    - **[Summary](#summary)**
+    - **[Continuity](#continuity)**
+    - **[Measures](#measures)**
+    - **[Interpretations](#interpretations)**
+    - **[Agreeing](#agreeing)**
+    - **[Dissenting](#dissenting)**
+    - **[Appendix](#appendix)**
 
 ## Summary
 
@@ -7,6 +15,9 @@
 As the first OGOV, this document does not establish continuity with any previous regime. 
 
 ## Measures
+- **Contents**
+    - **[M1](#m1-the-objects-of-governance-are-artifacts):** The objects of governance are [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md).
+    - **[M2](#m2-ramate-llc-is-the-governing-body):** [Ramate LLC](https://www.ramate.io) is the governing body.
 
 ### M1: The objects of governance are [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md).
 The governing body SHALL make decisions on the inclusion of [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) in this repository. This inclusion SHALL take the form of accepting PRs which add to the artifact set. The [Artifacts](../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) on the `main` branch of this repository SHALL be regarded as included. 
