@@ -10,6 +10,7 @@
     - **[Appendix](#appendix)**
 
 ## Summary
+We establish that the objects of governance are [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) and [Ramate LLC](https://www.ramate.io) controls these artifacts.
 
 ## Continuity 
 As the first OGOV, this document does not establish continuity with any previous regime. 
