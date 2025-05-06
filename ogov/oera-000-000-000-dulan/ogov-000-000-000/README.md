@@ -8,11 +8,11 @@ As the first OGOV, this document does not establish continuity with any previous
 
 ## Measures
 
-### M1: The objects of governance are [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md)
+### M1: The objects of governance are [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md).
 The governing body SHALL make decisions on the inclusion of [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) in this repository. This inclusion SHALL take the form of accepting PRs which add to the artifact set. The [Artifacts](../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) on the `main` branch of this repository SHALL be regarded as included. 
 
-### M2: [Ramate LLC](https://www.ramate.io) as the governing body
-[Ramate LLC](https://www.ramate.io) SHALL retain the rite to make decisions pursuant to [M1](#m1-artifacts-are-the-objects-of-governance) as it sees fit. 
+### M2: [Ramate LLC](https://www.ramate.io) is the governing body.
+[Ramate LLC](https://www.ramate.io) SHALL retain the right to make decisions pursuant to [M1](#m1-artifacts-are-the-objects-of-governance) as it sees fit. 
 
 > [!NOTE] 
 >
