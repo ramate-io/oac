@@ -10,3 +10,12 @@ From [OPROC-0: Decentralized Consequence](../../../oproc/oera-000-000-000-dulan/
 Once you've familiarized yourself with [OPROC-0: Decentralized Consequence](../../../oproc/oera-000-000-000-dulan/oproc-000-000-000/README.md) and [OROAD-0: The Attempt](../../../oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md), take the time to read through the [OART index](../../../oart/). OAC is a conceptually oriented project--intended almost like a journal or academic institution; OART are our key conceptual outputs. 
 
 Once you've done the above, you should have a strong enough sense of the project to explore at will! Welcome aboard!
+
+## Agreeing
+- **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that guide describes the exploratory nature of this initial phase well ([Liam Monninger](mailto:liam@ramate.io)).
+
+## Dissenting
+- **[DIS-1: Liam Monninger](./dissenting/dis-001-liam-monninger/README.md):** argues that the guide does not make it clear how to participate ([Liam Monninger](mailto:liam@ramate.io)).
+
+## Appendix
+$\emptyset$
