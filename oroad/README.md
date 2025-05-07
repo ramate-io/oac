@@ -15,6 +15,6 @@
     <br/>
     &copy; 2025 <a href="https://github.com/ramate-io/oac">ramate-io/oac</a>
     <br/>
-    <a href="https://github.com/ramate-io/oac/blob/main/LICENSE">MIT Licensed</a> • Free and Open Source
+    <a href="https://github.com/ramate-io/oac/blob/main/LICENSE">MIT License</a>
   </sub>
 </div>
