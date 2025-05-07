@@ -14,12 +14,8 @@ status() {
 
 echo "Running pre-commit hook: Managing OAC footer in markdown files..."
 
-# Get the footer content
-FOOTER_CONTENT=$(cat assets/footer.md)
-status "Reading footer template" || exit 1
-
-# Find all markdown files in the repository
-FILES=$(find . -type f -name "*.md" -not -path "*/\.*")
+# Find all markdown files in the repository, excluding template files
+FILES=$(find . -type f -name "*.md" -not -path "*/\.*" -not -name "*.template.md")
 status "Finding markdown files" || exit 1
 
 if [ -z "$FILES" ]; then
@@ -28,7 +24,7 @@ if [ -z "$FILES" ]; then
 fi
 
 # Count total files for progress reporting
-TOTAL_FILES=$(echo "$FILES" | wc -l)
+TOTAL_FILES=$(echo "$FILES" | wc -l | tr -d ' ')
 CURRENT=0
 FAILED_FILES=()
 
@@ -40,16 +36,30 @@ for file in $FILES; do
     # Create a temporary file
     TMP_FILE=$(mktemp)
     
-    # Remove existing footer if present and add new footer
-    if awk -v footer="$FOOTER_CONTENT" '
-        BEGIN { found=0 }
-        /<!--OAC FOOTER: DO NOT REMOVE THIS LINE-->/ { found=1; next }
-        found==1 && /^--$/ { found=2; next }
-        found==2 && /^<h5>/ { found=3; next }
-        found==3 && /^<\/h5>/ { found=0; next }
-        found==0 { print }
-        END { if (found==0) print footer }
-    ' "$file" > "$TMP_FILE"; then
+    # Remove existing footer if present and clean up whitespace
+    awk '
+        BEGIN { in_footer=0; last_was_empty=0 }
+        /<!--OAC FOOTER: DO NOT REMOVE THIS LINE-->/ { in_footer=1; next }
+        in_footer && /^--$/ { next }
+        in_footer && /^<h5>/ { next }
+        in_footer && /^<\/h5>/ { in_footer=0; next }
+        !in_footer { 
+            if ($0 ~ /^[[:space:]]*$/) {
+                if (!last_was_empty) print
+                last_was_empty=1
+            } else {
+                print
+                last_was_empty=0
+            }
+        }
+        END { 
+            if (!last_was_empty) print ""
+        }
+    ' "$file" | sed -e 's/[[:space:]]*$//' > "$TMP_FILE"
+    
+    # Add new footer
+    if [ $? -eq 0 ]; then
+        cat assets/footer.template.md >> "$TMP_FILE"
         
         # Replace original file with modified content
         if mv "$TMP_FILE" "$file"; then
@@ -58,15 +68,15 @@ for file in $FILES; do
                 echo "✅ Updated ${file}"
             else
                 echo "❌ Failed to stage ${file}"
-                FAILED_FILES+=("${file} (staging failed)")
+                FAILED_FILES+=("${file} (staging failed) ❌")
             fi
         else
             echo "❌ Failed to update ${file}"
-            FAILED_FILES+=("${file} (update failed)")
+            FAILED_FILES+=("${file} (update failed) ❌")
         fi
     else
         echo "❌ Failed to process ${file}"
-        FAILED_FILES+=("${file} (processing failed)")
+        FAILED_FILES+=("${file} (processing failed) ❌")
     fi
 done
 
@@ -80,5 +90,9 @@ if [ ${#FAILED_FILES[@]} -gt 0 ]; then
     done
     exit 1
 fi
+
+# Final git add to ensure all modified files are staged
+git add $(git diff --name-only)
+status "Staging all modified files" || exit 1
 
 exit 0

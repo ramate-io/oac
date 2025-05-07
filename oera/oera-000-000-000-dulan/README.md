@@ -9,13 +9,13 @@
 ## Naming
 
 ## Governance
-As described in [OGOV-0](../../ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md), in the Dulan Era, the defined governance of OAC concerns purely the acceptance of [Artifacts](../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) in this repository, for which [Ramate LLC](https://www.ramate.io) is the sole governing party. [Ramate LLC](https://www.ramate.io) may decide on its own terms which [Artifacts](../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) to accept. Currently, [Ramate LLC's](https://www.ramate.io) decision making with respect to OAC is delegate by [RAGOV](https://github.com/ramate-io/ramate/tree/main/ragov) to the [`robles`](https://github.com/ramate-io/robles) project under [ROGOV](https://github.com/ramate-io/robles/tree/main/rogov). 
+As described in [OGOV-0](../../ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md), in the Dulan Era, the defined governance of OAC concerns purely the acceptance of [Artifacts](../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) in this repository, for which [Ramate LLC](https://www.ramate.io) is the sole governing party. [Ramate LLC](https://www.ramate.io) may decide on its own terms which [Artifacts](../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) to accept. Currently, [Ramate LLC's](https://www.ramate.io) decision making with respect to OAC is delegate by [RAGOV](https://github.com/ramate-io/ramate/tree/main/ragov) to the [`robles`](https://github.com/ramate-io/robles) project under [ROGOV](https://github.com/ramate-io/robles/tree/main/rogov).
 
 > [!NOTE]
-> 
+>
 > **[[Liam Monninger](mailto:liam@ramate.io)]**
 >
-> At the time of writing, [Ramate LLC](https://www.ramate.io) is my single-member LLC. However, I have intentions both to expand the partnership and open up the governance of the [`robles`](https://github.com/ramate-io/robles). 
+> At the time of writing, [Ramate LLC](https://www.ramate.io) is my single-member LLC. However, I have intentions both to expand the partnership and open up the governance of the [`robles`](https://github.com/ramate-io/robles).
 
 ## Contents
 
@@ -66,3 +66,13 @@ As described in [OGOV-0](../../ogov/oera-000-000-000-dulan/ogov-000-000-000/READ
 
 ## Appendix
 $\emptyset$
+
+<!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
+-- 
+<h5>
+  <picture>
+    <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
+    <img height="18" src="/assets/oac-transparent.png" alt="OAC"/>
+  </picture>
+  &copy; 2025 [Ordered Atomic Collaboration (OAC)](https://github.com/ramate-io/oac)
+</h5>

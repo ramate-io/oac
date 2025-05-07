@@ -5,14 +5,13 @@
 ## Definition
 An "Artifact" is any document assigned classified in to a type by [README.md#artifacts](../../../README.md#artifacts).
 
-"Included" artifacts are those artifacts found on the `main` branch of this repository. 
+"Included" artifacts are those artifacts found on the `main` branch of this repository.
 
-All other artifacts are either "Proposed" or "Revoked" and their status is reflected in their source control history. 
+All other artifacts are either "Proposed" or "Revoked" and their status is reflected in their source control history.
 
 ## Usage
-- All Artifacts in this repository SHALL have been subjected to pull-request review. 
-- The deliverable output of OAC is its Artifacts. 
-
+- All Artifacts in this repository SHALL have been subjected to pull-request review.
+- The deliverable output of OAC is its Artifacts.
 
 ## Agreeing
 - **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that the delegation to [Ramate LLC's](https://www.ramate.io) suits this early developmental phase ([Liam Monninger](mailto:liam@ramate.io)).
@@ -22,3 +21,13 @@ All other artifacts are either "Proposed" or "Revoked" and their status is refle
 
 ## Appendix
 $\emptyset$
+
+<!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
+-- 
+<h5>
+  <picture>
+    <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
+    <img height="18" src="/assets/oac-transparent.png" alt="OAC"/>
+  </picture>
+  &copy; 2025 [Ordered Atomic Collaboration (OAC)](https://github.com/ramate-io/oac)
+</h5>

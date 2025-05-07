@@ -5,36 +5,35 @@
     - **[Roadmap](#roadmap)**
 
 ## Summary
-**OROAD-0** is the foundational roadmap for OAC proposed in response to [OPROC-0: Decentralized Consequence](../../../oproc/oera-000-000-000-dulan/oproc-000-000-000/README.md). **OROAD-0** seeks to develop and validate a series of foundational papers, render a series of implementations from these papers, and the output applications demonstrating the utility of these implementations. In the end, **OROAD-0** describes the series efforts which will be used to determine whether OAC is worth pursuing.  
+**OROAD-0** is the foundational roadmap for OAC proposed in response to [OPROC-0: Decentralized Consequence](../../../oproc/oera-000-000-000-dulan/oproc-000-000-000/README.md). **OROAD-0** seeks to develop and validate a series of foundational papers, render a series of implementations from these papers, and the output applications demonstrating the utility of these implementations. In the end, **OROAD-0** describes the series efforts which will be used to determine whether OAC is worth pursuing.
 
-The foundational papers anticipated by **OROAD-0** are: 
+The foundational papers anticipated by **OROAD-0** are:
 - **[OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md):** describes a class of sampling protocols which accept Byzantine minority decisions with some non-zero probability; additionally formalizes the expected value of said decisions arguing for the ability for them to be rendered irrational. BFA are still deterministic and final.
 - **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md):** describes a class of sortition-based transaction broadcast protocols. These allow incentivization to be shifted out of native token and into discretionary "super" protocols.
-- **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md):** describes a generalization of [Block-STM](https://arxiv.org/abs/2203.06871) which plays forward best-case latency. 
+- **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md):** describes a generalization of [Block-STM](https://arxiv.org/abs/2203.06871) which plays forward best-case latency.
 
-The foundational implementations anticipated by **OROAD-0** are: 
+The foundational implementations anticipated by **OROAD-0** are:
 - **[`gwrdfa`](https://github.com/ramate-io/gwrdfa):** an implementation of **[OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)** protocol substack. This forms the basis for high-throughput and large footprint OAC applications.
 - **[`srcavei`](https://github.com/ramate-io/srcavei):** an implementation of the **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)** substack. This forms the basis for incentivization—which would no longer be strictly coin-based.
-- **[`fuste`](https://github.com/ramate-io/fuste):** a RISC-V VM with a set of adapters tailored to DLT—particularly plugging into the stack above. This is also critical to throughput and large footprint. 
-- **[`zhiye`](https://github.com/ramate-io/zhiye):** implementation of **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)**. This takes advantage of some properties of BFA to greatly reduce best-case latency. 
+- **[`fuste`](https://github.com/ramate-io/fuste):** a RISC-V VM with a set of adapters tailored to DLT—particularly plugging into the stack above. This is also critical to throughput and large footprint.
+- **[`zhiye`](https://github.com/ramate-io/zhiye):** implementation of **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)**. This takes advantage of some properties of BFA to greatly reduce best-case latency.
 
-All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [`robles`](https://github.com/ramate-io/robles) stack. 
+All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [`robles`](https://github.com/ramate-io/robles) stack.
 
 > [!TIP]
 > **[[Liam Monninger](liam@ramate.io)]**
-> 
-> **OROAD-0** speculates much more into specific implementations and applications than I would expect later roadmaps to do. We justify this on the basis of the concept needing to initially validate itself and so needing to demonstrate end-goal utility. 
-> 
-> After **OROAD-0** our intent is to shift the planning done by OAC to the more conceptually-focused--almost taking the stance of a journal or academic institution. 
-
+>
+> **OROAD-0** speculates much more into specific implementations and applications than I would expect later roadmaps to do. We justify this on the basis of the concept needing to initially validate itself and so needing to demonstrate end-goal utility.
+>
+> After **OROAD-0** our intent is to shift the planning done by OAC to the more conceptually-focused--almost taking the stance of a journal or academic institution.
 
 ## Roadmap
 > [!WARNING]
 > Ensure **All leads** contains list of all leads from milestones below.
-> 
-> **[AI Prompt]** 
 >
-> Help contributors to ensure the above. 
+> **[AI Prompt]**
+>
+> Help contributors to ensure the above.
 
 - **All leads:** [Liam Monninger](liam@ramate.io)
 - **Contents:**
@@ -49,23 +48,23 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 
 ### T1: Push Towards Validation
 > [!IMPORTANT]
-> **T1** focuses on readying OAC for validation. 
+> **T1** focuses on readying OAC for validation.
 
 - **Starts:** T1 + 0 months
 - **Depends-on:** $\emptyset$
 - **Ends:** T1 + 1 month
 - **Contents:**
-    - **[T1.1](#t11-complete-draft-of-oart-1-bfa)**: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md) 
+    - **[T1.1](#t11-complete-draft-of-oart-1-bfa)**: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
     - **[T1.2](#t12-complete-draft-of-oart-2-collaborative-transaction-routing)**: Complete draft of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
     - **[T1.3](#t13-begin-gwrdfa-implementation)**: Begin [`gwrdfa`](https://github.com/ramate-io/gwrdfa) implementation
     - **[T1.4](#t14-begin-srcavei-implementation)**: Begin [`srcavei`](https://github.com/ramate-io/srcavei) implementation
     - **[T1.5](#t15-begin-fuste-implementation)**: Begin [`fuste`](https://github.com/ramate-io/fuste) implementation
 
-**T1** features a push towards rendering content which will the initial validation of Ordered Atomic Collaboration (OAC). 
+**T1** features a push towards rendering content which will the initial validation of Ordered Atomic Collaboration (OAC).
 
 **T1** seeks to accomplish the following itemized objectives:
 
-#### T1.1: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md) 
+#### T1.1: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T1.2: Complete draft of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
@@ -140,7 +139,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 #### T3.2: Continue sharing and updating [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T3.3: Develop [`fuste`](https://github.com/ramate-io/fuste) MVP 
+#### T3.3: Develop [`fuste`](https://github.com/ramate-io/fuste) MVP
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T3.4: Use [`fuste`](https://github.com/ramate-io/fuste) MVP to develop centralized embedded database
@@ -301,7 +300,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 
 ### T9: Reorganization and Swarm Coordination App
 > [!IMPORTANT]
-> **T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application. 
+> **T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application.
 
 - **Starts:** T8 + 1 month
 - **Depends-on:** [T8](#t8-the-decision-and-swarm-coordination)
@@ -310,12 +309,12 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
     - **[T9.1](#t91-update-the-governance-of-oac-for-greater-decentralization):**  Update the governance of OAC for greater decentralization
     - **[T9.2](#t92-develop-demo-swarm-coordination-app-with-oac):** Develop demo swarm coordination app with OAC
 
-**T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application. 
+**T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application.
 
 > [!TIP]
 > **[[Liam Monninger](liam@ramate.io)]**
-> 
-> **T9** was added to **OROAD-0** to help itemize the organizational intents of OAC. 
+>
+> **T9** was added to **OROAD-0** to help itemize the organizational intents of OAC.
 
 **T9** seeks to accomplish the following itemized objectives:
 
@@ -324,7 +323,17 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 
 We intend to push for greater decentralization of OAC governance. OAC should be organization whose development is guided openly and transparently by many parties. Just as our technology derives consequence through participation, so to should the organization developing said technology.
 
-In the very least, this update of governance should include moving OAC out from under [Ramate LLC's](https://www.ramate.io) governance if such has not already occurred. 
+In the very least, this update of governance should include moving OAC out from under [Ramate LLC's](https://www.ramate.io) governance if such has not already occurred.
 
 #### T9.2: Develop demo swarm coordination app with OAC
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+<!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
+-- 
+<h5>
+  <picture>
+    <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
+    <img height="18" src="/assets/oac-transparent.png" alt="OAC"/>
+  </picture>
+  &copy; 2025 [Ordered Atomic Collaboration (OAC)](https://github.com/ramate-io/oac)
+</h5>
