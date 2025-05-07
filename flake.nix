@@ -150,7 +150,7 @@
               cp $(pwd)/.githooks/pre-commit $(pwd)/.git/hooks/pre-commit
               chmod +x $(pwd)/.git/hooks/pre-commit
 
-              chafa --animate false --colors 8 --center true ./assets/oac-transparent.png
+              chafa --size 30x30 --animate false --colors 8 --center true ./assets/oac-transparent.png
 
               echo ""
               echo "Ordered Atomic Collaboration (OAC)"
