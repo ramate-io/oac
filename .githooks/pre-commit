@@ -1,3 +1,84 @@
 #!/bin/bash
 
 set -e
+
+# Status helper function
+status() {
+    if [ $? -eq 0 ]; then
+        echo "✅ $1"
+    else
+        echo "❌ $1"
+        return 1
+    fi
+}
+
+echo "Running pre-commit hook: Managing OAC footer in markdown files..."
+
+# Get the footer content
+FOOTER_CONTENT=$(cat assets/footer.md)
+status "Reading footer template" || exit 1
+
+# Find all markdown files in the repository
+FILES=$(find . -type f -name "*.md" -not -path "*/\.*")
+status "Finding markdown files" || exit 1
+
+if [ -z "$FILES" ]; then
+    echo "📭 No markdown files found in the repository."
+    exit 0
+fi
+
+# Count total files for progress reporting
+TOTAL_FILES=$(echo "$FILES" | wc -l)
+CURRENT=0
+FAILED_FILES=()
+
+# Process each markdown file
+for file in $FILES; do
+    CURRENT=$((CURRENT + 1))
+    echo "📝 Processing ${file} (${CURRENT}/${TOTAL_FILES})..."
+    
+    # Create a temporary file
+    TMP_FILE=$(mktemp)
+    
+    # Remove existing footer if present and add new footer
+    if awk -v footer="$FOOTER_CONTENT" '
+        BEGIN { found=0 }
+        /<!--OAC FOOTER: DO NOT REMOVE THIS LINE-->/ { found=1; next }
+        found==1 && /^--$/ { found=2; next }
+        found==2 && /^<h5>/ { found=3; next }
+        found==3 && /^<\/h5>/ { found=0; next }
+        found==0 { print }
+        END { if (found==0) print footer }
+    ' "$file" > "$TMP_FILE"; then
+        
+        # Replace original file with modified content
+        if mv "$TMP_FILE" "$file"; then
+            # Add the modified file to staging
+            if git add "$file"; then
+                echo "✅ Updated ${file}"
+            else
+                echo "❌ Failed to stage ${file}"
+                FAILED_FILES+=("${file} (staging failed)")
+            fi
+        else
+            echo "❌ Failed to update ${file}"
+            FAILED_FILES+=("${file} (update failed)")
+        fi
+    else
+        echo "❌ Failed to process ${file}"
+        FAILED_FILES+=("${file} (processing failed)")
+    fi
+done
+
+# Report results
+echo "✨ Footer management complete! Processed ${TOTAL_FILES} markdown files."
+
+if [ ${#FAILED_FILES[@]} -gt 0 ]; then
+    echo "❌ The following files failed to process:"
+    for file in "${FAILED_FILES[@]}"; do
+        echo "   - ${file}"
+    done
+    exit 1
+fi
+
+exit 0
