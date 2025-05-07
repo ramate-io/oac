@@ -3,10 +3,15 @@
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 -- 
-<h5>
+<div align="center">
   <picture>
     <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
-    <img height="18" src="/assets/oac-transparent.png" alt="OAC"/>
+    <img height="24" src="/assets/oac-transparent.png" alt="OAC"/>
   </picture>
-  &copy; 2025 [Ordered Atomic Collaboration (OAC)](https://github.com/ramate-io/oac)
-</h5>
+  <br/>
+  <sub>
+    <b>Ordered Atomic Collaboration (OAC)</b>
+    <br/>
+    &copy; 2025 <a href="https://github.com/ramate-io/oac">ramate-io/oac</a>
+  </sub>
+</div>
