@@ -152,6 +152,8 @@
 
               chafa --animate false --colors 8 --center true ./assets/oac-transparent.png
 
+              echo ""
+              echo "Ordered Atomic Collaboration (OAC)"
               echo "OAC is a paradigm for decentralized consequence."
             '';
           };
