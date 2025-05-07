@@ -11,7 +11,7 @@
       let
         pkgs = import nixpkgs {
           inherit system;
-          overlays = [ (import rust-overlay) foundry.overlay ];
+          overlays = [ (import rust-overlay) ];
         };
 
         toolchain = p: (p.rust-bin.fromRustupToolchainFile ./rust-toolchain.toml).override {
@@ -89,7 +89,7 @@
             soul
             xcolor
           ]))
-        ] ++ ++ lib.optionals stdenv.isDarwin [
+        ] ++ lib.optionals stdenv.isDarwin [
           frameworks.Security
           frameworks.CoreServices
           frameworks.SystemConfiguration
