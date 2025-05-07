@@ -5,7 +5,8 @@ OAC Guides (OGUIDE) provide useful guides and summaries of OAC.
 - **[OGUIDE-0](./oguide-000-000-000/README.md):** describes the initial drive towards decentralized consequence and the suggested foundational papers.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
--- 
+---
+
 <div align="center">
   <picture>
     <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">

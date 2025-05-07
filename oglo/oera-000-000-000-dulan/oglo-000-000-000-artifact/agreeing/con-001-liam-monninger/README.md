@@ -2,7 +2,8 @@
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
--- 
+---
+
 <div align="center">
   <picture>
     <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">

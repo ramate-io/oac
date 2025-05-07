@@ -23,7 +23,8 @@ All other artifacts are either "Proposed" or "Revoked" and their status is refle
 $\emptyset$
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
--- 
+---
+
 <div align="center">
   <picture>
     <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">

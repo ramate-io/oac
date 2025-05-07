@@ -6,7 +6,8 @@ The current era is [OERA-0: Dulan](./oera-000-000-000-dulan/README.md).
 - **[OERA-0: Dulan](./oera-000-000-000-dulan/README.md):** the foundational era in which OAC is bootstrapped by [Ramate LLC](https://www.ramate.io)
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
--- 
+---
+
 <div align="center">
   <picture>
     <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">

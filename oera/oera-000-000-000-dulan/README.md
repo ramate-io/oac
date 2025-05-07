@@ -68,7 +68,8 @@ As described in [OGOV-0](../../ogov/oera-000-000-000-dulan/ogov-000-000-000/READ
 $\emptyset$
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
--- 
+---
+
 <div align="center">
   <picture>
     <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">

@@ -21,7 +21,8 @@ Once you've done the above, you should have a strong enough sense of the project
 $\emptyset$
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
--- 
+---
+
 <div align="center">
   <picture>
     <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">

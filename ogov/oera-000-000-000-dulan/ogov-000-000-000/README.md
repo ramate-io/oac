@@ -45,7 +45,8 @@ We assert there is no precedence for interpretation owing to the lack of [contin
 $\emptyset$
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
--- 
+---
+
 <div align="center">
   <picture>
     <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">

@@ -59,7 +59,8 @@ Under [OGLO-0](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md
 - [`odemo`](./odemo/): OAC Demonstrations (ODEMO) are selected demonstrations and/or projects built with OAC.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
--- 
+---
+
 <div align="center">
   <picture>
     <source srcset="/assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
