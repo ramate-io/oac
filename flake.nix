@@ -23,6 +23,7 @@
 
         # An LLVM build environment
         dependencies = with pkgs; [
+          chafa
           perl
           llvmPackages.bintools
           openssl
@@ -149,9 +150,7 @@
               cp $(pwd)/.githooks/pre-commit $(pwd)/.git/hooks/pre-commit
               chmod +x $(pwd)/.git/hooks/pre-commit
 
-              cat <<'EOF'
-               OAC
-              EOF
+              chafa ./assets/oac-transparent.png
 
               echo "OAC is a paradigm for decentralized consequence."
             '';
