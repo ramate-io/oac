@@ -150,7 +150,7 @@
               cp $(pwd)/.githooks/pre-commit $(pwd)/.git/hooks/pre-commit
               chmod +x $(pwd)/.git/hooks/pre-commit
 
-              chafa ./assets/oac-transparent.png
+              chafa --animate false --colors 8 --center true ./assets/oac-transparent.png
 
               echo "OAC is a paradigm for decentralized consequence."
             '';
