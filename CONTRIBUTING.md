@@ -1,7 +1,7 @@
 # Contributing
 We recommend those new to the paradigm review the latest [OGUIDE](./oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md).
 
-The primary output of this project is this repository's [Artifacts](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md). How to produce these [Artifacts](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) is specified in [OSPEC-0](./ospec/oera-000-000-000-dulan/ospec-000-000-000/README.md).
+The primary output of this project is this repository's [Artifacts](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md). How to produce these [Artifacts](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) is specified in [OSPEC-0](./ospec/oera-000-000-000-dulan/ospec-000-000-000/README.md). Meanwhile [ODEMO-0](./odemo/oera-000-000-000-dulan/odemo-000-000-000/README.md) provides an interactive walkthrough of this repository which may be more suitable.
 
 To produce and maintain these [Artifacts](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), we ideate in [Discussions](https://github.com/ramate-io/oac/discussions) and plan work in [Issues](https://github.com/ramate-io/oac/issues). Discussions are free-form. Issues follow the structure below:
 
