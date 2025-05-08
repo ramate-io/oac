@@ -45,8 +45,8 @@ As described in [OGOV-0](../../ogov/oera-000-000-000-dulan/ogov-000-000-000/READ
 ### [ODE](../../ode/oera-000-000-000-dulan/README.md)
 - **[ODE-0](../../ode/oera-000-000-000-dulan/ode-000-000-000/README.md)**
 
-### [ORE](../../ore/oera-000-000-000-dulan/README.md)
-- **[ORE-0](../../ore/oera-000-000-000-dulan/ore-000-000-000/README.md)**
+### [OPSEC](../../ospec/oera-000-000-000-dulan/README.md)
+- **[OPSEC-0](../../ospec/oera-000-000-000-dulan/ospec-000-000-000/README.md)**
 
 ### [OART](../../oart/oera-000-000-000-dulan/README.md)
 - **[OART-0](../../oart/oera-000-000-000-dulan/oart-000-000-000/README.md)**

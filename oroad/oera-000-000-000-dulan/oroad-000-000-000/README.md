@@ -3,6 +3,9 @@
 - **Contents:**
     - **[Summary](#summary)**
     - **[Roadmap](#roadmap)**
+    - **[Agreeing](#agreeing)**
+    - **[Dissenting](#dissenting)**
+    - **[Appendix](#appendix)**
 
 ## Summary
 **OROAD-0** is the foundational roadmap for OAC proposed in response to [OPROC-0: Decentralized Consequence](../../../oproc/oera-000-000-000-dulan/oproc-000-000-000/README.md). **OROAD-0** seeks to develop and validate a series of foundational papers, render a series of implementations from these papers, and the output applications demonstrating the utility of these implementations. In the end, **OROAD-0** describes the series efforts which will be used to determine whether OAC is worth pursuing.
@@ -327,6 +330,15 @@ In the very least, this update of governance should include moving OAC out from 
 
 #### T9.2: Develop demo swarm coordination app with OAC
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+## Agreeing
+- **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that guide describes the exploratory nature of this initial phase well ([Liam Monninger](mailto:liam@ramate.io)).
+
+## Dissenting
+- **[DIS-1: Liam Monninger](./dissenting/dis-001-liam-monninger/README.md):** argues that the guide does not make it clear how to participate ([Liam Monninger](mailto:liam@ramate.io)).
+
+## Appendix
+$\emptyset$
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
