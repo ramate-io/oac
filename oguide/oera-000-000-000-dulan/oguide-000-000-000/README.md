@@ -1,6 +1,12 @@
 # OGUIDE-0: Welcome to OAC in the Dulan Era!
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
+- **Contents:**
+  - **[Guide](#guide)**
+  - **[Agreeing](#agreeing)**
+  - **[Dissenting](#dissenting)**
+  - **[Appendix](#appendix)**
 
+## Guide
 OAC is just beginning as a project! We use a system for grouping work by periods we call [OAC Eras (OERA)](../../../oera/). The current era is [OERA-0: Dulan](../../../oera/oera-000-000-000-dulan/README.md) and is our very first.
 
 To kick off the **Dulan Era**, we made a proclamation about our intent to build systems of "decentralized consequence" called [OPROC-0: Decentralized Consequence](../../../oproc/oera-000-000-000-dulan/oproc-000-000-000/README.md). This proclamation is key to understanding the motives behind this project. Read it!

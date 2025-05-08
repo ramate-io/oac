@@ -3,6 +3,14 @@
 - **Succeeds:** $\emptyset$
 - **Convened:** 03-05-2025
 - **Ended:** $\emptyset$
+- **Contents:**
+  - **[Summary](#summary)**
+  - **[Naming](#naming)**
+  - **[Governance](#governance)**
+  - **[Artifacts](#artifacts)**
+  - **[Agreeing](#agreeing)**
+  - **[Dissenting](#dissenting)**
+  - **[Appendix](#appendix)**
 
 ## Summary
 
@@ -17,7 +25,7 @@ As described in [OGOV-0](../../ogov/oera-000-000-000-dulan/ogov-000-000-000/READ
 >
 > At the time of writing, [Ramate LLC](https://www.ramate.io) is my single-member LLC. However, I have intentions both to expand the partnership and open up the governance of the [`robles`](https://github.com/ramate-io/robles).
 
-## Contents
+## Artifacts
 
 ### [OGLO](../../oglo/oera-000-000-000-dulan/README.md)
 - **[OGLO-0](../../oglo/oera-000-000-000-dulan/oglo-000-000-000/README.md)**

@@ -8,6 +8,7 @@
     - **[Conditions](#conditions)**
     - **[Agreeing](#agreeing)**
     - **[Dissenting](#dissenting)**
+    - **[Appendix](#appendix)**
 
 ## Terms
 - **Contents:**
@@ -38,6 +39,9 @@ We stipulate that the validity of this certificate depends upon its continued pr
 
 ## Dissenting
 - **[DIS-1: Liam Monninger](./dissenting/dis-001-liam-monninger/README.md):** argues that the guide does not make it clear how to participate ([Liam Monninger](mailto:liam@ramate.io)).
+
+## Appendix
+$\emptyset$
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
