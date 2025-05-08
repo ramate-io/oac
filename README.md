@@ -13,7 +13,7 @@
     <source srcset="./assets/oac-inverted-transparent.png" media="(prefers-color-scheme: dark)">
     <img height="24" src="./assets/oac-transparent.png" alt="OAC"/>
   </picture>
-  oac
+  Ordered Atomic Collaboration (OAC)
 </h1>
 
 We recommend those new to the paradigm review the latest [OGUIDE](./oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md).
