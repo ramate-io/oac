@@ -18,7 +18,7 @@
 
 We recommend those new to the paradigm review the latest [OGUIDE](./oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md).
 
-OAC is intended to be conceptually oriented and implementation agnostic. Befospec contributing to this repository, consider whether your intents are implementation specific by reviewing the following:
+OAC is intended to be conceptually oriented and implementation agnostic. Before contributing to this repository, consider whether your intents are implementation specific by reviewing the following:
 
 - **[`robles`](https://github.com/ramate-io/robles):** [Ramate LLC's](https://www.ramate.io) implementation of OAC paradigm technology . Many implementation-specific contributions, including most code, will suit [`robles`](https://github.com/ramate-io/robles).
 - **[ODEMO](./odemo/README.md):** contains demos for many of the projects building with OAC technologies with which you may be more familiar and for which your contributions may be more suitable.
