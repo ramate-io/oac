@@ -1,5 +1,11 @@
 # OPROC-0: Decentralized Consequence
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
+- **Contents:**
+  - **[Summary](#summary)**
+  - **[Documents](#documents)**
+  - **[Agreeing](#agreeing)**
+  - **[Dissenting](#dissenting)**
+  - **[Appendix](#appendix)**
 
 ## Summary
 Ordered Atomic Collaboration is a paradigm for decentralized consequence. OAC differs from traditional and popular decentralized and distributed compute in its emphasis on structures for penalization as opposed to perfect consensus. We believe OAC can be used to replace traditional DLT applications. However, OAC's long-term ambitions lie in the decentralized coordination of swarms.

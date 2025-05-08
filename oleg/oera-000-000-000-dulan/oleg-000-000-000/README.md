@@ -1,6 +1,6 @@
 # OLEG-0: MIT License
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
-- **Jurisdictions:** $\emptset$
+- **Jurisdictions:** [Massachusetts General Laws](https://malegislature.gov/Laws/GeneralLaws), [United States Code](https://www.law.cornell.edu/uscode), [European Union Law](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0024), [Open Source Initiative](https://opensource.org/licenses/MIT)
 - **Contents:**
   - **[Summary](#summary)**
   - **[Documents](#documents)**
