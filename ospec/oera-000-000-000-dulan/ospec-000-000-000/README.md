@@ -15,6 +15,8 @@ We propose a soft specification of the use, organization, and maintenance of the
 
 We suggest further clarifications of the use, organization, and maintenance of the OAC repository should be drafted and accepted as necessary.
 
+We believe our specification adequately addresses [ODE-0.D1](../../../ode/oera-000-000-000-dulan/ode-000-000-000/README.md#d1-provide-templates-for-artifacts-and-describe-their-usage) and [ODE-0.D2](../../../ode/oera-000-000-000-dulan/ode-000-000-000/README.md#d1-provide-templates-for-artifacts-and-describe-their-usage).
+
 ## Motivation
 [ODE-0](../../../ode/oera-000-000-000-dulan/ode-000-000-000/README.md) provides a clear motivation for the specification of the use, organization, and maintenance of the OAC repository: contribution. We provide our proposal to swiftly generate such a specification without overspecification and committing unnecessarily to structures which are not yet practiced.
 
@@ -28,13 +30,21 @@ We suggest further clarifications of the use, organization, and maintenance of t
 
 Each [Artifact](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) type has a `-0` member. This member MUST be used as the template document to the best of the contributor's ability when drafting any corresponding [Artifact](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) of the [Artifact](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) type.
 
+We assert this partially addresses [ODE-0.D1](../../../ode/oera-000-000-000-dulan/ode-000-000-000/README.md#d1-provide-templates-for-artifacts-and-describe-their-usage), by providing the templates.
+
 ### S2: Shared number for [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) via [GitHub shared counter](https://github.com/orgs/community/discussions/69759)
 
 An [Artifact](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) SHALL be assigned a number corresponding to the [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) in which it was first drafted. This number SHALL be used to title and reference the [Artifact](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md). When named for a filesystem, the number SHALL be given padding to ensure lexicographic order.
 
+We assert this partially addresses [ODE-0.D1](../../../ode/oera-000-000-000-dulan/ode-000-000-000/README.md#d1-provide-templates-for-artifacts-and-describe-their-usage), by asserting how templates should be filled in terms of numbering.
+
+We assert this partially addresses [ODE-0.D2](../../../ode/oera-000-000-000-dulan/ode-000-000-000/README.md#d1-provide-templates-for-artifacts-and-describe-their-usage), by describing the organization of [Artifact](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) in terms of numbering.
+
 ### S3: Follow directory organization of `-0` stage
 
 Contributors SHALL continue to place [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) into directories in a manner which matches the `-0` phase.
+
+We assert this partially addresses [ODE-0.D2](../../../ode/oera-000-000-000-dulan/ode-000-000-000/README.md#d1-provide-templates-for-artifacts-and-describe-their-usage), by describing the organization of [Artifact](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) in terms directories within the repository.
 
 ## Correctness
 We assert this is an arbitrary and adaptive standard that contains no obvious contradictions. We admit improvements to this standard when contradictions arise.
