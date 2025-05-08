@@ -91,8 +91,4 @@ if [ ${#FAILED_FILES[@]} -gt 0 ]; then
     exit 1
 fi
 
-# Final git add to ensure all modified files are staged
-git add $(git diff --name-only)
-status "Staging all modified files" || exit 1
-
 exit 0
