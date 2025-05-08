@@ -6,8 +6,13 @@
 - **Contents:**
     - **[Terms](#terms)**
     - **[Conditions](#conditions)**
+    - **[Agreeing](#agreeing)**
+    - **[Dissenting](#dissenting)**
 
 ## Terms
+- **Contents:**
+    - **[T1](#t1-self-endorsement):** Self-endorsement
+    - **[T2](#t2-correctness-of-oac-main):** Correctness of [OAC](https://github.com/ramate-io/oac) `main`
 
 ### T1: Self-endorsement
 We hereby endorse this, the [OAC](https://github.com/ramate-io/oac) repository, as developer and arbiter of the OAC paradigm.
@@ -18,12 +23,21 @@ We hereby certify all content under [OAC](https://github.com/ramate-io/oac) repo
 Pursuant to [T1](#t1-self-endorsement), we certify whatever content is on its `main` branch is correct, owing the to reflexive nature of this certificate.
 
 ## Conditions
+- **Contents:**
+    - **[C1](#c1-subject-to-ogov):** Subject to [OGOV](../../../ogov/README.md)
+    - **[C2](#c2-subject-to-invalidation-on-oac-main):** Subject to invalidation on OAC `main`
 
 ### C1: Subject to [OGOV](../../../ogov/README.md)
 We stipulate that the validity of this certificate is subject to [OGOV](../../../ogov/README.md). Events such as the transfer of this repository from the [`ramate-io`](https://github.com/ramate-io) GitHub organization may render this certificate invalid.
 
 ### C2: Subject to invalidation on OAC `main`
 We stipulate that the validity of this certificate depends upon its continued presence at the tip of [OAC](https://github.com/ramate-io/oac) repository's `main` branch. This certificate is an [Artifact](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) which becomes invalid when no longer included.
+
+## Agreeing
+- **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that guide describes the exploratory nature of this initial phase well ([Liam Monninger](mailto:liam@ramate.io)).
+
+## Dissenting
+- **[DIS-1: Liam Monninger](./dissenting/dis-001-liam-monninger/README.md):** argues that the guide does not make it clear how to participate ([Liam Monninger](mailto:liam@ramate.io)).
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
