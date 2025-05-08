@@ -2,6 +2,7 @@
 - **Authors:** [Liam Monninger](liam@ramate.io)
 - **Holder:** [OAC](https://github.com/ramate-io/oac)
 - **Pubkey:** [`cafe3368`](./pub.key)
+- **Original issuer:** [OGOV-O: Founding](../../../ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md)
 - **Contents:**
     - **[Terms](#terms)**
     - **[Conditions](#conditions)**
