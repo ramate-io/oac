@@ -12,7 +12,7 @@ B(CTR) &\subset AB \\
 \prod^{k} P[B(CTR_{BFA}(\zeta)) = 0] &\leq \mu \\
 \\
 E[Loss(BFA)] \leq \mu \cdot Loss(BFA) &\\
-\rightarrow U(B(CTR_{BFA}(\zeta)) = 1) &\gt U(\mathcal{F})
+\quad \quad \rightarrow U(B(CTR_{BFA}(\zeta)) = 1) \gt U(\mathcal{F}) &
 \end{aligned}
 ```
 
@@ -27,6 +27,50 @@ E[Loss(BFA)] \leq \mu \cdot Loss(BFA) &\\
 &\quad\quad\quad\quad \textbf{if } C_{i,k} \in \text{FIN:} \\
 &\quad\quad\quad\quad\quad \textbf{return } C_{i',k}
 \end{aligned}
+```
+
+```math
+\text{Let } \mathcal{N} \text{ be the set of participants.} \\
+\text{Let } \mathcal{H} \subseteq \mathcal{N} \text{ be the subset of honest participants.} \\
+\text{Let } \mathcal{H} \subset \mathcal{F} \text{ be the subset of faulty participants.} \\
+
+\text{We make the Byzantine assumption:} \\
+|\mathcal{N}| = 3n + 1 \\
+|\mathcal{H}| = 2n + 1 \\
+|\mathcal{F}| = n \\
+
+\text{Let } \mathcal{C} \text{ be the set of participants included in a subcommittee. We parameterize this subcommittee by } k: \\
+
+|C| = 3k + 1 \\
+
+\text{The total number of ways to select the subcommittee is:} \\
+
+c = \binom{3n + 1}{3k + 1} \\
+
+\text{We define an accepted faulty subcommittee as one where:} \\
+
+|C \cap \mathcal{F}| >= 2k + 1 \\
+
+\text{The total number of ways to select an accepted faulty subcommittee is:} \\
+
+c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, n)} \binom{n}{h} \cdot \binom{2n + 1}{3k + 1 - h} \\
+
+\text{The probability of accepting a faulty subcommittee is: } \\
+
+Pr[Accepted Faulty] = c'(n,k)/c
+
+\text{We define an accepted honest subcommittee as one where:} \\
+
+|C \cap \mathcal{H}| >= 2k + 1 \\
+
+\text{The total number of ways to select an accepted honest subcommittee is:} \\
+
+c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}{3k + 1 - h} \\
+
+```
+
+```math
+\text{}
 ```
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->

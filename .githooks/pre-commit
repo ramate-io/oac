@@ -14,8 +14,8 @@ status() {
 
 echo "Running pre-commit hook: Managing OAC footer in markdown files..."
 
-# Find all markdown files in the repository, excluding template files
-FILES=$(find . -type f -name "*.md" -not -path "*/\.*" -not -name "*.template.md")
+# Find all tracked markdown files in the repository, excluding template files
+FILES=$(git ls-files --cached --exclude-standard -- '*.md' | grep -v '\.template\.md$')
 status "Finding markdown files" || exit 1
 
 if [ -z "$FILES" ]; then
