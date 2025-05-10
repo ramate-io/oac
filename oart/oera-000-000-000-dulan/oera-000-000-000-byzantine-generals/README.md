@@ -1,7 +1,7 @@
 ```math
 \begin{aligned}
 BFT \subset BFA \\
-Loss(BFT) \leq \alpha \cdot BFA
+BFT + \epsilon \geq Loss(BFA)
 \end{aligned}
 ```
 
