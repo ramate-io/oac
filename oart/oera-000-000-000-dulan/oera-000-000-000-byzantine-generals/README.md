@@ -1,6 +1,8 @@
 ```math
-BFT \subset BFA
-Loss(BFT) \leq \alpha \dot BFA
+\begin{aligned}
+BFT &\subset BFA \\
+Loss(BFT) &\leq \alpha \cdot BFA
+\end{aligned}
 ```
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
