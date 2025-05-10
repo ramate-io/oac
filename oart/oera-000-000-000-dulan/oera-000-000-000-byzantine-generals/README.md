@@ -74,7 +74,7 @@ c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}
 \begin{aligned}
 \text{Since } \lim_{n \to \infty}Pr[Accepted Honest](n, k) = 2^-1 \forall k \in \mathbb{n} \text{we have can conclude: } \\
 
-O(BFA) &\approx (Pr[\text{Accepted Honest}] + Pr[\text{Accepted Faulty}])k \\
+O(BFA) \approx (Pr[\text{Accepted Honest}] + Pr[\text{Accepted Faulty}])k \\
 + (1 - (Pr[\text{Accepted Honest}] + Pr[\text{Accepted Faulty}]))(n + k)  \\
 \approx \frac{k}{2} + \frac{n + k}{2} \\
 \approx \frac{n}{2} + k \\
