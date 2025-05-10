@@ -30,6 +30,7 @@ E[Loss(BFA)] \leq \mu \cdot Loss(BFA) &\\
 ```
 
 ```math
+\begin{aligned}
 \text{Let } \mathcal{N} \text{ be the set of participants.} \\
 \text{Let } \mathcal{H} \subseteq \mathcal{N} \text{ be the subset of honest participants.} \\
 \text{Let } \mathcal{H} \subset \mathcal{F} \text{ be the subset of faulty participants.} \\
@@ -66,11 +67,18 @@ Pr[Accepted Faulty] = c'(n,k)/c
 \text{The total number of ways to select an accepted honest subcommittee is:} \\
 
 c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}{3k + 1 - h} \\
-
+\end{aligned}
 ```
 
 ```math
-\text{}
+\begin{aligned}
+\text{Since } \lim_{n \to \infty}Pr[Accepted Honest](n, k) = 2^-1 \forall k \in \mathbb{n} \text{we have can conclude: } \\
+
+O(BFA) &\approx k (Pr[Accepted Honest] + Pr[Accepted Faulty]) + (n + k)(1 - (Pr[Accepted Honest] + Pr[Accepted Faulty])) &\approx \frac{k}{2} + \frac{n + k}{2} \\
+& \approx \frac{n}{2} + k \\
+
+\Omega(BFA) = k \\
+\end{aligned}
 ```
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
