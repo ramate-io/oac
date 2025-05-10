@@ -1,9 +1,13 @@
+<div align="center">
+
 ```math
 \begin{aligned}
 BFT &\subset BFA \\
 Loss(BFT) &\leq \alpha \cdot BFA
 \end{aligned}
 ```
+
+</div>
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
