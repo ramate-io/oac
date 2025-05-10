@@ -1,7 +1,29 @@
 ```math
 \begin{aligned}
-&BFT& &\subset BFA \\
-&\alpha \cdot Loss(BFT) + \epsilon& &\geq Loss(BFA)
+BFT &\subset BFA \\
+\alpha \cdot Loss(BFT) + \epsilon &\geq Loss(BFA)
+\end{aligned}
+```
+
+```math
+\begin{aligned}
+B(CTR) &\subset AB \\
+\prod^{k} P[B(CTR_{BFA}(\zeta)) = 0] &\leq \mu \\
+E[Loss(BFA)] \leq \mu \cdot Loss(BFA) &\\
+\rightarrow U(B(CTR_{BFA}(\zeta)) = 1) &\gt U(\mathcal{F})
+\end{aligned}
+```
+
+```math
+\begin{aligned}
+&\text{RIS-STM}(i', B, C): \\
+&\quad \textbf{loop:} \\
+&\quad\quad \textbf{for } i \in C_i: \\
+&\quad\quad\quad C_i := C_i + \text{recv}(i, B) \\
+&\quad\quad\quad \textbf{for } C_{i,k} \in C_i: \\
+&\quad\quad\quad\quad C_{i',k} := \text{compute}(i', C_{i,k}) \\
+&\quad\quad\quad\quad \textbf{if } C_{i,k} \in \text{FIN:} \\
+&\quad\quad\quad\quad\quad \textbf{return } C_{i',k}
 \end{aligned}
 ```
 
