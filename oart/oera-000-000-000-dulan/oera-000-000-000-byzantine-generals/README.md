@@ -11,7 +11,7 @@ B(CTR) &\subset AB \\
 \\
 \prod^{k} P[B(CTR_{BFA}(\zeta)) = 0] &\leq \mu \\
 \\
-E[Loss(BFA)] \leq \mu \cdot Loss(BFA) &\\
+E[Loss(CTR_{BFA})] \leq \mu \cdot Loss(BFA) &\\
 \quad \quad \rightarrow U(B(CTR_{BFA}(\zeta)) = 1) \gt U(\mathcal{F}) &
 \end{aligned}
 ```
