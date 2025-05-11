@@ -86,7 +86,9 @@ c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}
 
 ```math
 \begin{aligned}
-\Theta(BFA) & = \sum_{n = 0}^{\infty} 2^{-n}k \\
+\mathbb{P}(\text{Resample Count} = n) & = (1 - 2^{-1})^{n-1} 2^{-1}
+\Theta(BFA) & = k \cdot \mathbb{E}[\text{Resample Count}]
+& = k \cdot \sum_{n = 0}^{\infty} n \cdot 2^{-n} \\
 & = 2k \\
 \end{aligned}
 ```
