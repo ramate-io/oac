@@ -86,10 +86,10 @@ c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}
 
 ```math
 \begin{aligned}
-\mathbb{P}(\text{Resample Count} = n) & = (1 - 2^{-1})^{n-1} \cdot 2^{-1} \\
-\Theta(BFA) & = k \cdot \mathbb{E}[\text{Resample Count}] \\
-& = k \cdot \sum_{n = 0}^{\infty} n \cdot 2^{-n} \\
-& = 2k \\
+\mathbb{P}(\text{Resample Count} = n) &= \left(1 - \frac{1}{2}\right)^{n-1} \cdot \frac{1}{2} = \frac{1}{2^n} \\
+\Theta(\text{BFA}) &= k \cdot \mathbb{E}[\text{Resample Count}] \\
+&= k \cdot \sum_{n = 1}^{\infty} n \cdot \frac{1}{2^n} \\
+&= 2k \\
 \end{aligned}
 ```
 
