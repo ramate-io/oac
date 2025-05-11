@@ -77,8 +77,8 @@ c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}
 && \quad = 2^{-1} \forall k \in \mathbb{N} \\
 && \land Pr[\text{Accepted Faulty}](n,k) \approx \mu \\
 && \Rightarrow \Theta(BFA) \\
-&& \quad \approx Pr[\text{Accepted}](n,k)k \\
-&& \quad \quad + (1 - Pr[\text{Accepted}](n,k))(n + k)  \\
+&& \quad \approx Pr[\text{Accepted}](n,k) \cdot k \\
+&& \quad \quad + (1 - Pr[\text{Accepted}](n,k)) \cdot (n + k)  \\
 && \quad \approx \frac{k}{2} + \frac{n + k}{2} \\
 && \quad = \frac{n}{2} + k \\
 
