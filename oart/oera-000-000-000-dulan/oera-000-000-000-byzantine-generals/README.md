@@ -86,8 +86,7 @@ c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}
 
 ```math
 \begin{aligned}
-\Theta(BFA) & \\
-& = \sum_{n = 0}^{\infty} 2^{-n}k \\
+\Theta(BFA) & = \sum_{n = 0}^{\infty} 2^{-n}k \\
 & = 2k \\
 \end{aligned}
 ```
