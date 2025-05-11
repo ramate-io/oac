@@ -74,7 +74,7 @@ c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}
 \begin{aligned}
 && Pr[\text{Accepted}](n,k) = Pr[\text{Accepted Honest}](n,k) + Pr[\text{Accepted Faulty}](n,k) \\
 && \lim_{n \to \infty} Pr[\text{Accepted Honest}](n, k) \\
-&& \quad = 2^{-1} \forall k \in \mathbb{N} \\
+&& \quad = \frac{1}{2} \forall k \in \mathbb{N} \\
 && \land Pr[\text{Accepted Faulty}](n,k) \approx \mu \\
 && \Rightarrow \Theta(BFA) \\
 && \quad \approx Pr[\text{Accepted}](n,k) \cdot k \\
