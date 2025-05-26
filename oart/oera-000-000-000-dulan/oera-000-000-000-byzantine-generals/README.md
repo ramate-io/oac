@@ -72,15 +72,19 @@ c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}
 
 ```math
 \begin{aligned}
-&& Pr[\text{Accepted}](n,k) = Pr[\text{Accepted Honest}](n,k) + Pr[\text{Accepted Faulty}](n,k) \\
+&& \text{Accepted}(n, k) = \{0, 1\}
+&& \text{Honest}(n, k) = \{0, 1\}
+&& \Omega(n, k) = (\text{Accepted}(n, k), \text{Honest}(n, k))
+&& Pr[\text(Accepted Honest)](n, k) = Pr[\text{Accepted} = 1](n, k) \cap Pr[\text{Honest} = 1](n, k) \Rightarrow
+&& Pr[\text{Accepted} = 1](n,k) = Pr[\text{Accepted Honest}](n,k) + Pr[\text{Accepted Faulty}](n,k) \\
 && \lim_{n \to \infty} Pr[\text{Accepted Honest}](n, k) \\
 && \quad = \frac{1}{2} \forall k \in \mathbb{N}: k < n \\
 && \land Pr[\text{Accepted Faulty}](n,k) \approx \mu \\
 && \Rightarrow \Theta(BFA) \\
 && \quad \approx Pr[\text{Accepted}](n,k) \cdot k \\
 && \quad \quad + (1 - Pr[\text{Accepted}](n,k)) \cdot (n + k)  \\
-&& \quad \approx \frac{k}{2} + \frac{n + k}{2} \\
-&& \quad = \frac{n}{2} + k \\
+&& \quad \approx \frac{3k + 1}{2} + \frac{(3n + 1) + (3k + 1)}{2} \\
+&& \quad = \frac{3n + 1}{2} + 3k + 1 \\
 
 && \Omega(BFA) = k \\
 \end{aligned}
@@ -90,8 +94,8 @@ c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}
 \begin{aligned}
 \mathbb{P}(\text{Resample Count} = n) &= \left(1 - \frac{1}{2}\right)^{n-1} \cdot \frac{1}{2} = \frac{1}{2^n} \\
 \Theta(\text{BFA}) &= k \cdot \mathbb{E}[\text{Resample Count}] \\
-&= k \cdot \sum_{n = 1}^{\infty} n \cdot \frac{1}{2^n} \\
-&= 2k \\
+&= (3k + 1) \cdot \sum_{n = 1}^{\infty} n \cdot \frac{1}{2^n} \\
+&= 2(3k + 1) \\
 \end{aligned}
 ```
 
@@ -112,5 +116,6 @@ c'(n, k) = \sum_{h = 2k + 1}^{\min(3k + 1, 2n + 1)} \binom{n}{h} \cdot \binom{n}
     &copy; 2025 <a href="https://github.com/ramate-io/oac">ramate-io/oac</a>
     <br/>
     <a href="https://github.com/ramate-io/oac/blob/main/LICENSE">MIT License</a>
+    <a href="https://www.ramate.io">ramate.io</a>
   </sub>
 </div>
