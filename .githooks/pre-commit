@@ -23,11 +23,11 @@ if [ ! -d "$HOOKS_DIR" ]; then
     exit 1
 fi
 
-# Find all executable scripts in the hooks directory
-HOOK_SCRIPTS=$(find "$HOOKS_DIR" -type f -executable | sort)
+# Get all scripts in the hooks directory
+HOOK_SCRIPTS=$(ls -1 "$HOOKS_DIR"/* 2>/dev/null | sort)
 
 if [ -z "$HOOK_SCRIPTS" ]; then
-    echo "📭 No executable scripts found in $HOOKS_DIR"
+    echo "📭 No scripts found in $HOOKS_DIR"
     exit 0
 fi
 
