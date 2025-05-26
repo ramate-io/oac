@@ -1,3 +1,11 @@
+# OLOG-0
+- **Authors:** [Liam Monninger](mailto:liam@ramate.io)
+
+## Summary
+We discuss several conceptual notes and brief snippets of formalism which were generated separate from the work on [OART-1](/oart/oera-000-000-000-dulan/oart-000-000-0001/README.md), [OART-2](/oart/oera-000-000-000-dulan/oart-000-000-0002/README.md), and [OART-3](/oart/oera-000-000-000-dulan/oart-000-000-0003/README.md).
+
+## Log
+
 ```math
 \begin{aligned}
 BFT &\subset BFA \\
