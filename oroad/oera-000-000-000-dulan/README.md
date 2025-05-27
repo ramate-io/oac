@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
-- **Succeeds:** $\emptyset$
-- **Convened:** 03-05-2025
+## OROADs
+- **[OROAD-0](./oroad-000-000-000/README.md):** the initial roadmap for OAC.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

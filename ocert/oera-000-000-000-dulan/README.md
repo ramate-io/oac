@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
-- **Succeeds:** $\emptyset$
-- **Convened:** 03-05-2025
+## OCERTs
+**[OCERT-0: OAC](./ocert-000-000-000-oac/README.md):** self-certifies this repository.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

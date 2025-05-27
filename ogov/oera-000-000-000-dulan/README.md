@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
-- **Succeeds:** $\emptyset$
-- **Convened:** 03-05-2025
+## OGOVs
+**[OGOV-0](./ogov-000-000-000/README.md):** describes the initial governance under [Ramate LLC](https://www.ramate.io).
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

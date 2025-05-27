@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
-- **Succeeds:** $\emptyset$
-- **Convened:** 03-05-2025
+## OPREs
+- **[OPRE-0](./opre-000-000-000/README.md):** an introduction to OAC for the prospective contributor.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

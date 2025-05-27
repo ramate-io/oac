@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
-- **Succeeds:** $\emptyset$
-- **Convened:** 03-05-2025
+## OPROCs
+- **[OPROC-0](./oproc-000-000-000/README.md):** an aspirational statement of initial intent for OAC: building decentralized consequence.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

@@ -1,3 +1,8 @@
+# OLOG
+
+<!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
+## [OLOG: OERA-0: DULAN](oera-000-000-000-dulan/README.md)
+- **[OLOG-0](./olog-000-000-000/README.md):** some playing around with combinatorics from BFA paper for [OPRE-0](/opre/oera-000-000-000-dulan/opre-000-000-000/README.md) and similar.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
@@ -20,5 +25,5 @@
     <a href="https://www.ramate.io">ramate.io</a>
   </sub>
 </div>
-<!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
+
 <!--END OAC INDEX: DO NOT REMOVE THIS LINE -->

@@ -1,3 +1,8 @@
+# OPRE
+
+<!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
+## [OPRE: OERA-0: DULAN](oera-000-000-000-dulan/README.md)
+- **[OPRE-0](./opre-000-000-000/README.md):** an introduction to OAC for the prospective contributor.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
@@ -20,5 +25,5 @@
     <a href="https://www.ramate.io">ramate.io</a>
   </sub>
 </div>
-<!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
+
 <!--END OAC INDEX: DO NOT REMOVE THIS LINE -->

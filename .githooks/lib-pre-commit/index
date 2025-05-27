@@ -62,7 +62,9 @@ for type_dir in $ARTIFACT_TYPES; do
     echo "<!--START OAC INDEX: DO NOT REMOVE THIS LINE -->" >> "$TMP_FILE"
     
     # Find all era directories
-    ERA_DIRS=$(ls -1 -d "${type_dir}"/*/ 2>/dev/null | tr -d '/')
+    cd "$type_dir" || exit 1
+    ERA_DIRS=$(ls -1 -d */ 2>/dev/null | tr -d '/')
+    cd - > /dev/null || exit 1
     
     if [ -z "$ERA_DIRS" ]; then
         echo "   ℹ️  No era directories found in ${type_dir}"
@@ -73,20 +75,26 @@ for type_dir in $ARTIFACT_TYPES; do
     fi
     
     # Process each era directory
-    for era_dir in $ERA_DIRS; do
-        era_name=$(basename "$era_dir")
-        readme_path="${era_dir}/README.md"
+    for era_name in $ERA_DIRS; do
+        era_path="${type_dir}/${era_name}"
+        readme_path="${era_path}/README.md"
         
         if [ ! -f "$readme_path" ]; then
-            echo "   ⚠️  No README.md found in ${era_dir}"
+            echo "   ⚠️  No README.md found in ${era_path}"
             continue
         fi
         
         # Extract the era name from the directory (e.g., "OERA-0: Dulan" from "oera-000-000-000-dulan")
-        display_name=$(echo "$era_name" | sed -E 's/^[a-z]+-([0-9]+)-[0-9]+-[0-9]+-([a-z]+)$/\1: \2/' | tr '[:lower:]' '[:upper:]')
+        # First get the number and name parts
+        era_num=$(echo "$era_name" | sed -E 's/^[a-z]+-([0-9]+)-[0-9]+-[0-9]+-([a-z]+)$/\1/')
+        era_name_part=$(echo "$era_name" | sed -E 's/^[a-z]+-([0-9]+)-[0-9]+-[0-9]+-([a-z]+)$/\2/')
+        # Remove leading zeros from the number, but keep at least one zero if the number is all zeros
+        era_num=$(echo "$era_num" | sed -E 's/^0+([1-9])/\1/; s/^0+$/0/')
+        # Format the display name
+        display_name="OERA-${era_num}: $(echo "$era_name_part" | tr '[:lower:]' '[:upper:]')"
         
         # Add the era section header to the index
-        echo "## [${TYPE_CAPS}: ${display_name}](./${era_name}/README.md)" >> "$TMP_FILE"
+        echo "## [${TYPE_CAPS}: ${display_name}](${era_name}/README.md)" >> "$TMP_FILE"
         
         # Extract the artifacts section from the era README
         if awk -v type="$TYPE_CAPS" '

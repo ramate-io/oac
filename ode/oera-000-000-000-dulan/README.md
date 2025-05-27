@@ -1,7 +1,7 @@
-# OE-0: Dulan
+# OERA-0: Dulan
 
-- **Succeeds:** $\emptyset$
-- **Convened:** 03-05-2025
+## ODEs
+- **[ODE-0](./ode-000-000-000/README.md):** requests standards for maintenance of this repository.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

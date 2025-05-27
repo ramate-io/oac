@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
-- **Succeeds:** $\emptyset$
-- **Convened:** 03-05-2025
+## OGLOs
+- **[OGLO-0: Artifact](./oglo-000-000-000-artifact/README.md):** defines the term Artifact which refers to the various O* documents.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

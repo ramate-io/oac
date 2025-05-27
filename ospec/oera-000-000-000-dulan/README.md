@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
-- **Succeeds:** $\emptyset$
-- **Convened:** 03-05-2025
+## OSPECs
+- **[OSPEC-0](./ospec-000-000-000/README.md):** a specification for how to use and maintain this repository.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

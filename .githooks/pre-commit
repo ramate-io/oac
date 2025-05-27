@@ -44,7 +44,7 @@ for script in $HOOK_SCRIPTS; do
     
     if "$script"; then
         echo "✅ ${SCRIPT_NAME} completed successfully"
-    else
+            else
         echo "❌ ${SCRIPT_NAME} failed"
         FAILED_SCRIPTS+=("${SCRIPT_NAME} ❌")
     fi
