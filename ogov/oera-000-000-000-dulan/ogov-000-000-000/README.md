@@ -28,7 +28,7 @@ The governing body SHALL make decisions on the inclusion of [Artifacts](../../..
 
 > [!NOTE]
 >
-> **[[Liam Monninger](mailto:liam@ramate.io)]**
+> **[[Liam Monninger]](mailto:liam@ramate.io)**
 >
 > Currently, [Ramate LLC's](https://www.ramate.io) decision making with respect to OAC is delegate by [RAGOV](https://github.com/ramate-io/ramate/tree/main/ragov) to the [`robles`](https://github.com/ramate-io/robles) project under [ROGOV](https://github.com/ramate-io/robles/tree/main/rogov).
 

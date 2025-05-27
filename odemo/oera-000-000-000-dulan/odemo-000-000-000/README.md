@@ -37,7 +37,7 @@ OAC de-emphasizes perfect consensus. The primary motive of OAC is to track state
 
 > [!TIP]
 >
-> **[[Liam Monninger](mailto:liam@ramate.io)]**
+> **[[Liam Monninger]](mailto:liam@ramate.io)**
 >
 > To analogize, OAC concerns itself not with making a farmer rely on the government to grow his crops. Instead OAC enables the farmer to work with the government to petition against a neighbor encroaching on his land.
 >

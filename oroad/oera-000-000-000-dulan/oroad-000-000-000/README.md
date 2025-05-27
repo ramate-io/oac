@@ -24,7 +24,7 @@ The foundational implementations anticipated by **OROAD-0** are:
 All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [`robles`](https://github.com/ramate-io/robles) stack.
 
 > [!TIP]
-> **[[Liam Monninger](liam@ramate.io)]**
+> **[[Liam Monninger]](liam@ramate.io)**
 >
 > **OROAD-0** speculates much more into specific implementations and applications than I would expect later roadmaps to do. We justify this on the basis of the concept needing to initially validate itself and so needing to demonstrate end-goal utility.
 >

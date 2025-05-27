@@ -21,7 +21,7 @@ As described in [OGOV-0](../../ogov/oera-000-000-000-dulan/ogov-000-000-000/READ
 
 > [!NOTE]
 >
-> **[[Liam Monninger](mailto:liam@ramate.io)]**
+> **[[Liam Monninger]](mailto:liam@ramate.io)**
 >
 > At the time of writing, [Ramate LLC](https://www.ramate.io) is my single-member LLC. However, I have intentions both to expand the partnership and open up the governance of the [`robles`](https://github.com/ramate-io/robles).
 

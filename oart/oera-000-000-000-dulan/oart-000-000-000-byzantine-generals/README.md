@@ -21,7 +21,7 @@ reduce the cost is to make assumptions about the type of failure that may occur"
 This foundational paper informs [FLP Impossibility](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf), [Consensus in the Presence of Partial Synchrony](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf), and [PBFT](http://pmg.csail.mit.edu/papers/osdi99.pdf) which together form the core theoretical backbone for BFT systems.
 
 > [!NOTE]
-> [[Liam Monninger](mailto:liam@ramate.io)]
+> **[[Liam Monninger]](mailto:liam@ramate.io)**
 >
 > Typically, we would want a more complete description of the key contents of the paper--a sort of mini version of the paper which captures key understandings as they are relevant to OAC.
 >

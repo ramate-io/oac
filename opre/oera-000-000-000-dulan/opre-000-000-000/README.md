@@ -15,12 +15,12 @@ The linked deck and presentation represent the initial technical pitch circulate
 The presentation describes the aspirations of OAC, its early conceptual foundations, and its organization.
 
 > [!TIP]
-> [[Liam Monninger](mailto:liam@ramate.io)]
+> **[[Liam Monninger]](mailto:liam@ramate.io)**
 >
 > In addition to the short-form linked above, an originally longer-form pitch is available at [OPRE-0: Extended Discussion of OAC](https://www.loom.com/share/3f38153268824a22b4efdd65e453cc40?sid=44f2f12d-b5fe-47fe-8316-691fb084280e). I highly recommended the more conceptually oriented and serious contributors view the ramblings therein.
 
 > [!WARNING]
-> [[Liam Monninger](mailto:liam@ramate.io)]
+> **[[Liam Monninger]](mailto:liam@ramate.io)**
 >
 > I am not using "pitch" here in a particularly business- or venture-oriented sense. I'm simply referring to describing a concept. OAC itself is not foremost
 
