@@ -26,3 +26,5 @@ The current era is [OERA-0: Dulan](./oera-000-000-000-dulan/README.md).
     <a href="https://www.ramate.io">ramate.io</a>
   </sub>
 </div>
+<!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
+<!--END OAC INDEX: DO NOT REMOVE THIS LINE -->

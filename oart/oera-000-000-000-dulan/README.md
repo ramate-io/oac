@@ -1,7 +1,7 @@
-# OE-0: Dulan
+# OART: OERA-0: Dulan
 
-- **Succeeds:** $\emptyset$
-- **Convened:** 03-05-2025
+## OARTs
+- **[OART-0](./oart-000-000-000-byzantine-generals/README.md):** describes the relevance of Lamport et al., 1972, The Byzantine General Problem.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

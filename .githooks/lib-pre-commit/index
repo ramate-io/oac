@@ -1,0 +1,146 @@
+#!/bin/bash
+
+set -e
+
+# Status helper function
+status() {
+    if [ $? -eq 0 ]; then
+        echo "✅ $1"
+    else
+        echo "❌ $1"
+        return 1
+    fi
+}
+
+echo "Running artifact index maintenance..."
+
+# Check if artifact-types file exists
+if [ ! -f "artifact-types" ]; then
+    echo "❌ artifact-types file not found"
+    exit 1
+fi
+
+# Read artifact types from file
+ARTIFACT_TYPES=$(cat artifact-types | grep -v '^#' | grep -v '^$' | tr -d ' ')
+
+if [ -z "$ARTIFACT_TYPES" ]; then
+    echo "📭 No artifact types found in artifact-types file"
+    exit 0
+fi
+
+FAILED_TYPES=()
+
+for type_dir in $ARTIFACT_TYPES; do
+    echo "📝 Processing ${type_dir}..."
+    
+    # Check if directory exists
+    if [ ! -d "$type_dir" ]; then
+        echo "   ⚠️  Directory ${type_dir} not found"
+        FAILED_TYPES+=("${type_dir} (directory not found) ❌")
+        continue
+    fi
+    
+    # Get the artifact type name in CAPS for the section header
+    TYPE_CAPS=$(echo "$type_dir" | tr '[:lower:]' '[:upper:]')
+    
+    # Create a temporary file for the new content
+    TMP_FILE=$(mktemp)
+    
+    # If README exists, preserve content before the index
+    if [ -f "${type_dir}/README.md" ]; then
+        awk '
+            /<!--START OAC INDEX: DO NOT REMOVE THIS LINE -->/ { exit }
+            { print }
+        ' "${type_dir}/README.md" > "$TMP_FILE"
+    else
+        # Create new README with title
+        echo "# ${TYPE_CAPS}" > "$TMP_FILE"
+        echo "" >> "$TMP_FILE"
+    fi
+    
+    # Add the index start tag
+    echo "<!--START OAC INDEX: DO NOT REMOVE THIS LINE -->" >> "$TMP_FILE"
+    
+    # Find all era directories
+    ERA_DIRS=$(ls -1 -d "${type_dir}"/*/ 2>/dev/null | tr -d '/')
+    
+    if [ -z "$ERA_DIRS" ]; then
+        echo "   ℹ️  No era directories found in ${type_dir}"
+        # Add empty index section
+        echo "<!--END OAC INDEX: DO NOT REMOVE THIS LINE -->" >> "$TMP_FILE"
+        mv "$TMP_FILE" "${type_dir}/README.md"
+        continue
+    fi
+    
+    # Process each era directory
+    for era_dir in $ERA_DIRS; do
+        era_name=$(basename "$era_dir")
+        readme_path="${era_dir}/README.md"
+        
+        if [ ! -f "$readme_path" ]; then
+            echo "   ⚠️  No README.md found in ${era_dir}"
+            continue
+        fi
+        
+        # Extract the era name from the directory (e.g., "OERA-0: Dulan" from "oera-000-000-000-dulan")
+        display_name=$(echo "$era_name" | sed -E 's/^[a-z]+-([0-9]+)-[0-9]+-[0-9]+-([a-z]+)$/\1: \2/' | tr '[:lower:]' '[:upper:]')
+        
+        # Add the era section header to the index
+        echo "## [${TYPE_CAPS}: ${display_name}](./${era_name}/README.md)" >> "$TMP_FILE"
+        
+        # Extract the artifacts section from the era README
+        if awk -v type="$TYPE_CAPS" '
+            BEGIN { in_section=0; found=0 }
+            /^## '"$TYPE_CAPS"'s$/ { in_section=1; found=1; next }
+            in_section && /^## / { in_section=0; next }
+            in_section { print }
+            END { exit !found }
+        ' "$readme_path" >> "$TMP_FILE"; then
+            echo "   ✅ Indexed ${era_name}"
+        else
+            echo "   ❌ Failed to find ${TYPE_CAPS}s section in ${era_name}"
+            FAILED_TYPES+=("${type_dir} (${era_name}) ❌")
+        fi
+        
+        # Add a blank line after each section
+        echo "" >> "$TMP_FILE"
+    done
+    
+    # Add the index end tag
+    echo "<!--END OAC INDEX: DO NOT REMOVE THIS LINE -->" >> "$TMP_FILE"
+    
+    # If README exists, append content after the index
+    if [ -f "${type_dir}/README.md" ]; then
+        awk '
+            BEGIN { after_index=0 }
+            /<!--END OAC INDEX: DO NOT REMOVE THIS LINE -->/ { after_index=1; next }
+            after_index { print }
+        ' "${type_dir}/README.md" >> "$TMP_FILE"
+    fi
+    
+    # Replace the original file
+    if mv "$TMP_FILE" "${type_dir}/README.md"; then
+        # Stage the updated README
+        if git add "${type_dir}/README.md"; then
+            echo "✅ Updated ${type_dir}/README.md"
+        else
+            echo "❌ Failed to stage ${type_dir}/README.md"
+            FAILED_TYPES+=("${type_dir} (staging failed) ❌")
+        fi
+    else
+        echo "❌ Failed to update ${type_dir}/README.md"
+        FAILED_TYPES+=("${type_dir} (update failed) ❌")
+    fi
+done
+
+# Report results
+if [ ${#FAILED_TYPES[@]} -gt 0 ]; then
+    echo "❌ The following operations failed:"
+    for type in "${FAILED_TYPES[@]}"; do
+        echo "   - ${type}"
+    done
+    exit 1
+fi
+
+echo "✨ Artifact index maintenance complete!"
+exit 0 
