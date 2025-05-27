@@ -21,6 +21,7 @@ OAC Guides (OGUIDE) provide useful guides and summaries of OAC.
     &copy; 2025 <a href="https://github.com/ramate-io/oac">ramate-io/oac</a>
     <br/>
     <a href="https://github.com/ramate-io/oac/blob/main/LICENSE">MIT License</a>
+    <br/>
     <a href="https://www.ramate.io">ramate.io</a>
   </sub>
 </div>

@@ -78,6 +78,7 @@ Under [OGLO-0](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md
     &copy; 2025 <a href="https://github.com/ramate-io/oac">ramate-io/oac</a>
     <br/>
     <a href="https://github.com/ramate-io/oac/blob/main/LICENSE">MIT License</a>
+    <br/>
     <a href="https://www.ramate.io">ramate.io</a>
   </sub>
 </div>
