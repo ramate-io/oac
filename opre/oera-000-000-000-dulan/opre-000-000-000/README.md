@@ -1,8 +1,8 @@
 # OPRE-0: Initial Pitch
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
-- **Deck:** https://docs.google.com/presentation/d/16Vaat7X2z5lplTmRi-dVR2EgKFlJKq3q6WenoNqSrVo/edit?usp=sharing
+- **Deck:** [OPRE-0](https://docs.google.com/presentation/d/16Vaat7X2z5lplTmRi-dVR2EgKFlJKq3q6WenoNqSrVo/edit?usp=sharing)
 - **Deck Copy:** [OPRE-0](./OPRE-0_%20Ordered%20Atomic%20Collaboration.pdf)
-- **Recording:** https://www.loom.com/share/e04c02c50c804a158b6d275bfe67a662?sid=e6188b64-37cf-4e8c-98c5-745d44733c93
+- **Recording:** [OPRE-0: Brief Discussion of OAC](https://www.loom.com/share/e04c02c50c804a158b6d275bfe67a662?sid=e6188b64-37cf-4e8c-98c5-745d44733c93)
 - **Contents:**
   - **[Summary](#summary)**
   - **[Agreeing](#agreeing)**
@@ -17,12 +17,12 @@ The presentation describes the aspirations of OAC, its early conceptual foundati
 > [!TIP]
 > [[Liam Monninger](mailto:liam@ramate.io)]
 >
-> In addition to the short-form linked above, an originally longer-form pitch is available here [here](https://www.loom.com/share/3f38153268824a22b4efdd65e453cc40?sid=44f2f12d-b5fe-47fe-8316-691fb084280e). I highly recommended the more conceptually oriented and serious contributors view the ramblings therein.
+> In addition to the short-form linked above, an originally longer-form pitch is available at [OPRE-0: Extended Discussion of OAC](https://www.loom.com/share/3f38153268824a22b4efdd65e453cc40?sid=44f2f12d-b5fe-47fe-8316-691fb084280e). I highly recommended the more conceptually oriented and serious contributors view the ramblings therein.
 
 > [!WARNING]
 > [[Liam Monninger](mailto:liam@ramate.io)]
 >
-> I am not using "pitch" here in a particularly business- or "venture"-oriented sense. I'm simply referring to describing a concept. OAC itself is not foremost
+> I am not using "pitch" here in a particularly business- or venture-oriented sense. I'm simply referring to describing a concept. OAC itself is not foremost
 
 ## Agreeing
 - **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that guide describes the exploratory nature of this initial phase well ([Liam Monninger](mailto:liam@ramate.io)).
