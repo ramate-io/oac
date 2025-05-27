@@ -3,7 +3,7 @@ Description of OGOV
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OGOV: OERA-0: DULAN](oera-000-000-000-dulan/README.md)
-**[OGOV-0](./ogov-000-000-000/README.md):** describes the initial governance under [Ramate LLC](https://www.ramate.io).
+**[OGOV-0](/ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md):** describes the initial governance under [Ramate LLC](https://www.ramate.io).
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

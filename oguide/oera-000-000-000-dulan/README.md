@@ -2,7 +2,7 @@
 [OERA-0: Dulan](../../oera/oera-000-000-000-dulan/README.md) introduces of the first OGUIDE, [OGUIDE-0](./oguide-000-000-000/README.md) which describes the initial drive towards decentralized consequence and the suggested foundational papers.
 
 ## OGUIDEs
-- **[OGUIDE-0](./oguide-000-000-000/README.md):** describes the initial drive towards decentralized consequence and the suggested foundational papers.
+- **[OGUIDE-0](/oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md):** describes the initial drive towards decentralized consequence and the suggested foundational papers.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

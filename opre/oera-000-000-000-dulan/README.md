@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
 ## OPREs
-- **[OPRE-0](./opre-000-000-000/README.md):** an introduction to OAC for the prospective contributor.
+- **[OPRE-0](/opre/oera-000-000-000-dulan/opre-000-000-000/README.md):** an introduction to OAC for the prospective contributor.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

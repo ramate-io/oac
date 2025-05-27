@@ -3,7 +3,7 @@ Description of OCERT.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OCERT: OERA-0: DULAN](oera-000-000-000-dulan/README.md)
-**[OCERT-0: OAC](./ocert-000-000-000-oac/README.md):** self-certifies this repository.
+**[OCERT-0: OAC](/ocert/oera-000-000-000-dulan/ocert-000-000-000-oac/README.md):** self-certifies this repository.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

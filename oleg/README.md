@@ -3,7 +3,7 @@ Description of OLEG.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OLEG: OERA-0: DULAN](oera-000-000-000-dulan/README.md)
-- **[OLEG-0](./oleg-000-000-000/README.md):** describes the initial lack of binding legal organization, provides the MIT License as the only relevant material.
+- **[OLEG-0](/oleg/oera-000-000-000-dulan/oleg-000-000-000/README.md):** describes the initial lack of binding legal organization, provides the MIT License as the only relevant material.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

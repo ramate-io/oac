@@ -2,7 +2,7 @@
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OPRE: OERA-0: DULAN](oera-000-000-000-dulan/README.md)
-- **[OPRE-0](./opre-000-000-000/README.md):** an introduction to OAC for the prospective contributor.
+- **[OPRE-0](/opre/oera-000-000-000-dulan/opre-000-000-000/README.md):** an introduction to OAC for the prospective contributor.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

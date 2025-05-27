@@ -3,7 +3,7 @@ Description of OART.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OART: OERA-0: DULAN](oera-000-000-000-dulan/README.md)
-- **[OART-0](./oart-000-000-000-byzantine-generals/README.md):** describes the relevance of Lamport et al., 1972, The Byzantine General Problem.
+- **[OART-0](/oart/oera-000-000-000-dulan/oart-000-000-000-byzantine-generals/README.md):** describes the relevance of Lamport et al., 1972, The Byzantine General Problem.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

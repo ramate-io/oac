@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
 ## OCERTs
-**[OCERT-0: OAC](./ocert-000-000-000-oac/README.md):** self-certifies this repository.
+**[OCERT-0: OAC](/ocert/oera-000-000-000-dulan/ocert-000-000-000-oac/README.md):** self-certifies this repository.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

@@ -1,7 +1,7 @@
 # OE-0: Dulan
 
 ## OROADs
-- **[OROAD-0](./oroad-000-000-000/README.md):** the initial roadmap for OAC.
+- **[OROAD-0](/oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md):** the initial roadmap for OAC.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

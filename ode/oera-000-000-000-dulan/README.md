@@ -1,7 +1,7 @@
 # OERA-0: Dulan
 
 ## ODEs
-- **[ODE-0](./ode-000-000-000/README.md):** requests standards for maintenance of this repository.
+- **[ODE-0](/ode/oera-000-000-000-dulan/ode-000-000-000/README.md):** requests standards for maintenance of this repository.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
