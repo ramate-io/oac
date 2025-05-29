@@ -10,9 +10,7 @@
   - **[Appendix](#appendix)**
 
 ## Summary
-The linked deck and presentation represent the initial technical pitch circulate amongst prospective contributors to OAC.
-
-The presentation describes the aspirations of OAC, its early conceptual foundations, and its organization.
+The linked deck and presentation represent the initial technical pitch circulate amongst prospective contributors to OAC. They describe the aspirations of OAC, its early conceptual foundations, and its organization.
 
 > [!TIP]
 > **[[Liam Monninger]](mailto:liam@ramate.io)**
@@ -22,7 +20,7 @@ The presentation describes the aspirations of OAC, its early conceptual foundati
 > [!WARNING]
 > **[[Liam Monninger]](mailto:liam@ramate.io)**
 >
-> I am not using "pitch" here in a particularly business- or venture-oriented sense. I'm simply referring to describing a concept. OAC itself is not foremost
+> The term "pitch" is not used in a business or venture sense. Rather it refers to motivating the pursuits and designs of OAC.
 
 ## Agreeing
 - **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that guide describes the exploratory nature of this initial phase well ([Liam Monninger](mailto:liam@ramate.io)).
