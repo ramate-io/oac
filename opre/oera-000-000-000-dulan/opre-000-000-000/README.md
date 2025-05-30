@@ -17,9 +17,9 @@ The linked deck and presentation represent the initial technical pitch circulate
 >
 > In addition to the short-form linked above, an original longer-form pitch is available at [OPRE-0: Extended Discussion of OAC](https://www.loom.com/share/3f38153268824a22b4efdd65e453cc40?sid=44f2f12d-b5fe-47fe-8316-691fb084280e). I highly recommended the more conceptually oriented and serious contributors view the ramblings therein.
 
-We reference several documents of note in the presentations above
-- **[OPROC-0](/oproc/oera-000-000-000-dulan/oproc-000-000-000/):** an aspirational statement about the motivations of OAC.
-- **[OROAD-0](/oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md):** the initial roadmap for the development of OAC.
+We reference several documents of note in the presentations above:
+- **[OPROC-0: Decentralized Consequence](/oproc/oera-000-000-000-dulan/oproc-000-000-000/):** an aspirational statement about the motivations of OAC.
+- **[OROAD-0: The Attempt](/oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md):** the initial roadmap for the development of OAC.
 
 > [!WARNING]
 > **[[Liam Monninger]](mailto:liam@ramate.io)**
