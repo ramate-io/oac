@@ -11,12 +11,12 @@
 **OROAD-0** is the foundational roadmap for OAC proposed in response to [OPROC-0: Decentralized Consequence](../../../oproc/oera-000-000-000-dulan/oproc-000-000-000/README.md). **OROAD-0** seeks to develop and validate a series of foundational papers, render a series of implementations from these papers, and the output applications demonstrating the utility of these implementations. In the end, **OROAD-0** describes the series efforts which will be used to determine whether OAC is worth pursuing.
 
 The foundational papers anticipated by **OROAD-0** are:
-- **[OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md):** describes a class of sampling protocols which accept Byzantine minority decisions with some non-zero probability; additionally formalizes the expected value of said decisions arguing for the ability for them to be rendered irrational. BFA are still deterministic and final.
+- **[OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md):** describes a class of sampling protocols which accept Byzantine minority decisions with some non-zero probability; additionally formalizes the expected value of said decisions arguing for the ability for them to be rendered irrational. BFA are still deterministic and final.
 - **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md):** describes a class of sortition-based transaction broadcast protocols. These allow incentivization to be shifted out of native token and into discretionary "super" protocols.
 - **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md):** describes a generalization of [Block-STM](https://arxiv.org/abs/2203.06871) which plays forward best-case latency.
 
 The foundational implementations anticipated by **OROAD-0** are:
-- **[`gwrdfa`](https://github.com/ramate-io/gwrdfa):** an implementation of **[OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)** protocol substack. This forms the basis for high-throughput and large footprint OAC applications.
+- **[`gwrdfa`](https://github.com/ramate-io/gwrdfa):** an implementation of **[OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)** protocol substack. This forms the basis for high-throughput and large footprint OAC applications.
 - **[`srcavei`](https://github.com/ramate-io/srcavei):** an implementation of the **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)** substack. This forms the basis for incentivization—which would no longer be strictly coin-based.
 - **[`fuste`](https://github.com/ramate-io/fuste):** a RISC-V VM with a set of adapters tailored to DLT—particularly plugging into the stack above. This is also critical to throughput and large footprint.
 - **[`zhiye`](https://github.com/ramate-io/zhiye):** implementation of **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)**. This takes advantage of some properties of BFA to greatly reduce best-case latency.
@@ -57,7 +57,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 - **Depends-on:** $\emptyset$
 - **Ends:** T1 + 1 month
 - **Contents:**
-    - **[T1.1](#t11-complete-draft-of-oart-1-bfa)**: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+    - **[T1.1](#t11-complete-draft-of-oart-1-bfa)**: Complete draft of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
     - **[T1.2](#t12-complete-draft-of-oart-2-collaborative-transaction-routing)**: Complete draft of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
     - **[T1.3](#t13-begin-gwrdfa-implementation)**: Begin [`gwrdfa`](https://github.com/ramate-io/gwrdfa) implementation
     - **[T1.4](#t14-begin-srcavei-implementation)**: Begin [`srcavei`](https://github.com/ramate-io/srcavei) implementation
@@ -67,7 +67,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 
 **T1** seeks to accomplish the following itemized objectives:
 
-#### T1.1: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+#### T1.1: Complete draft of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T1.2: Complete draft of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
@@ -90,7 +90,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 - **Depends-on:** [T1](#t1-push-towards-validation)
 - **Ends:** T2 + 1 month
 - **Contents:**
-    - **[T2.1](#t21-share-and-gather-feedback-on-oart-1-bfa)**: Share and gather feedback on [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+    - **[T2.1](#t21-share-and-gather-feedback-on-oart-1-bfa)**: Share and gather feedback on [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
     - **[T2.2](#t22-share-and-gather-feedback-on-oart-2-collaborative-transaction-routing)**: Share and gather feedback on [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
     - **[T2.3](#t23-implement-and-document-proposal-standards)**: Implement and document proposal standards, contributor guidelines, and implementation governance
     - **[T2.4](#t24-complete-gwrdfa-reference-implementation)**: Complete [`gwrdfa`](https://github.com/ramate-io/gwrdfa) reference implementation
@@ -101,7 +101,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 
 **T2** seeks to accomplish the following itemized objectives:
 
-#### T2.1: Share and gather feedback on [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+#### T2.1: Share and gather feedback on [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)s
 
 #### T2.2: Share and gather feedback on [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
@@ -127,7 +127,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 - **Depends-on:** [T2](#t2-validation-and-accepting-contributions)
 - **Ends:** T3 + 1 month
 - **Contents:**
-    - **[T3.1](#t31-continue-sharing-and-updating-oart-1-bfa)**: Continue sharing and updating [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+    - **[T3.1](#t31-continue-sharing-and-updating-oart-1-bfa)**: Continue sharing and updating [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
     - **[T3.2](#t32-continue-sharing-and-updating-oart-2-collaborative-transaction-routing)**: Continue sharing and updating [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
     - **[T3.3](#t33-develop-fuste-mvp)**: Develop [`fuste`](https://github.com/ramate-io/fuste) MVP
     - **[T3.4](#t34-use-fuste-mvp-to-develop-centralized-embedded-database)**: Use [`fuste`](https://github.com/ramate-io/fuste) MVP to develop centralized embedded database
@@ -136,7 +136,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 
 **T3** seeks to accomplish the following itemized objectives:
 
-#### T3.1: Continue sharing and updating [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+#### T3.1: Continue sharing and updating [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T3.2: Continue sharing and updating [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
@@ -184,7 +184,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
     - **[T5.1](#t51-stabilize-gwrdfa-implementation)**: Stabilize [`gwrdfa`](https://github.com/ramate-io/gwrdfa) implementation
     - **[T5.2](#t52-stabilize-srcavei-implementation)**: Stabilize [`srcavei`](https://github.com/ramate-io/srcavei) implementation
     - **[T5.3](#t53-seek-out-additional-co-authors)**: Seek out additional co-authors for OAC foundational papers
-    - **[T5.4](#t54-prepare-oart-1-bfa-for-conference)**: Prepare [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md) for conference submission
+    - **[T5.4](#t54-prepare-oart-1-bfa-for-conference)**: Prepare [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md) for conference submission
     - **[T5.5](#t55-prepare-oart-2-ctr-for-conference)**: Prepare [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md) for conference submission
     - **[T5.6](#t56-begin-search-for-funding)**: Begin search for funding opportunities
 
@@ -198,10 +198,10 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 #### T5.2: Stabilize [`srcavei`](https://github.com/ramate-io/srcavei) implementation
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T5.3: Seek out additional co-authors for OAC foundational papers: [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md), [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md), and [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+#### T5.3: Seek out additional co-authors for OAC foundational papers: [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md), [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md), and [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T5.4: Prepare [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md) for conference submission
+#### T5.4: Prepare [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md) for conference submission
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T5.5: Prepare [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md) for conference submission
@@ -275,7 +275,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
     - **[T8.1](#t81-guide-l1-demonstrations)**: Guide and support L1 blockchain applications demonstration
     - **[T8.2](#t82-guide-streaming-demonstrations)**: Guide and support Collaborative Streaming platform demonstration
     - **[T8.3](#t83-research-swarm-coordination)**: Research and experiment with swarm coordination mechanisms
-    - **[T8.4](#t84-final-push-bfa)**: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+    - **[T8.4](#t84-final-push-bfa)**: Final push for academic recognition of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
     - **[T8.5](#t85-final-push-ctr)**: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
     - **[T8.6](#t86-final-push-ris-stm)**: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 
@@ -292,7 +292,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 #### T8.3: Research and experiment with swarm coordination mechanisms
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T8.4: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+#### T8.4: Final push for academic recognition of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T8.5: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
