@@ -13,13 +13,13 @@
 The foundational papers anticipated by **OROAD-0** are:
 - **[OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md):** describes a class of sampling protocols which accept Byzantine minority decisions with some non-zero probability; additionally formalizes the expected value of said decisions arguing for the ability for them to be rendered irrational. BFA are still deterministic and final.
 - **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md):** describes a class of sortition-based transaction broadcast protocols. These allow incentivization to be shifted out of native token and into discretionary "super" protocols.
-- **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md):** describes a generalization of [Block-STM](https://arxiv.org/abs/2203.06871) which plays forward best-case latency.
+- **[OART-4: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-004-ris-stm/README.md):** describes a generalization of [Block-STM](https://arxiv.org/abs/2203.06871) which plays forward best-case latency.
 
 The foundational implementations anticipated by **OROAD-0** are:
 - **[`gwrdfa`](https://github.com/ramate-io/gwrdfa):** an implementation of **[OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)** protocol substack. This forms the basis for high-throughput and large footprint OAC applications.
 - **[`srcavei`](https://github.com/ramate-io/srcavei):** an implementation of the **[OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)** substack. This forms the basis for incentivization—which would no longer be strictly coin-based.
 - **[`fuste`](https://github.com/ramate-io/fuste):** a RISC-V VM with a set of adapters tailored to DLT—particularly plugging into the stack above. This is also critical to throughput and large footprint.
-- **[`zhiye`](https://github.com/ramate-io/zhiye):** implementation of **[OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)**. This takes advantage of some properties of BFA to greatly reduce best-case latency.
+- **[`zhiye`](https://github.com/ramate-io/zhiye):** implementation of **[OART-4: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-004-ris-stm/README.md)**. This takes advantage of some properties of BFA to greatly reduce best-case latency.
 
 All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [`robles`](https://github.com/ramate-io/robles) stack.
 
@@ -156,7 +156,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 - **Depends-on:** [T3](#t3-continued-validation-and-fuste-mvp)
 - **Ends:** T4 + 1 month
 - **Contents:**
-    - **[T4.1](#t41-draft-and-share-oart-3-ris-stm)**: Draft and share [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+    - **[T4.1](#t41-draft-and-share-oart-3-ris-stm)**: Draft and share [OART-4: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-004-ris-stm/README.md)
     - **[T4.2](#t42-collaborate-with-stanford-colleague)**: Collaborate with Stanford colleague working with Mary Wooters on exotic probabilistic distributed VM
     - **[T4.3](#t43-begin-zhiye-implementation)**: Begin [`zhiye`](https://github.com/ramate-io/zhiye) implementation
 
@@ -164,7 +164,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 
 **T4** seeks to accomplish the following itemized objectives:
 
-#### T4.1: Draft and share [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+#### T4.1: Draft and share [OART-4: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-004-ris-stm/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T4.2: Collaborate with Stanford colleague working with Mary Wooters on exotic probabilistic distributed VM
@@ -198,7 +198,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 #### T5.2: Stabilize [`srcavei`](https://github.com/ramate-io/srcavei) implementation
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T5.3: Seek out additional co-authors for OAC foundational papers: [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md), [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md), and [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+#### T5.3: Seek out additional co-authors for OAC foundational papers: [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md), [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md), and [OART-4: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-004-ris-stm/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T5.4: Prepare [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md) for conference submission
@@ -277,7 +277,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
     - **[T8.3](#t83-research-swarm-coordination)**: Research and experiment with swarm coordination mechanisms
     - **[T8.4](#t84-final-push-bfa)**: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
     - **[T8.5](#t85-final-push-ctr)**: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-    - **[T8.6](#t86-final-push-ris-stm)**: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+    - **[T8.6](#t86-final-push-ris-stm)**: Final push for academic recognition of [OART-4: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-004-ris-stm/README.md)
 
 **T8** focuses on finalizing demonstrations, exploring swarm coordination, and pushing for broader academic recognition of Ordered Atomic Collaboration (OAC).
 
@@ -298,7 +298,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 #### T8.5: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T8.6: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+#### T8.6: Final push for academic recognition of [OART-4: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-004-ris-stm/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ### T9: Reorganization and Swarm Coordination App
