@@ -325,7 +325,7 @@ Using a video formatted document such as this one, demonstrate the utility of th
 Generate a specification, likely RASPEC, for `roadline`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
 
 ## Agreeing
-$\emptyset$
+- **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that this roadmap describes an effective plan for both procedural and psychological preparation ([Liam Monninger](mailto:liam@ramate.io)).
 
 ## Dissenting
 $\emptyset$
