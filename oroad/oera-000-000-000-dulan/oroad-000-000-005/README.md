@@ -36,7 +36,7 @@
 > At the immediate time of writing, I have not codified this term. However, I may soon do so.
 
 > [!TIP]
-> > **[[Liam Monninger]](liam@ramate.io)**
+> **[[Liam Monninger]](liam@ramate.io)**
 >
 > OROAD-5 also establishes the practice of further specifying and making adjustments to a higher-order OROAD via a lower-order OROAD.
 
