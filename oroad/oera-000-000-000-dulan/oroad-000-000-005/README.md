@@ -270,49 +270,59 @@ Generate a specification, likely RASPEC, for `emframed`. We ask for to be done a
 - **Depends-on:** [T1](#t1-organization)
 - **Ends:** T5 + 5 days
 - **Contents:**
-    - **[T3.1](#t31-continue-sharing-and-updating-oart-1-bfa)**: Continue sharing and updating [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
-    - **[T3.2](#t32-continue-sharing-and-updating-oart-2-collaborative-transaction-routing)**: Continue sharing and updating [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-    - **[T3.3](#t33-develop-fuste-mvp)**: Develop [`fuste`](https://github.com/ramate-io/fuste) MVP
-    - **[T3.4](#t34-use-fuste-mvp-to-develop-centralized-embedded-database)**: Use [`fuste`](https://github.com/ramate-io/fuste) MVP to develop centralized embedded database
+    - **[T5.1](#t51-produce-initial-cite-api)**: Produce initial `cite` API
+    - **[T5.2](#t52-provide-demo-of-cite-api-using-some-specification-within-ramate-robles-or-oac)**: Provide demo of `cite` API using some specification within Ramate, Robles, or OAC
+    - **[T5.3](#t53-generate-specification-for-cite-api)**: Generate specification for `cite` API
 
-**T3** focuses on continued validation of core concepts and the development of the Fuste MVP as a proof of concept for Ordered Atomic Collaboration (OAC).
+**T5** pursues an initial implementation of the `cite` API which forms the basis for implementation invalidation and authority control to be used through Ramate, Robles, and OAC.
 
 **T3** seeks to accomplish the following itemized objectives:
 
 #### T5.1: Produce initial `cite` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+The initial `cite` API shall contain macros for citing and reporting un-cited or discrepant implementations. It will implement this for several common use cases with appropriate parameterization.
+
 #### T5.2: Provide demo of `cite` API using some specification within Ramate, Robles, or OAC
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T5.4: Generate specification for `cite` API
+Provide a demo of using `cite` with Ramate, Robles, or OAC to trigger warnings. Record a video.
+
+#### T5.3: Generate specification for `cite` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Generate a specification, likely RASPEC, for `cite`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
 
 ### T6: `roadline` API
 > [!IMPORTANT]
-> **T5** pursues an initial implementation of the `roadline` API which forms the basis for visual renderings of roadmaps and tilines
+> **T6** pursues an initial implementation of the `roadline` API which forms the basis for visual renderings of roadmaps and timelines.
 
 - **Starts:** T1 + 1 day
 - **Depends-on:** [T1](#t1-organization)
 - **Ends:** T6 + 5 days
 - **Contents:**
-    - **[T3.1](#t31-continue-sharing-and-updating-oart-1-bfa)**: Continue sharing and updating [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
-    - **[T3.2](#t32-continue-sharing-and-updating-oart-2-collaborative-transaction-routing)**: Continue sharing and updating [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-    - **[T3.3](#t33-develop-fuste-mvp)**: Develop [`fuste`](https://github.com/ramate-io/fuste) MVP
-    - **[T3.4](#t34-use-fuste-mvp-to-develop-centralized-embedded-database)**: Use [`fuste`](https://github.com/ramate-io/fuste) MVP to develop centralized embedded database
+    - **[T6.1](#t61-produce-initial-roadline-api)**: Produce initial `roadline` API
+    - **[T6.2](#t62-provide-demo-of-roadline-api-ideally-using-a-roadmap-from-one-of-the-ramate-robles-or-oac)**: Provide demo of `roadline` API, ideally using a roadmap from one of the Ramate, Robles, or OAC
+    - **[T6.3](#t63-generate-specification-for-roadline-api)**: Generate specification for `roadline` API
 
-**T3** focuses on continued validation of core concepts and the development of the Fuste MVP as a proof of concept for Ordered Atomic Collaboration (OAC).
+**T6** pursues an initial implementation of the `roadline` API which forms the basis for visual renderings of roadmaps and timelines.
 
 **T3** seeks to accomplish the following itemized objectives:
 
-#### T5.1: Produce initial `roadline` API
+#### T6.1: Produce initial `roadline` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T5.2: Provide demo of `roadline` API, ideally using a roadmap from one of the Ramate, Robles, or OAC
+The initial `roadline` API shall render documents formatting like this one into reasonable and visually appealing roadmpas.
+
+#### T6.2: Provide demo of `roadline` API, ideally using a roadmap from one of the Ramate, Robles, or OAC
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T5.3: Generate specification for `roadline` API
+Using a video formatted document such as this one, demonstrate the utility of the `roadline` API. Record a video.
+
+#### T6.3: Generate specification for `roadline` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Generate a specification, likely RASPEC, for `roadline`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
 
 ## Agreeing
 $\emptyset$
