@@ -125,43 +125,74 @@ In an effort to develop a strong high-level organizational understanding, we'll 
 - **Depends-on:** [T1](#t1-organization)
 - **Ends:** T2 + 5 days
 - **Contents:**
-    - **[T2.1](#t21-share-and-gather-feedback-on-oart-1-bfa)**: Share and gather feedback on [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
-    - **[T2.2](#t22-share-and-gather-feedback-on-oart-2-collaborative-transaction-routing)**: Share and gather feedback on [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-    - **[T2.3](#t23-implement-and-document-proposal-standards)**: Implement and document proposal standards, contributor guidelines, and implementation governance
-    - **[T2.4](#t24-complete-gwrdfa-reference-implementation)**: Complete [`gwrdfa`](https://github.com/ramate-io/gwrdfa) reference implementation
-    - **[T2.5](#t25-complete-srcavei-reference-implementation)**: Complete [`srcavei`](https://github.com/ramate-io/srcavei) reference implementation
-    - **[T2.6](#t26-continue-development-of-fuste)**: Continue development of [`fuste`](https://github.com/ramate-io/fuste) as a lower priority task
+    - **[T2.1](#t21-write-vectors-philosophy-of-work)**: Write "Vectors philosophy of work"
+    - **[T2.2](#t22-write-wardley-maps-in-the-context-of-compute-infrastructure)**: Write "Wardley Maps in the context of compute infrastructure"
+    - **[T2.3](#t23-write-on-the-rarity-of-sub-sampling-protocols)**: Write "On the rarity of sub-sampling protocols"
+    - **[T2.4](#t24-write-traits-and-coroutines)**: Write "Traits and coroutines"
+    - **[T2.5](#t25-write-verification-and-traits)**: Write "Verification and traits"
+    - **[T2.6](#t26-write-the-value-in-decentralization)**: Write "The value in decentralization"
+    - **[T2.7](#t27-write-what-could-be-a-quantum-perspective-on-distributed-tasks)**: Write "What could be a quantum perspective on distributed tasks?"
+    - **[T2.8](#t28-write-topos-theory-and-distributed-systems)**: Write "Topos theory and distributed systems"
+    - **[T2.9](#t29-write-topos-theory-and-classes-of-algorithms)**: Write "Topos theory and classes of algorithms"
 
 **T2** focuses on validating the initial content and establishing contribution frameworks for Ordered Atomic Collaboration (OAC) and [`robles`](https://github.com/ramate-io/robles).
 
 **T2** seeks to accomplish the following itemized objectives:
 
 #### T2.1: Write "Vectors philosophy of work"
-- **Lead:** [Liam Monninger](mailto:liam@ramate.io)s
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Write a memo describing the "vectors" philosophy of work which describes summing perspectives and efforts to meet a goal.
+
+This is advanced to describe an initial sense of the philosophy of work behind the Ramate, OAC, and Robles.
+
+This should most like be an RMEMO.
 
 #### T2.2: Write "Wardley Maps in the context of compute infrastructure"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+Write a memo describing the particular application of Wardley Maps in the context of compute infrastructure and related musings.
+
+This is advanced to develop a better sense of Wardley Maps in the contexts relevant to Ramate, OAC, and Robles, and to record learnings.
+
 #### T2.3: Write "On the rarity of sub-sampling protocols"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Write a memo describing the current state of protocols matching or similar to the sub-sampling techniques which are slated for formalization under BFA.
+
+This is advanced to provide a brief motivation for BFA and prepare to contend with detractions.
 
 #### T2.4: Write "Traits and coroutines"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+Write a memo describing the fundamental types of coroutines which may be described w.r.t. to memory ownership in Rust.
+
+This will serve to motivate `emframed`.
+
 #### T2.5: Write "Verification and traits"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Write a memo describing approaches to formal verification in Rust w.r.t. traits. Emphasize the [Assume-Guarantee](https://ntrs.nasa.gov/api/citations/20060017073/downloads/20060017073.pdf) approach.
 
 #### T2.6: Write "The value in decentralization"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+Write a memo philosophizing on the value in decentralization. Amongst other things, this shall help add credence to the value of consumer applications built on OAC and Robles.
+
 #### T2.7: Write "What could be a quantum perspective on distributed tasks?"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Write a memo inquiring as to the possibilities for leverage quantum compute in the distributed task setting.
 
 #### T2.8: Write "Topos theory and distributed systems"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+Write a memo providing an initial review and attempted toy examples of using topos theory in distributed systems.
+
 #### T2.9: Write "Topos theory and classes of algorithms"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Write a memo provoking the notion of using topos theory to better describe classes of algorithms.
 
 ### T3: BFA First Draft
 > [!IMPORTANT]
