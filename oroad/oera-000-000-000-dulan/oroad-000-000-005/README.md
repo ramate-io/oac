@@ -233,26 +233,34 @@ Try to identify weakpoints in the initial BFA conceptualization. This should hel
 - **Depends-on:** [T1](#t1-organization)
 - **Ends:** T4 + 5 days
 - **Contents:**
-    - **[T3.1](#t31-continue-sharing-and-updating-oart-1-bfa)**: Continue sharing and updating [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
-    - **[T3.2](#t32-continue-sharing-and-updating-oart-2-collaborative-transaction-routing)**: Continue sharing and updating [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-    - **[T3.3](#t33-develop-fuste-mvp)**: Develop [`fuste`](https://github.com/ramate-io/fuste) MVP
-    - **[T3.4](#t34-use-fuste-mvp-to-develop-centralized-embedded-database)**: Use [`fuste`](https://github.com/ramate-io/fuste) MVP to develop centralized embedded database
+    - **[T4.1](#t41-produce-initial-emframed-api)**: Produce initial `emframed` API
+    - **[T4.2](#t42-provide-embedded-demo-of-emframed-api)**: Provide embedded demo of `emframed` API
+    - **[T4.3](#t43-provide-guides-for-using-emframed-to-indicate-common-patterns-and-reason-through-its-qualities): Provide guides for using `emframed` to indicate common patterns and reason through its qualities
+    - **[T4.4](#t44-generate-specification-for-emframed-api)**: Generate specification for `emframed` API
 
-**T3** focuses on continued validation of core concepts and the development of the Fuste MVP as a proof of concept for Ordered Atomic Collaboration (OAC).
+**T4** pursues an initial implementation of the `emframed` API which forms the basis for reasoning about highly-constrained contexts used throughout the initial OAC implementation.
 
-**T3** seeks to accomplish the following itemized objectives:
+**T4** seeks to accomplish the following itemized objectives:
 
 #### T4.1: Produce initial `emframed` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+The main focus here will be on ergonomics and clarity of the base traits and producing binding logic for working with common runtimes.
+
 #### T4.2: Provide embedded demo of `emframed` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Flash a device with a program written using the `emframed` API and record a video.
 
 #### T4.3: Provide guides for using `emframed` to indicate common patterns and reason through its qualities
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+Provide guides for using `emframed`. Identify common patterns and reason through its qualities. Not only will this potentially make it more understandable for future users, but it will also help to understand the strengths and weaknesses in the current API.
+
 #### T4.4: Generate specification for `emframed` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Generate a specification, likely RASPEC, for `emframed`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
 
 ### T5: `cite` API
 > [!IMPORTANT]
