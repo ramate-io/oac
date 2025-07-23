@@ -46,8 +46,9 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
     - **[T4](#t4-exotic-execution):** Exotic Execution
     - **[T5](#t5-dlt-push):** DLT Push
     - **[T6](#t6-killer-apps-phase-1-traditional-l1):** Killer Apps Phase 1: Traditional L1
-    - **[T7](#t7-killer-apps-phase-2-collaborative-streaming):** Killer Apps Phase 2: Collaborative Streaming
-    - **[T8](#t8-the-decision-and-swarm-coordination):** The Decision and Swarm Coordination
+    - **[T7](#t7-killer-apps-phase-2-content-sharing):** Killer Apps Phase 2: Content Sharing
+    - **[T8](#t8-killer-apps-phase-3-content-sharing-continued):** Killer Apps Phase 3: Content Sharing Continued
+    - **[T9](#t9-an-interlude)**: An Interlude
 
 ### T1: Push Towards Validation
 > [!IMPORTANT]
@@ -68,6 +69,11 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 **T1** adopts the following sub-roadmaps:
 
 - **[OROAD-5](/oroad/oera-000-000-000-dulan/oroad-000-000-005/README.md)**: Week 0
+
+> [!NOTE]
+> **[[Liam Monninger](mailto:liam@ramate.io)]**
+>
+> **[OROAD-5](/oroad/oera-000-000-000-dulan/oroad-000-000-005/README.md)** makes provisions for lots of utility development that facilitates **[T1](#t1-push-towards-validation)** and other targets. We do not underscore this as a separate point, because the advancement of these utilities is a degree of freedom below the concerns of **OROAD-0**.
 
 **T1** seeks to accomplish the following itemized objectives:
 
@@ -307,17 +313,23 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 - **Contents:**
     - **[T9.1](#t91-update-the-governance-of-oac-for-greater-decentralization)**:  Update the governance of OAC for greater decentralization
     - **[T9.2](#t92-make-decision-on-bootstrapping-viability)**: Make decision on bootstrapping viability
-    - **[T9.3](#t93-develop-demo-swarm-coordination-app-with-oac)**: Develop demo swarm coordination app with OAC
-    - **[T9.4](#t94-final-push-for-academic-recognition-of-oart-1-bfa)**: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
-    - **[T9.5](#t95-final-push-for-academic-recognition-of-oart-2-collaborative-transaction-routing)**: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-    - **[T9.6](#t96-final-push-for-academic-recognition-of-oart-3-ris-stm)**: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
-
-**T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application.
+    - **[T9.3](#t93-final-push-for-academic-recognition-of-oart-1-bfa)**: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+    - **[T9.4](#t94-final-push-for-academic-recognition-of-oart-2-collaborative-transaction-routing)**: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
+    - **[T9.5](#t95-final-push-for-academic-recognition-of-oart-3-ris-stm)**: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 
 > [!TIP]
 > **[[Liam Monninger](liam@ramate.io)]**
 >
-> **T9** was originally added to **OROAD-0** to help itemize the organizational intents of OAC. It has since expanded with the 90-day timeline to include
+> **T9** was originally added to **OROAD-0** to help itemize the organizational intents of OAC. The scope has since been altered.
+
+**T9** is a milestone which accounts for the differing success and funding possibilities for the OAC project. Namely these are:
+
+1. The project continues, but as essentially a hobby project seeking to slowly groundswell with open source contribution. At the end of **[T9](#t9-an-interlude)** this likely stands as a portfolio project for **[[Liam Monninger](mailto:liam@ramate.io)]**.
+2. The project finds a means to bootstrap but **[[Liam Monninger](mailto:liam@ramate.io)]** remains the sole full-time contributor.
+3. The project finds a means to bootstrap and is able to hire additional full-time contributors.
+4. The project takes begins to take on investment or depends on investment into Ramate which has obligations.
+
+In the face of all of these possibilities, ensuring a relative stasis for the governance and the core conceptual basis of OAC is regarded as paramount.
 
 **T9** seeks to accomplish the following itemized objectives:
 
@@ -331,16 +343,13 @@ In the very least, this update of governance should include moving OAC out from 
 #### T9.2: Make decision on bootstrapping viability
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T9.3: Develop demo swarm coordination app with OAC
+#### T9.3: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T9.4: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+#### T9.4: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T9.5: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
-
-#### T9.6: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
+#### T9.5: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ## Agreeing
