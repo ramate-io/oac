@@ -65,6 +65,10 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 
 **T1** features a push towards rendering content which will the initial validation of Ordered Atomic Collaboration (OAC).
 
+**T1** adopts the following sub-roadmaps:
+
+- **[OROAD-5](/oroad/oera-000-000-000-dulan/oroad-000-000-005/README.md)**: Week 0
+
 **T1** seeks to accomplish the following itemized objectives:
 
 #### T1.1: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
@@ -96,6 +100,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
     - **[T2.4](#t24-complete-gwrdfa-reference-implementation)**: Complete [`gwrdfa`](https://github.com/ramate-io/gwrdfa) reference implementation
     - **[T2.5](#t25-complete-srcavei-reference-implementation)**: Complete [`srcavei`](https://github.com/ramate-io/srcavei) reference implementation
     - **[T2.6](#t26-continue-development-of-fuste)**: Continue development of [`fuste`](https://github.com/ramate-io/fuste) as a lower priority task
+    -**[T2.7](#t27-develop-and-document-strategy-to-attract-contributors)**: Develop and document strategy to attract contributors
 
 **T2** focuses on validating the initial content and establishing contribution frameworks for Ordered Atomic Collaboration (OAC) and [`robles`](https://github.com/ramate-io/robles).
 
@@ -117,6 +122,9 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T2.6: Continue development of [`fuste`](https://github.com/ramate-io/fuste) as a lower priority task
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+#### T2.7: Develop and document strategy to attract contributors
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ### T3: Continued Validation and [`fuste`](https://github.com/ramate-io/fuste) MVP
@@ -157,7 +165,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 - **Ends:** T4 + 1 month
 - **Contents:**
     - **[T4.1](#t41-draft-and-share-oart-3-ris-stm)**: Draft and share [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
-    - **[T4.2](#t42-collaborate-with-stanford-colleague)**: Collaborate with Stanford colleague working with Mary Wooters on exotic probabilistic distributed VM
+    - **[T4.2](#t42-experiment-with-exotic-execution-models-ideally-with-past-colleagues-and-contributors)**: Experiment with exotic execution models, ideally with past colleagues and contributors
     - **[T4.3](#t43-begin-zhiye-implementation)**: Begin [`zhiye`](https://github.com/ramate-io/zhiye) implementation
 
 **T4** focuses on exploring exotic execution models and probabilistic distributed systems for Ordered Atomic Collaboration (OAC).
@@ -167,7 +175,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 #### T4.1: Draft and share [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T4.2: Collaborate with Stanford colleague working with Mary Wooters on exotic probabilistic distributed VM
+#### T4.2: Experiment with exotic execution models, ideally with past colleagues and contributors
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T4.3: Begin [`zhiye`](https://github.com/ramate-io/zhiye) implementation
@@ -239,23 +247,23 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 #### T6.4: Begin gathering feedback from the broader blockchain community
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-### T7: Killer Apps Phase 2: Collaborative Streaming
+### T7: Killer Apps Phase 2: Content Sharing
 > [!IMPORTANT]
-> **T7** emphasizes the support of an collaborative streaming application built with OAC implementations.
+> **T7** emphasizes the support of an content sharing application built with OAC implementations.
 
 - **Starts:** T6 + 1 month
 - **Depends-on:** [T6](#t6-killer-apps-phase-1-traditional-l1)
 - **Ends:** T7 + 1 month
 - **Contents:**
-    - **[T7.1](#t71-build-collaborative-streaming-platform)**: Begin building collaborative streaming platform using [`gwrdfa`](https://github.com/ramate-io/gwrdfa) and [`srcavei`](https://github.com/ramate-io/srcavei)
-    - **[T7.2](#t72-seek-streaming-collaborators)**: Seek collaborators from traditional streaming and p2p content sharing communities
+    - **[T7.1](#t71-begin-building-content-sharing-platform-using-gwrdfa-and-srcavei)**: Begin building collaborative streaming platform using [`gwrdfa`](https://github.com/ramate-io/gwrdfa) and [`srcavei`](https://github.com/ramate-io/srcavei)
+    - **[T7.2](#t72-seek-collaborators-from-traditional-streaming-and-p2p-content-sharing-communities)**: Seek collaborators from traditional streaming and p2p content sharing communities
     - **[T7.3](#t73-guide-l1-demos)**: Guide and support L1 killer apps demonstration and deployment
 
-**T7** focuses on developing collaborative streaming applications and expanding the OAC ecosystem through partnerships and demonstrations.
+**T7** focuses on developing content sharing applications and expanding the OAC ecosystem through partnerships and demonstrations.
 
 **T7** seeks to accomplish the following itemized objectives:
 
-#### T7.1: Begin building collaborative streaming platform using [`gwrdfa`](https://github.com/ramate-io/gwrdfa) and [`srcavei`](https://github.com/ramate-io/srcavei)
+#### T7.1: Begin building content sharing platform using [`gwrdfa`](https://github.com/ramate-io/gwrdfa) and [`srcavei`](https://github.com/ramate-io/srcavei)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T7.2: Seek collaborators from traditional streaming and p2p content sharing communities
@@ -264,9 +272,9 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 #### T7.3: Guide and support L1 killer apps demonstration and deployment
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-### T8: The Decision and Swarm Coordination
+### T8: Killer Apps Phase 3: Content Sharing Continued
 > [!IMPORTANT]
-> **T8** emphasizes completion of validation, OAC implementations of killer apps, and ultimately seeks to determine whether the project is worth continuing to pursue.
+> **T8** emphasizes completion of an MVP of the content sharing application and ultimately seeks to determine whether the project is worth continuing to pursue in **[T9](#t9-an-interlude)**
 
 - **Starts:** T7 + 1 month
 - **Depends-on:** [T7](#t7-killer-apps-phase-2-collaborative-streaming)
@@ -275,33 +283,21 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
     - **[T8.1](#t81-guide-l1-demonstrations)**: Guide and support L1 blockchain applications demonstration
     - **[T8.2](#t82-guide-streaming-demonstrations)**: Guide and support Collaborative Streaming platform demonstration
     - **[T8.3](#t83-research-swarm-coordination)**: Research and experiment with swarm coordination mechanisms
-    - **[T8.4](#t84-final-push-bfa)**: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
-    - **[T8.5](#t85-final-push-ctr)**: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-    - **[T8.6](#t86-final-push-ris-stm)**: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 
 **T8** focuses on finalizing demonstrations, exploring swarm coordination, and pushing for broader academic recognition of Ordered Atomic Collaboration (OAC).
 
 **T8** seeks to accomplish the following itemized objectives:
 
-#### T8.1: Guide and support L1 blockchain applications demonstration
+#### T8.1: Push for MVP of content sharing mobile application
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T8.2: Guide and support Collaborative Streaming platform demonstration
+#### T8.2: Guide and support L1 blockchain applications demonstration
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 #### T8.3: Research and experiment with swarm coordination mechanisms
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T8.4: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
-- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
-
-#### T8.5: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
-
-#### T8.6: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
-- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
-
-### T9: Reorganization and Swarm Coordination App
+### T9: An Interlude
 > [!IMPORTANT]
 > **T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application.
 
@@ -309,15 +305,19 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 - **Depends-on:** [T8](#t8-the-decision-and-swarm-coordination)
 - **Ends:** T9 + 1 month
 - **Contents:**
-    - **[T9.1](#t91-update-the-governance-of-oac-for-greater-decentralization):**  Update the governance of OAC for greater decentralization
-    - **[T9.2](#t92-develop-demo-swarm-coordination-app-with-oac):** Develop demo swarm coordination app with OAC
+    - **[T9.1](#t91-update-the-governance-of-oac-for-greater-decentralization)**:  Update the governance of OAC for greater decentralization
+    - **[T9.2](#t92-make-decision-on-bootstrapping-viability)**: Make decision on bootstrapping viability
+    - **[T9.3](#t93-develop-demo-swarm-coordination-app-with-oac)**: Develop demo swarm coordination app with OAC
+    - **[T9.4](#t94-final-push-for-academic-recognition-of-oart-1-bfa)**: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+    - **[T9.5](#t95-final-push-for-academic-recognition-of-oart-2-collaborative-transaction-routing)**: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
+    - **[T9.6](#t96-final-push-for-academic-recognition-of-oart-3-ris-stm)**: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 
 **T9** is a milestone conditional on a positive decision from [T8](#t8-the-decision-and-swarm-coordination). If [T8](#t8-the-decision-and-swarm-coordination) finds reason to continue the OAC project, OAC will prioritize reorganization of OAC and implementers while progressing swarm coordination research towards a swarm coordination application.
 
 > [!TIP]
 > **[[Liam Monninger](liam@ramate.io)]**
 >
-> **T9** was added to **OROAD-0** to help itemize the organizational intents of OAC.
+> **T9** was originally added to **OROAD-0** to help itemize the organizational intents of OAC. It has since expanded with the 90-day timeline to include
 
 **T9** seeks to accomplish the following itemized objectives:
 
@@ -328,7 +328,19 @@ We intend to push for greater decentralization of OAC governance. OAC should be 
 
 In the very least, this update of governance should include moving OAC out from under [Ramate LLC's](https://www.ramate.io) governance if such has not already occurred.
 
-#### T9.2: Develop demo swarm coordination app with OAC
+#### T9.2: Make decision on bootstrapping viability
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+#### T9.3: Develop demo swarm coordination app with OAC
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+#### T9.4: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+#### T9.5: Final push for academic recognition of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+#### T9.6: Final push for academic recognition of [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart-000-000-003-ris-stm/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ## Agreeing
