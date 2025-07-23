@@ -1,4 +1,4 @@
-# OROAD-5: Week 1
+# OROAD-5: Week 0
 - **Authors:** [Liam Monninger](liam@ramate.io)
 - **Contents:**
     - **[Summary](#summary)**
@@ -10,7 +10,14 @@
 ## Summary
 **OROAD-5** is a roadmap for the first week of the OAC project--produced once necessary preparations were made to begin its development.
 
-**OROAD-5** rearranges the priorities of [OROAD-0](/oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md), outlines procedural bootstrapping, and specifies initial progression against foundational papers and programs.
+**OROAD-5** rearranges the priorities of [OROAD-0](/oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md), outlines procedural bootstrapping, specifies initial progression against foundational papers, suggests several memos, and proposes development of utility APIs.
+
+> [!TIP]
+> **[[Liam Monninger]](liam@ramate.io)**
+>
+> The inclusion of memos and utility APIs may seem out of place or unnecessary. However, the intent of pursuing these in Week 0 is partially to ramp back up from a "garden leave" enforced during necessary preparations.
+>
+> Returning to smaller ideas which were first produced under a state of mental heat may help to restore the initial inertia of this project's development.
 
 > [!IMPORTANT]
 > **[[Liam Monninger]](liam@ramate.io)**
@@ -43,14 +50,12 @@
 
 - **All leads:** [Liam Monninger](liam@ramate.io)
 - **Contents:**
-    - **[T1](#t1-push-towards-validation):** Push Towards Validation
-    - **[T2](#t2-validation-and-accepting-contributions):** Validation and Accepting Contributions
-    - **[T3](#t3-continued-validation-and-fuste-mvp):** Continued Validation and Fuste MVP
-    - **[T4](#t4-exotic-execution):** Exotic Execution
-    - **[T5](#t5-dlt-push):** DLT Push
-    - **[T6](#t6-killer-apps-phase-1-traditional-l1):** Killer Apps Phase 1: Traditional L1
-    - **[T7](#t7-killer-apps-phase-2-collaborative-streaming):** Killer Apps Phase 2: Collaborative Streaming
-    - **[T8](#t8-the-decision-and-swarm-coordination):** The Decision and Swarm Coordination
+    - **[T1](#t1-organization-and-updating-oroad-0):** Organization and Updating OROAD-0
+    - **[T2](#t2-memos):** Memos
+    - **[T3](#t3-bfa-first-draft):** BFA First Draft
+    - **[T4](#t4-emframed-api):** `emframed` API
+    - **[T5](#t5-cite-api):** `cite` API
+    - **[T6](#t6-roadline-api):** `roadline` API
 
 ### T1: Organization and Updating OROAD-0
 > [!IMPORTANT]
@@ -60,33 +65,57 @@
 - **Depends-on:** $\emptyset$
 - **Ends:** T1 + 1 day
 - **Contents:**
-    - **[T1.1](#t11-complete-draft-of-oart-1-bfa)**: Complete draft of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
-    - **[T1.2](#t12-complete-draft-of-oart-2-collaborative-transaction-routing)**: Complete draft of [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-    - **[T1.3](#t13-begin-gwrdfa-implementation)**: Begin [`gwrdfa`](https://github.com/ramate-io/gwrdfa) implementation
-    - **[T1.4](#t14-begin-srcavei-implementation)**: Begin [`srcavei`](https://github.com/ramate-io/srcavei) implementation
-    - **[T1.5](#t15-begin-fuste-implementation)**: Begin [`fuste`](https://github.com/ramate-io/fuste) implementation
+    - **[T1.1](#t11-redraft-oroad-0)**: Redraft [OROAD-0](/oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md)
+    - **[T1.2](#t12-clean-and-update-oac-repository)**: Clean and update [OAC](https://github.com/ramate-io/oac) repository
+    - **[T1.3](#t13-clean-and-update-ramate-repository)**: Clean and update [Ramate](https://github.com/ramate-io/ramate) repository
+    - **[T1.4](#t14-clean-and-update-robles-repository)**: Clean and update [Robles](https://github.com/ramate-io/robles) repository
+    - **[T1.5](#t15-update-ramateio)**: Clean and update [ramate.io](https://ramate.io)
+    - **[T1.6](#t16-clean-hardware-and-reset-developer-environment)**: Clean hardware and reset developer environment
+    - **[T1.7](#t17-wardley-maps)**: Wardley Maps
 
-**T1** features a push towards rendering content which will the initial validation of Ordered Atomic Collaboration (OAC).
+**T1** is a one day scramble to update high-level roadmaps and organizational understanding, as well as to ensure that the key repositories [OAC](https://github.com/ramate-io/oac), [Ramate](https://github.com/ramate-io/ramate), and [Robles](https://github.com/ramate-io/robles) are prepared for usage for development.
 
 **T1** seeks to accomplish the following itemized objectives:
 
 #### T1.1: Redraft [OROAD-0](/oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+[OROAD-0](/oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md) should be updated to better reflect externalities and a re-evaluated progression of the project. This does not require a termination of the roadmap and replacement, as OROAD-0 was not aggressively pursued.
+
 #### T1.2: Clean and update [OAC](https://github.com/ramate-io/oac) repository
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+The [OAC](https://github.com/ramate-io/oac) repository could use a tidy up.
 
 #### T1.3: Clean and update [Ramate](https://github.com/ramate-io/ramate) repository
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T1.3: Clean and update [Robles](https://github.com/ramate-io/robles) repository
+The [Ramate](https://github.com/ramate-io/ramate) repository is still mainly just a copy of the [OAC](https://github.com/ramate-io/oac) repository. It should be updated to reflect the unique specification, documentation, and planning performed under the [Ramate](https://github.com/ramate-io/ramate) organization.
+
+#### T1.4: Clean and update [Robles](https://github.com/ramate-io/robles) repository
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+The [Robles](https://github.com/ramate-io/robles) repository is still mainly just a copy of the [OAC](https://github.com/ramate-io/oac) repository. It should be updated to reflect the unique specification, documentation, and planning performed under the [Robles](https://github.com/ramate-io/robles) project.
 
 #### T1.5: Update [ramate.io](https://ramate.io)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-#### T1.6: Clean hardware
+The [ramate.io](https://ramate.io) website should be updated to reflect the now active status or Ramate, OAC, and Robles. It should link to the key repositories and, time permitting, provide in-site markdown rendering of their documentation.
+
+> [!NOTE]
+> **[[Liam Monninger]](mailto:liam@ramate.io)**
+>
+> It may also be worthwhile to attempt to migrate to a Rust-based web framework as wbe projects going forward will generally be developed in this manner.
+
+#### T1.6: Clean hardware and reset developer environment
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+This is mainly a note to self to make sure to take the time to remove unnecessary files and ensure developer tools like Cursor are properly configured for best usage. Many subscriptions have expired and devices could use cleaning.
+
+#### T1.7: Wardley Maps
+- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+In an effort to develop a strong high-level organizational understanding, we'll be attempting to apply the Wardley Mapping technique. Wardley Maps are traditionally applied to the business and perhaps more relevant to simply Ramate in the long-run. But, to feel out the technique, we'll attempt to Wardley Map Ramate, OAC, and Robles individually as well as jointly and document the process.
 
 ### T2: Memos
 > [!IMPORTANT]
