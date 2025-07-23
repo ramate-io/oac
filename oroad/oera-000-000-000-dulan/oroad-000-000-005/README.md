@@ -202,23 +202,28 @@ Write a memo provoking the notion of using topos theory to better describe class
 - **Depends-on:** [T1](#t1-organization)
 - **Ends:** T3 + 5 days
 - **Contents:**
-    - **[T3.1](#t31-continue-sharing-and-updating-oart-1-bfa)**: Continue sharing and updating [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
-    - **[T3.2](#t32-continue-sharing-and-updating-oart-2-collaborative-transaction-routing)**: Continue sharing and updating [OART-2: Collaborative Transaction Routing](../../../oart/oera-000-000-000-dulan/oart-000-000-002-ctr/README.md)
-    - **[T3.3](#t33-develop-fuste-mvp)**: Develop [`fuste`](https://github.com/ramate-io/fuste) MVP
-    - **[T3.4](#t34-use-fuste-mvp-to-develop-centralized-embedded-database)**: Use [`fuste`](https://github.com/ramate-io/fuste) MVP to develop centralized embedded database
+    - **[T3.1](#t31-produce-latex-shell-draft-of-oart-2-bfa)**: Produce Latex shell draft of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
+    - **[T3.2](#t32-provide-annotated-bibliography-for-oart-2-bfa)**: Provide annotated bibliography for [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
+    - **[T3.3](#t33-write-olog-identifying-weakpoints-in-oart-2-bfa-shell-draft)**: Write OLOG identifying weakpoints in [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md) shell draft
 
-**T3** focuses on continued validation of core concepts and the development of the Fuste MVP as a proof of concept for Ordered Atomic Collaboration (OAC).
+**T3** focuses on producing a first draft of the BFA paper.
 
 **T3** seeks to accomplish the following itemized objectives:
 
 #### T3.1: Produce Latex shell draft of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+Simply write the Latex shell draft of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md).
+
 #### T3.2: Provide annotated bibliography for [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
+Write the annotated bibliography for [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md). This should allow for better and more complete comparative review in the near future.
+
 #### T3.3: Write OLOG identifying weakpoints in [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md) shell draft
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
+
+Try to identify weakpoints in the initial BFA conceptualization. This should help inform planning which respects where the paper will need to be bolstered most.
 
 ### T4: `emframed` API
 > [!IMPORTANT]
@@ -302,10 +307,10 @@ Write a memo provoking the notion of using topos theory to better describe class
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 ## Agreeing
-- **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that guide describes the exploratory nature of this initial phase well ([Liam Monninger](mailto:liam@ramate.io)).
+$\emptyset$
 
 ## Dissenting
-- **[DIS-1: Liam Monninger](./dissenting/dis-001-liam-monninger/README.md):** argues that the guide does not make it clear how to participate ([Liam Monninger](mailto:liam@ramate.io)).
+$\emptyset$
 
 ## Appendix
 $\emptyset$
