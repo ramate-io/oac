@@ -45,5 +45,5 @@ jobs:
           ${{ inputs.command }}
           EOF
           chmod +x /tmp/nix_command.sh
-          echo "Running command: ${{ inputs.command }}"
+          echo "Running command in Nix shell..."
           nix develop "${{ inputs.nix_flake_path }}" --command /tmp/nix_command.sh 
