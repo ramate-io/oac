@@ -13,12 +13,22 @@ jobs:
     uses: ./.github/workflows/nix-command.yml
     with:
       command: |
-        # Stage all files and commit (this runs pre-commit hooks automatically in nix shell)
+        # Configure git identity for the CI environment
+        git config user.email "ci@example.com"
+        git config user.name "CI Bot"
+        
+        # Check if repository is clean (should be after checkout)
+        if ! git diff --exit-code || ! git diff --cached --exit-code; then
+          echo "❌ Repository is not clean after checkout"
+          exit 1
+        fi
+        
+        # Stage everything and commit (this runs pre-commit hooks)
         git add -A
         git commit --allow-empty -m "CI: Run pre-commit hooks"
         
-        # Check if there are any changes after hooks ran
-        if ! git diff --exit-code HEAD~1; then
+        # Check if hooks left any unstaged changes
+        if ! git diff --exit-code; then
           echo "❌ Pre-commit hooks modified files. Please commit your changes in the nix shell before pushing."
           echo ""
           echo "To fix this:"
@@ -27,7 +37,7 @@ jobs:
           echo "3. Push again"
           echo ""
           echo "Modified files:"
-          git diff --name-only HEAD~1
+          git diff --name-only
           exit 1
         fi
         
