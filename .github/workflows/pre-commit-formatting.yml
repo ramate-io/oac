@@ -33,3 +33,4 @@ jobs:
         
         echo "✅ No changes detected. Pre-commit hooks were properly run locally."
       nix_flake_path: '.'
+      runner: 'movement-runner'
