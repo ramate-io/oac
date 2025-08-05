@@ -4,9 +4,9 @@ The labels workflows are defined as follows:
 - **[`labels.yml`](../../../../.github/workflows/labels.yml)**: describes the trigger
 
 ## Usage
-The labels workflows will update the labels for this repository to correspond to those found in the `LABELS_JSON` harcoded into [`labels.yml`](../../../../.github/workflows/labels.yml) whenever a commit is pushed to the GitHub remote.
+The labels workflows will update the labels for this repository to correspond to those found in the `LABELS_JSON` hardcoded into [`labels.yml`](../../../../.github/workflows/labels.yml) whenever a commit is pushed to the GitHub remote.
 
-The labels worfklow will delete additional labels when run on `main` or when the commit message contains `debug(ci:labels:deletion)`.
+The labels workflow will delete additional labels when run on `main` or when the commit message contains `debug(ci:labels:deletion)`.
 
 > [!WARN]
 > There are NOT currently any protections against this updating of labels. As a contributor, you should be mindful particularly not to remove labels without first checking with other contributors.

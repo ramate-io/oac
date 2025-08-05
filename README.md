@@ -53,7 +53,7 @@ Under [OGLO-0](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md
 - [`oleg`](./oleg/): OAC Legal Documents (OLEG) are published legal documents covering OAC operations in any jurisdiction.
 - [`ocert`](./ocert/): OAC Certificates (OCERT) certify a given project as abiding by the OAC paradigm.
 - [`ode`](./ode/): OAC Desiderata (ODE) describe wants, open problems, and similar within the OAC paradigm.
-- [`ospec`](./ospec): OACSpecifications (OPSEC) describe specifications and are typically written in response to ODE. Generally, contributors should use OPSEC to justify non-trivial changes to this repository.
+- [`ospec`](./ospec): OAC Specifications (OPSEC) describe specifications and are typically written in response to ODE. Generally, contributors should use OPSEC to justify non-trivial changes to this repository.
 - [`oart`](./oart/): OAC Articles (OART) are academic papers which form the conceptual backbone of the OAC paradigm.
 - [`oroad`](./oroad/): OAC Roadmaps (OROAD) are roadmaps describing the intents and objectives of the OAC organization.
 - [`olog`](./olog/): OAC Logs (OLOG) are periodically submitted logs describing various developments within the OAC paradigm.
