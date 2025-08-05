@@ -17,7 +17,7 @@ OAC has expressed intents to be a highly-organized project which is governed via
   - **[D3](#d3-describe-responsibilities-for-maintenance-of-this-repository):** Describe responsibilities for maintenance of this repository
 
 ### D1: Provide templates for [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) and describe their usage
-[OGOV-0](../../../ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md) asserts that the objects of governance--and thus the decided output of tis repository--are the [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md). In order for contributors to effectively add to these [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), they must be informed how draft them and generally use them.
+[OGOV-0](../../../ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md) asserts that the objects of governance--and thus the decided output of this repository--are the [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md). In order for contributors to effectively add to these [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), they must be informed how draft them and generally use them.
 
 ### D2: Describe the overall organization of the [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md)
 In addition to drafting individual [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), Contributors must also clearly understand how the artifacts should be organized with respect to each other. This includes placement in directories, indexing, source control, etc.

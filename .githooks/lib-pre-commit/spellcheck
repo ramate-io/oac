@@ -1,0 +1,60 @@
+#!/bin/bash
+
+set -e
+
+# Status helper function
+status() {
+    if [ $? -eq 0 ]; then
+        echo "✅ $1"
+    else
+        echo "❌ $1"
+        return 1
+    fi
+}
+
+echo "Running pre-commit hook: Vale prose linting..."
+
+# Check if Vale is available
+if ! command -v vale &> /dev/null; then
+    echo "❌ Vale command not found. Please install it first."
+    exit 1
+fi
+
+# Check if Vale config exists
+if [ ! -f ".vale.ini" ] && [ ! -f "_vale.ini" ] && [ ! -f "vale.ini" ]; then
+    echo "❌ No Vale configuration found. Expected .vale.ini to be committed to the repository."
+    exit 1
+fi
+
+# Note: Vale configuration and vocabulary files are committed to the repository
+# No setup or sync steps needed
+
+echo "🔍 Running Vale on prose files..."
+
+# Get list of tracked prose files
+FILES=$(git ls-files --cached --exclude-standard | grep -E '\.(md|txt|rst|adoc|asciidoc)$')
+
+if [ -z "$FILES" ]; then
+    echo "📭 No prose files found to lint."
+    exit 0
+fi
+
+# Count files for progress
+TOTAL_FILES=$(echo "$FILES" | wc -l | tr -d ' ')
+echo "📝 Found $TOTAL_FILES prose files to check"
+
+# Run Vale with options:
+# --no-exit: don't exit with error code on warnings
+# --output=line: use line-based output format for better readability
+# --sort: sort output by filename
+if vale --output=line --sort $FILES; then
+    echo "✨ Vale prose linting completed successfully!"
+    exit 0
+else
+    echo "❌ Vale found prose issues. Please review and fix the issues above."
+    echo "💡 Tips:"
+    echo "   - Add custom rules to .vale.ini"
+    echo "   - Use <!-- vale off --> and <!-- vale on --> to disable checks in sections"
+    echo "   - Install additional style packages with 'vale sync'"
+    exit 1
+fi

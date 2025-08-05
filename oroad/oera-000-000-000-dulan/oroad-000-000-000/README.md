@@ -110,7 +110,7 @@ A complete draft of draft of [OART-2: Collaborative Transaction Routing](../../.
 > [!NOTE]
 > **[[Liam Monninger](mailto:liam@ramate.io)]**
 >
-> `srcavei` is however also the easiest component to drop and still have a usable appplication.
+> `srcavei` is however also the easiest component to drop and still have a usable application.
 
 #### T1.5: Begin [`fuste`](https://github.com/ramate-io/fuste) implementation as lesser priority to [T1.3](#t13-begin-gwrdfa-implementation) and [T1.4](#t14-begin-srcavei-implementation)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -238,7 +238,7 @@ Drafting and sharing [OART-3: RIS-STM](../../../oart/oera-000-000-000-dulan/oart
 #### T4.2: Experiment with exotic execution models, ideally with past colleagues and contributors
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Many of the currently considered exotic execution models draw from emerging theory in disciplines such as topos theory and quantum computing. This target is an acessory; it is mainly intended as a refresher and an opportunity to take a new look at the project overall--potentially generating some interesting and marketable memos along the way.
+Many of the currently considered exotic execution models draw from emerging theory in disciplines such as topos theory and quantum computing. This target is an accessory; it is mainly intended as a refresher and an opportunity to take a new look at the project overall--potentially generating some interesting and marketable memos along the way.
 
 #### T4.3: Begin [`zhiye`](https://github.com/ramate-io/zhiye) implementation
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -331,7 +331,7 @@ Documenting and sharing implementations patterns for OAC-based L1 applications w
 #### T6.4: Begin gathering feedback from the broader blockchain community
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Guaging interest of the blockchain community may identify a simple path for project continuity.
+Gauging interest of the blockchain community may identify a simple path for project continuity.
 
 ### T7: Killer Apps Phase 2: Content Sharing
 > [!IMPORTANT]
@@ -385,12 +385,12 @@ Continued support of L1 killer apps may continue to present opportunities for pr
 
 Ideally, the develop of a "Thro" MVP presents a marketable asset as presented in [RPRE-0](https://github.com/ramate-io/ramate/blob/main/rpre/rera-000-000-000-dulan/rpre-000-000-000/README.md). Placing this MVP in [T8](#t8-killer-apps-phase-3-content-sharing-continued) does not provide much time to reach sufficient market penetration. However, positive adoption should be sufficient to either (a) make it reasonable to continue to bootstrap for several months longer or (b) feasible to seek favorable outside investment.
 
-Alternatively, if "Thro's" finanicals are insufficient for either of the above, its optics may still help present OAC itself as a marketable asset to other application developers.
+Alternatively, if "Thro's" financials are insufficient for either of the above, its optics may still help present OAC itself as a marketable asset to other application developers.
 
 #### T8.2: Guide and support L1 blockchain applications demonstration
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-While "Thro" remains the prioritity, L1 blockchain support may once again continue to present opportunities for OAC.
+While "Thro" remains the priority, L1 blockchain support may once again continue to present opportunities for OAC.
 
 #### T8.3: Research and experiment with swarm coordination mechanisms
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -437,7 +437,7 @@ In the very least, this update of governance should include moving OAC out from 
 #### T9.2: Make decision on bootstrapping viability
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-At thsi point, bootstrapping viability needs to be decided upon. If it is not viable, but it is otherwise evident that the OAC project should continue full-time, then outside investment should be pursued throughout the month.
+At this point, bootstrapping viability needs to be decided upon. If it is not viable, but it is otherwise evident that the OAC project should continue full-time, then outside investment should be pursued throughout the month.
 
 #### T9.3: Final push for academic recognition of [OART-1: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-001-bfa/README.md)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)

@@ -105,7 +105,7 @@ The [ramate.io](https://ramate.io) website should be updated to reflect the now 
 > [!NOTE]
 > **[[Liam Monninger]](mailto:liam@ramate.io)**
 >
-> It may also be worthwhile to attempt to migrate to a Rust-based web framework as wbe projects going forward will generally be developed in this manner.
+> It may also be worthwhile to attempt to migrate to a Rust-based web framework as web projects going forward will generally be developed in this manner.
 
 #### T1.6: Clean hardware and reset developer environment
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -312,7 +312,7 @@ Generate a specification, likely RASPEC, for `cite`. We ask for to be done after
 #### T6.1: Produce initial `roadline` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-The initial `roadline` API shall render documents formatting like this one into reasonable and visually appealing roadmpas.
+The initial `roadline` API shall render documents formatting like this one into reasonable and visually appealing roadmaps.
 
 #### T6.2: Provide demo of `roadline` API, ideally using a roadmap from one of the Ramate, Robles, or OAC
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
