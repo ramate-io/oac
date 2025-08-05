@@ -21,7 +21,7 @@ on:
 
 jobs:
   run-command:
-    runs-on: movement-runner
+    runs-on: ubuntu-latest
     steps:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
