@@ -1,6 +1,8 @@
 # AGR-1: Liam Monninger
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
 
+The Dulan Era is well-enough described as a period wherein some simple structure is used to steadily guide OAC through bootstrapping. While on first glance the structure may seem too extensive relative to the number of contributors, this is a valid effort given the medium to long-term objectives of the project and may have short term benefits that compound.
+
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
 

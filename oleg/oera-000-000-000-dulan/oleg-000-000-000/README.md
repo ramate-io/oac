@@ -20,8 +20,10 @@ OAC is provided under an [MIT License](https://opensource.org/license/mit).
 - **Embedded copy:** [MIT License](/LICENSE)
 
 ## Agreeing
+$\emptyset$
 
 ## Dissenting
+$\emptyset$
 
 ## Appendix
 $\emptyset$

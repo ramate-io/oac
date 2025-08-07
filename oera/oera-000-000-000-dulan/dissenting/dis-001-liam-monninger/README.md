@@ -1,6 +1,8 @@
 # DIS-1: Liam Monninger
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
 
+For the work of effectively one person, this may prove to be too complicated.
+
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
 
