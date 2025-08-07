@@ -69,7 +69,7 @@
     - **[T1.2](#t12-clean-and-update-oac-repository)**: Clean and update [OAC](https://github.com/ramate-io/oac) repository
     - **[T1.3](#t13-clean-and-update-ramate-repository)**: Clean and update [Ramate](https://github.com/ramate-io/ramate) repository
     - **[T1.4](#t14-clean-and-update-robles-repository)**: Clean and update [Robles](https://github.com/ramate-io/robles) repository
-    - **[T1.5](#t15-update-ramateio)**: Clean and update [ramate.io](https://ramate.io)
+    - **[T1.5](#t15-update-ramateio)**: Clean and update [ramate.io](https://www.ramate.io)
     - **[T1.6](#t16-clean-hardware-and-reset-developer-environment)**: Clean hardware and reset developer environment
     - **[T1.7](#t17-wardley-maps)**: Wardley Maps
 
@@ -97,10 +97,10 @@ The [Ramate](https://github.com/ramate-io/ramate) repository is still mainly jus
 
 The [Robles](https://github.com/ramate-io/robles) repository is still mainly just a copy of the [OAC](https://github.com/ramate-io/oac) repository. It should be updated to reflect the unique specification, documentation, and planning performed under the [Robles](https://github.com/ramate-io/robles) project.
 
-#### T1.5: Update [ramate.io](https://ramate.io)
+#### T1.5: Update [ramate.io](https://www.ramate.io)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-The [ramate.io](https://ramate.io) website should be updated to reflect the now active status or Ramate, OAC, and Robles. It should link to the key repositories and, time permitting, provide in-site markdown rendering of their documentation.
+The [ramate.io](https://www.ramate.io) website should be updated to reflect the now active status or Ramate, OAC, and Robles. It should link to the key repositories and, time permitting, provide in-site markdown rendering of their documentation.
 
 > [!NOTE]
 > **[[Liam Monninger]](mailto:liam@ramate.io)**
@@ -122,7 +122,7 @@ In an effort to develop a strong high-level organizational understanding, we'll 
 > **T2** focuses on recording memos which were ideated upon during the necessary preparations period.
 
 - **Starts:** T1 + 1 day
-- **Depends-on:** [T1](#t1-organization)
+- **Depends-on:** [T1](#t1-organization-and-updating-oroad-0)
 - **Ends:** T2 + 5 days
 - **Contents:**
     - **[T2.1](#t21-write-vectors-philosophy-of-work)**: Write "Vectors philosophy of work"
@@ -199,28 +199,28 @@ Write a memo provoking the notion of using topos theory to better describe class
 > **T3** focuses on rapidly producing a first draft of BFA an concretely identifying weakpoints.
 
 - **Starts:** T1 + 1 day
-- **Depends-on:** [T1](#t1-organization)
+- **Depends-on:** [T1](#t1-organization-and-updating-oroad-0)
 - **Ends:** T3 + 5 days
 - **Contents:**
-    - **[T3.1](#t31-produce-latex-shell-draft-of-oart-2-bfa)**: Produce Latex shell draft of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
-    - **[T3.2](#t32-provide-annotated-bibliography-for-oart-2-bfa)**: Provide annotated bibliography for [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
-    - **[T3.3](#t33-write-olog-identifying-weakpoints-in-oart-2-bfa-shell-draft)**: Write OLOG identifying weakpoints in [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md) shell draft
+    - **[T3.1](#t31-produce-latex-shell-draft-of-oart-2-bfa)**: Produce Latex shell draft of **OART-2: BFA**
+    - **[T3.2](#t32-provide-annotated-bibliography-for-oart-2-bfa)**: Provide annotated bibliography for **OART-2: BFA**
+    - **[T3.3](#t33-write-olog-identifying-weakpoints-in-oart-2-bfa-shell-draft)**: Write OLOG identifying weakpoints in **OART-2: BFA** shell draft
 
 **T3** focuses on producing a first draft of the BFA paper.
 
 **T3** seeks to accomplish the following itemized objectives:
 
-#### T3.1: Produce Latex shell draft of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
+#### T3.1: Produce Latex shell draft of **OART-2: BFA**
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Simply write the Latex shell draft of [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md).
+Simply write the Latex shell draft of **OART-2: BFA**.
 
-#### T3.2: Provide annotated bibliography for [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md)
+#### T3.2: Provide annotated bibliography for **OART-2: BFA**
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Write the annotated bibliography for [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md). This should allow for better and more complete comparative review in the near future.
+Write the annotated bibliography for **OART-2: BFA**. This should allow for better and more complete comparative review in the near future.
 
-#### T3.3: Write OLOG identifying weakpoints in [OART-2: BFA](../../../oart/oera-000-000-000-dulan/oart-000-000-002-bfa/README.md) shell draft
+#### T3.3: Write OLOG identifying weakpoints in **OART-2: BFA** shell draft
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 Try to identify weakpoints in the initial BFA conceptualization. This should help inform planning which respects where the paper will need to be bolstered most.
@@ -230,7 +230,7 @@ Try to identify weakpoints in the initial BFA conceptualization. This should hel
 > **T4** pursues an initial implementation of the `emframed` API which forms the basis for reasoning about highly-constrained contexts used throughout the initial OAC implementation.
 
 - **Starts:** T1 + 1 day
-- **Depends-on:** [T1](#t1-organization)
+- **Depends-on:** [T1](#t1-organization-and-updating-oroad-0)
 - **Ends:** T4 + 5 days
 - **Contents:**
     - **[T4.1](#t41-produce-initial-emframed-api)**: Produce initial `emframed` API
@@ -267,7 +267,7 @@ Generate a specification, likely RASPEC, for `emframed`. We ask for to be done a
 > **T5** pursues an initial implementation of the `cite` API which forms the basis for implementation invalidation and authority control to be used through Ramate, Robles, and OAC.
 
 - **Starts:** T1 + 1 day
-- **Depends-on:** [T1](#t1-organization)
+- **Depends-on:** [T1](#t1-organization-and-updating-oroad-0)
 - **Ends:** T5 + 5 days
 - **Contents:**
     - **[T5.1](#t51-produce-initial-cite-api)**: Produce initial `cite` API
@@ -298,7 +298,7 @@ Generate a specification, likely RASPEC, for `cite`. We ask for to be done after
 > **T6** pursues an initial implementation of the `roadline` API which forms the basis for visual renderings of roadmaps and timelines.
 
 - **Starts:** T1 + 1 day
-- **Depends-on:** [T1](#t1-organization)
+- **Depends-on:** [T1](#t1-organization-and-updating-oroad-0)
 - **Ends:** T6 + 5 days
 - **Contents:**
     - **[T6.1](#t61-produce-initial-roadline-api)**: Produce initial `roadline` API

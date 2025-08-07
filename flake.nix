@@ -23,6 +23,7 @@
 
         # An LLVM build environment
         dependencies = with pkgs; [
+          lychee
           vale
           chafa
           perl
