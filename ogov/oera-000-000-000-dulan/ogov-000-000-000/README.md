@@ -36,10 +36,10 @@ The governing body SHALL make decisions on the inclusion of [Artifacts](/oglo/oe
 We assert there is no precedence for interpretation owing to the lack of [continuity](#continuity).
 
 ## Agreeing
-- **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that the delegation to [Ramate LLC's](https://www.ramate.io) suits this early developmental phase ([Liam Monninger](mailto:liam@ramate.io)).
+$\emptyset$
 
 ## Dissenting
-- **[DIS-1: Liam Monninger](./dissenting/dis-001-liam-monninger/README.md):** argues that the stipulations on [Ramate LLC's](https://www.ramate.io) internal governance are too light ([Liam Monninger](mailto:liam@ramate.io)).
+$\emptyset$
 
 ## Appendix
 $\emptyset$

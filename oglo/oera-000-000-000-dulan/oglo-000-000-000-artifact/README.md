@@ -14,10 +14,10 @@ All other artifacts are either "Proposed" or "Revoked" and their status is refle
 - The deliverable output of OAC is its Artifacts.
 
 ## Agreeing
-- **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that the delegation to [Ramate LLC's](https://www.ramate.io) suits this early developmental phase ([Liam Monninger](mailto:liam@ramate.io)).
+$\emptyset$
 
 ## Dissenting
-- **[DIS-1: Liam Monninger](./dissenting/dis-001-liam-monninger/README.md):** argues that the stipulations on [Ramate LLC's](https://www.ramate.io) internal governance are too light ([Liam Monninger](mailto:liam@ramate.io)).
+$\emptyset$
 
 ## Appendix
 $\emptyset$
