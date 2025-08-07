@@ -1,6 +1,6 @@
 # OLEG-0: MIT License
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
-- **Jurisdictions:** [Massachusetts General Laws](https://malegislature.gov/Laws/GeneralLaws), [United States Code](https://www.law.cornell.edu/uscode), [European Union Law](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0024), [Open Source Initiative](https://opensource.org/licenses/MIT)
+- **Jurisdictions:** [Massachusetts General Laws](https://en.wikipedia.org/wiki/Massachusetts_General_Court), [United States Code](https://www.law.cornell.edu/uscode), [European Union Law](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0024), [Open Source Initiative](https://opensource.org/licenses/MIT)
 - **Contents:**
   - **[Summary](#summary)**
   - **[Documents](#documents)**
@@ -20,10 +20,8 @@ OAC is provided under an [MIT License](https://opensource.org/license/mit).
 - **Embedded copy:** [MIT License](/LICENSE)
 
 ## Agreeing
-- **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that guide describes the exploratory nature of this initial phase well ([Liam Monninger](mailto:liam@ramate.io)).
 
 ## Dissenting
-- **[DIS-1: Liam Monninger](./dissenting/dis-001-liam-monninger/README.md):** argues that the guide does not make it clear how to participate ([Liam Monninger](mailto:liam@ramate.io)).
 
 ## Appendix
 $\emptyset$

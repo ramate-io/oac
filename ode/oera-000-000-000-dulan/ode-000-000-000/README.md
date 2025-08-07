@@ -2,7 +2,7 @@
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
 - **Contents:**
   - **[Summary](#summary)**
-  - **[Desiderata](#specification)**
+  - **[Desiderata](#desiderata)**
   - **[Agreeing](#agreeing)**
   - **[Dissenting](#dissenting)**
   - **[Appendix](#appendix)**
@@ -12,18 +12,18 @@ OAC has expressed intents to be a highly-organized project which is governed via
 
 ## Desiderata
 - **Contents:**
-  - **[D1](#d1-provide-templates-for-artifacts-and-describe-their-usage):** Provide templates for [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) and describe their usage
-  - **[D2](#d2-describe-the-overall-organization-of-the-artifacts):** Describe the overall organization of the [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md)
+  - **[D1](#d1-provide-templates-for-artifacts-and-describe-their-usage):** Provide templates for [Artifacts](/oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) and describe their usage
+  - **[D2](#d2-describe-the-overall-organization-of-the-artifacts):** Describe the overall organization of the [Artifacts](/oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md)
   - **[D3](#d3-describe-responsibilities-for-maintenance-of-this-repository):** Describe responsibilities for maintenance of this repository
 
-### D1: Provide templates for [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) and describe their usage
-[OGOV-0](../../../ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md) asserts that the objects of governance--and thus the decided output of this repository--are the [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md). In order for contributors to effectively add to these [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), they must be informed how draft them and generally use them.
+### D1: Provide templates for [Artifacts](/oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) and describe their usage
+[OGOV-0](../../../ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md) asserts that the objects of governance--and thus the decided output of this repository--are the [Artifacts](/oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md). In order for contributors to effectively add to these [Artifacts](/oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), they must be informed how draft them and generally use them.
 
-### D2: Describe the overall organization of the [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md)
-In addition to drafting individual [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), Contributors must also clearly understand how the artifacts should be organized with respect to each other. This includes placement in directories, indexing, source control, etc.
+### D2: Describe the overall organization of the [Artifacts](/oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md)
+In addition to drafting individual [Artifacts](/oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), Contributors must also clearly understand how the artifacts should be organized with respect to each other. This includes placement in directories, indexing, source control, etc.
 
 ### D3: Describe responsibilities for maintenance of this repository
-[Ramate LLC](https://www.ramate.io) has been identified as the organization responsible for governing this repository, which currently means addressing the inclusion of [Artifacts](../../../oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md). In greater procedural detail, describe what this entails.
+[Ramate LLC](https://www.ramate.io) has been identified as the organization responsible for governing this repository, which currently means addressing the inclusion of [Artifacts](/oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md). In greater procedural detail, describe what this entails.
 
 ## Agreeing
 - **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that guide describes the exploratory nature of this initial phase well ([Liam Monninger](mailto:liam@ramate.io)).
