@@ -10,11 +10,11 @@
 This demo covers the usage of the OAC repository by contributors.
 
 ## Demo
-- **Contents:**
-  - **[Artifacts](#artifacts)**
-  - **[Events, Release Candidates, and Issues](#events-release-candidates-and-issues)**
-  - **[Working with the repository](#working-with-the-repository)**
-  - **[Projects](#projects)**
+
+- **[Artifacts](#artifacts)**
+- **[Events, Release Candidates, and Issues](#events-release-candidates-and-issues)**
+- **[Working with the repository](#working-with-the-repository)**
+- **[Projects](#projects)**
 
 ### Artifacts
 - **Timestamped links:** [00:10](https://www.loom.com/share/2f7b62b9c3c849289155c3bab5d76f96?t=10&sid=a5ce05b0-047d-4efd-8d3e-e1a60308fe0c)
