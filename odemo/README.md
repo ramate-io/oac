@@ -3,6 +3,7 @@ Description of ODEMO.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [ODEMO: OERA-0: DULAN](oera-000-000-000-dulan/README.md)
+- **[ODEMO-0](/odemo/oera-000-000-000-dulan/odemo-000-000-000):** describes how to work with this repository.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
