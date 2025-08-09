@@ -1,4 +1,4 @@
-# OPROC-0: Decentralized Consequence
+# ODEM-0: Demonstrating the OAC Repository
 - **Authors:** [Liam Monninger](mailto:liam@ramate.io)
 
 ## Summary
