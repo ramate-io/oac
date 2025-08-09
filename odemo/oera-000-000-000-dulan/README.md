@@ -1,6 +1,7 @@
 # OE-0: Dulan
 
 ## ODEMOs
+- **[ODEMO-0](/odemo/oera-000-000-000-dulan/odemo-000-000-000):** describes how to work with this repository.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
