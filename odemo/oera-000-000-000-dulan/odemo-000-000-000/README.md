@@ -37,6 +37,8 @@ Repository task planning follows a hierarchy. Events are planned activities with
 ### Working with the repository
 - **Timestamped links:** [08:26](https://www.loom.com/share/2f7b62b9c3c849289155c3bab5d76f96?t=506&sid=4a95ab6f-b8cf-4510-b6cb-56be54d014fb)
 
+When working with the repository, take care to standardize your environment and consider the common workflow.
+
 #### Nix Flake
 - **Timestamped links:** [08:26](https://www.loom.com/share/2f7b62b9c3c849289155c3bab5d76f96?t=506&sid=4a95ab6f-b8cf-4510-b6cb-56be54d014fb)
 
