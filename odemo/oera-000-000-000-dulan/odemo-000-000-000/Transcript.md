@@ -93,6 +93,7 @@
 19:15 It's will be mapped to a particular event. Umm, finally, if you want to have a task board view, umm, you can go ahead and use the get a projects page.
 19:26 Umm, to make it so that other people have that available, please do go ahead and tag with relevant projects as you work on anything.
 19:38 That's all. See you in the next. Next.
+<!-- vale on -->
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
