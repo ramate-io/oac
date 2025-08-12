@@ -16,7 +16,8 @@
   Ordered Atomic Collaboration (OAC)
 </h1>
 
-We recommend those new to the paradigm review the latest [OGUIDE](./oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md).
+> ![TIP]
+> We recommend those new to the paradigm review [OGUIDE-0](/oguide/oera-000-000-000-dulan/oguide-000-000-000/README.md).
 
 OAC is intended to be conceptually oriented and implementation agnostic. Before contributing to this repository, consider whether your intents are implementation specific by reviewing the following:
 
