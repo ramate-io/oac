@@ -20,7 +20,7 @@ We recommend those new to the paradigm review the latest [OGUIDE](./oguide/oera-
 
 OAC is intended to be conceptually oriented and implementation agnostic. Before contributing to this repository, consider whether your intents are implementation specific by reviewing the following:
 
-- **[`robles`](https://github.com/ramate-io/robles):** [Ramate LLC's](https://www.ramate.io) implementation of OAC paradigm technology . Many implementation-specific contributions, including most code, will suit [`robles`](https://github.com/ramate-io/robles).
+- **[`robles`](https://github.com/ramate-io/robles):** [Ramate LLC's](https://www.ramate.io) implementation of OAC paradigm technology. Many implementation-specific contributions, including most code, will suit [`robles`](https://github.com/ramate-io/robles).
 - **[ODEMO](./odemo/README.md):** contains demos for many of the projects building with OAC technologies with which you may be more familiar and for which your contributions may be more suitable.
 
 OAC also refers to the organization that manages this repository.
@@ -30,7 +30,7 @@ OAC also refers to the organization that manages this repository.
 >
 > The **OAC** repository is licensed under the [MIT License](./LICENSE) and can be used at will.
 
-Currently, OAC is governed by [Ramate LLC](https://www.ramate.io). Likewise all implementations of OAC protocols are found under Ramate LLC's [`robles`](https://github.com/ramate-io/robles) project.
+Currently, OAC is governed by [Ramate LLC](https://www.ramate.io). Likewise, all implementations of OAC protocols are found under Ramate LLC's [`robles`](https://github.com/ramate-io/robles) project.
 
 ## Contributing
 
@@ -46,6 +46,7 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) file for additional contribution g
 
 ### Artifacts
 Under [OGLO-0](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md), this subsection defines the recognized artifact types. We recognize the following types:
+
 - [`oera`](./oera): OAC Eras (OERA) are the periods over which a governing body makes decisions. All other OAC [Artifacts](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md) are indexed by OERA.
 - [`oglo`](./oglo/): OAC Glosses (OGLO) are defined terms for OAC.
 - [`oproc`](./oproc/): OAC Proclamations (OPROC) are statements of purpose for OAC.
@@ -60,6 +61,9 @@ Under [OGLO-0](./oglo/oera-000-000-000-dulan/oglo-000-000-000-artifact/README.md
 - [`oguide`](./oguide/): OAC Guides (OGUIDE) are guides or summaries of OAC.
 - [`opre`](./opre/): OAC Presentations (OPRE) are presentations about OAC.
 - [`odemo`](./odemo/): OAC Demonstrations (ODEMO) are selected demonstrations and/or projects built with OAC.
+
+### Docs
+The [`./docs`](/docs/) directory contains documentation for advanced maintenance of this repository. It describes things like pre-commit hooks and GitHub workflows.
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---

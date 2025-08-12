@@ -1,4 +1,5 @@
 # OLOG
+OAC Logs (OLOG) are periodically submitted logs describing various developments within the OAC paradigm.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OLOG: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

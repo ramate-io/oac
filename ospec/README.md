@@ -1,4 +1,5 @@
 # OSPEC
+OAC Specifications (OSPEC) describe specifications and are typically written in response to ODE. Generally, contributors should use OSPEC to justify non-trivial changes to this repository.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OSPEC: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

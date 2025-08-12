@@ -1,5 +1,5 @@
 # ODE
-Description of ODE.
+OAC Desiderata (ODE) describe wants, open problems, and similar within the OAC paradigm.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [ODE: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

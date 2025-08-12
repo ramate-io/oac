@@ -1,4 +1,5 @@
 # OPROC
+OAC Proclamations (OPROC) are statements of purpose for OAC.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OPROC: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

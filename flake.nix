@@ -23,8 +23,8 @@
 
         # An LLVM build environment
         dependencies = with pkgs; [
+          ltex-ls-plus
           lychee
-          vale
           chafa
           perl
           llvmPackages.bintools

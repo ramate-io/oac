@@ -50,7 +50,7 @@ When working with the repository, ensure you have opened the [Nix Flake](https:/
 #### Pre-commit hooks
 - **Timestamped links:** [10:00](https://www.loom.com/share/2f7b62b9c3c849289155c3bab5d76f96?t=600&sid=4a95ab6f-b8cf-4510-b6cb-56be54d014fb)
 
-All of the scripts in [`.githooks/lib-pre-commit`](/.githooks/lib-pre-commit) should be run in a properly configured environment during the pre-commit phase of a Git workflow. These are at the time of writing:
+Each of the scripts in [`.githooks/lib-pre-commit`](/.githooks/lib-pre-commit) should be run in a properly configured environment during the pre-commit phase of a Git workflow. These are at the time of writing:
 
 - [`.githooks/lib-pre-commit/footers`](/.githooks/lib-pre-commit/footers) ensures the proper formatting of footers.
 - [`.githooks/lib-pre-commit/index`](/.githooks/lib-pre-commit/index) automates the creation of era indices.

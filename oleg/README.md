@@ -1,5 +1,5 @@
 # OLEG
-Description of OLEG.
+OAC Legal Documents (OLEG) are published legal documents covering OAC operations in any jurisdiction.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OLEG: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

@@ -80,7 +80,7 @@ All of these implementations are part of [Ramate LLC's](https://www.ramate.io) [
 #### T1.1: Complete draft of **OART-1: BFA**
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-A complete draft of draft of **OART-1: BFA** is essential for beginning work on [`gwrdfa`](https://github.com/ramate-io/gwrdfa).
+A complete draft of **OART-1: BFA** is essential for beginning work on [`gwrdfa`](https://github.com/ramate-io/gwrdfa).
 
 > [!NOTE]
 > **[[Liam Monninger](mailto:liam@ramate.io)]
@@ -90,7 +90,7 @@ A complete draft of draft of **OART-1: BFA** is essential for beginning work on 
 #### T1.2: Complete draft of **OART-2: Collaborative Transaction Routing**
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-A complete draft of draft of **OART-2: Collaborative Transaction Routing** is essential for beginning work on [`srcavei`](https://github.com/ramate-io/srcavei).
+A complete draft of **OART-2: Collaborative Transaction Routing** is essential for beginning work on [`srcavei`](https://github.com/ramate-io/srcavei).
 
 > [!NOTE]
 > **[[Liam Monninger](mailto:liam@ramate.io)]**
@@ -140,12 +140,12 @@ Beginning [`fuste`](https://github.com/ramate-io/fuste) earlier allows for us to
 #### T2.1: Share and gather feedback on **OART-1: BFA**
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-It is critical to gather feedback on **OART-1: BFA**, so as to ensure viability of the project and its quality.
+It is critical to gather feedback on **OART-1: BFA**, to ensure viability of the project and its quality.
 
 #### T2.2: Share and gather feedback on **OART-2: Collaborative Transaction Routing**
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-It is critical to gather feedback on **OART-2: Collaborative Transaction Routing**, so as to ensure viability of the project and its quality.
+It is critical to gather feedback on **OART-2: Collaborative Transaction Routing**, to ensure viability of the project and its quality.
 
 #### T2.3: Implement and document proposal standards, contributor guidelines, and implementation governance
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -155,17 +155,17 @@ Clearly establishing contributor guidelines and governance, and ensuring strong 
 > [!NOTE]
 > **[[Liam Monninger](mailto:liam@ramate.io)]**
 >
-> At the moment, there is a fairly robust contribution framework availability a lot of this will be fine tuning.
+> At the moment, there is a fairly robust contribution framework availability a lot of this will be fine-tuning.
 
 #### T2.4: Complete [`gwrdfa`](https://github.com/ramate-io/gwrdfa) reference implementation
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Completing the [`gwrdfa`](https://github.com/ramate-io/gwrdfa) reference implementation shall enabled the implementation of applications using [`gwrdfa`](https://github.com/ramate-io/gwrdfa).
+Completing the [`gwrdfa`](https://github.com/ramate-io/gwrdfa) reference implementation shall enable the implementation of applications using [`gwrdfa`](https://github.com/ramate-io/gwrdfa).
 
 #### T2.5: Complete [`srcavei`](https://github.com/ramate-io/srcavei) reference implementation
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Completing the [`srcavei`](https://github.com/ramate-io/srcavei) reference implementation shall enabled the implementation of applications using [`srcavei`](https://github.com/ramate-io/srcavei).
+Completing the [`srcavei`](https://github.com/ramate-io/srcavei) reference implementation shall enable the implementation of applications using [`srcavei`](https://github.com/ramate-io/srcavei).
 
 #### T2.6: Continue development of [`fuste`](https://github.com/ramate-io/fuste) as a lower priority task
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -335,7 +335,7 @@ Gauging interest of the blockchain community may identify a simple path for proj
 
 ### T7: Killer Apps Phase 2: Content Sharing
 > [!IMPORTANT]
-> **T7** emphasizes the support of an content sharing application built with OAC implementations.
+> **T7** emphasizes the support of a content sharing application built with OAC implementations.
 
 - **Starts:** T6 + 1 month
 - **Depends-on:** [T6](#t6-killer-apps-phase-1-traditional-l1)
@@ -383,7 +383,7 @@ Continued support of L1 killer apps may continue to present opportunities for pr
 #### T8.1: Push for MVP of content sharing mobile application
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Ideally, the develop of a "Thro" MVP presents a marketable asset as presented in [RPRE-0](https://github.com/ramate-io/ramate/blob/main/rpre/rera-000-000-000-dulan/rpre-000-000-000/README.md). Placing this MVP in [T8](#t8-killer-apps-phase-3-content-sharing-continued) does not provide much time to reach sufficient market penetration. However, positive adoption should be sufficient to either (a) make it reasonable to continue to bootstrap for several months longer or (b) feasible to seek favorable outside investment.
+Ideally, the development of a "Thro" MVP presents a marketable asset as presented in [RPRE-0](https://github.com/ramate-io/ramate/blob/main/rpre/rera-000-000-000-dulan/rpre-000-000-000/README.md). Placing this MVP in [T8](#t8-killer-apps-phase-3-content-sharing-continued) does not provide much time to reach sufficient market penetration. However, positive adoption should be sufficient to either (a) make it reasonable to continue to bootstrap for several months longer or (b) feasible to seek favorable outside investment.
 
 Alternatively, if "Thro's" financials are insufficient for either of the above, its optics may still help present OAC itself as a marketable asset to other application developers.
 
@@ -395,7 +395,7 @@ While "Thro" remains the priority, L1 blockchain support may once again continue
 #### T8.3: Research and experiment with swarm coordination mechanisms
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Allowing a period to research and experiment with swarm coordination both provides a lighter target against which "Thro" development can b safely prioritized and potentially generates marketable material describing OAC's long-term trajectory. Users may like to say "I am use a content sharing app which is funding AI safety."
+Allowing a period to research and experiment with swarm coordination both provides a lighter target against which "Thro" development can b safely prioritized and potentially generates marketable material describing OAC's long-term trajectory. Users may like to say "I am using a content sharing app which is funding AI safety."
 
 ### T9: An Interlude
 > [!IMPORTANT]
@@ -405,7 +405,7 @@ Allowing a period to research and experiment with swarm coordination both provid
 - **Depends-on:** [T8](#t8-killer-apps-phase-3-content-sharing-continued)
 - **Ends:** T9 + 1 month
 - **Contents:**
-    - **[T9.1](#t91-update-the-governance-of-oac-for-greater-decentralization)**:  Update the governance of OAC for greater decentralization
+    - **[T9.1](#t91-update-the-governance-of-oac-for-greater-decentralization)**: Update the governance of OAC for greater decentralization
     - **[T9.2](#t92-make-decision-on-bootstrapping-viability)**: Make decision on bootstrapping viability
     - **[T9.3](#t93-final-push-for-academic-recognition-of-oart-1-bfa)**: Final push for academic recognition of **OART-1: BFA**
     - **[T9.4](#t94-final-push-for-academic-recognition-of-oart-2-collaborative-transaction-routing)**: Final push for academic recognition of **OART-2: Collaborative Transaction Routing**
@@ -416,7 +416,7 @@ Allowing a period to research and experiment with swarm coordination both provid
 >
 > **T9** was originally added to **OROAD-0** to help itemize the organizational intents of OAC. The scope has since been altered.
 
-**T9** is a milestone which accounts for the differing success and funding possibilities for the OAC project. Namely these are:
+**T9** is a milestone which accounts for the differing success and funding possibilities for the OAC project. Namely, these are:
 
 1. The project continues, but as essentially a hobby project seeking to slowly groundswell with open source contribution. At the end of **[T9](#t9-an-interlude)** this likely stands as a portfolio project for **[[Liam Monninger](mailto:liam@ramate.io)]**.
 2. The project finds a means to bootstrap but **[[Liam Monninger](mailto:liam@ramate.io)]** remains the sole full-time contributor.
@@ -430,7 +430,7 @@ In the face of all of these possibilities, ensuring a relative stasis for the go
 #### T9.1: Update the governance of OAC for greater decentralization
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-We intend to push for greater decentralization of OAC governance. OAC should be organization whose development is guided openly and transparently by many parties. Just as our technology derives consequence through participation, so to should the organization developing said technology.
+We intend to push for greater decentralization of OAC governance. OAC should be organization whose development is guided openly and transparently by many parties. Just as our technology derives consequence by participation, so to should the organization developing said technology.
 
 In the very least, this update of governance should include moving OAC out from under [Ramate LLC's](https://www.ramate.io) governance if such has not already occurred.
 
