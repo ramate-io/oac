@@ -1,5 +1,5 @@
 # ODEMO
-Description of ODEMO.
+OAC Demonstrations (ODEMO) are selected demonstrations and/or projects built with OAC.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [ODEMO: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

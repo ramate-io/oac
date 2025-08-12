@@ -1,2 +1,0 @@
-# This file ensures the .vale/styles directory is tracked by git
-# Vale style packages will be downloaded here with 'vale sync'

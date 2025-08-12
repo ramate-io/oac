@@ -1,4 +1,5 @@
 # OPRE
+OAC Presentations (OPRE) are presentations about OAC.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OPRE: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

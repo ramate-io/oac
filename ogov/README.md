@@ -1,5 +1,5 @@
 # OGOV
-Description of OGOV
+OAC Governance (OGOV) are constitutions of, procedures for, and interpretations of OAC governance.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OGOV: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

@@ -1,5 +1,5 @@
 # OART
-Description of OART.
+OAC Articles (OART) are academic papers which form the conceptual backbone of the OAC paradigm.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OART: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

@@ -28,7 +28,7 @@ OAC skews away from traditional and popular decentralized and distributed comput
 OAC focuses on large footprint systems--with the ambition of deriving greater performance and security.
 
 #### I2: BFA
-OAC reduces networked compute to a more permissive class of protocols known as  **BFA**--protocols allowing Byzantine faults with some known error rate.
+OAC reduces networked compute to a more permissive class of protocols known as **BFA**--protocols allowing Byzantine faults with some known error rate.
 
 #### I3: Expanded Incentivization
 OAC aims to move the problem of incentivization and costliness out from the stake- and work-based systems of today to a broader class of economic structures.
@@ -45,7 +45,7 @@ OAC de-emphasizes perfect consensus. The primary motive of OAC is to track state
 >
 > **[[Liam Monninger]](mailto:liam@ramate.io)**
 >
-> To analogize, OAC concerns itself not with making a farmer rely on the government to grow his crops. Instead OAC enables the farmer to work with the government to petition against a neighbor encroaching on his land.
+> To analogize, OAC concerns itself not with making a farmer rely on the government to grow his crops. Instead, OAC enables the farmer to work with the government to petition against a neighbor encroaching on his land.
 >
 > The clear, direct needs and safety requirements must still be satisfied by individual actors. However, that these individual actors recognize individual benefits of collaborative action renders a system wherein expected behavior is safer.
 

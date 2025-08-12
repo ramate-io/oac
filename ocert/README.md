@@ -1,5 +1,5 @@
 # OCERT
-Description of OCERT.
+OAC Certificates (OCERT) certify a given project as abiding by the OAC paradigm.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OCERT: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

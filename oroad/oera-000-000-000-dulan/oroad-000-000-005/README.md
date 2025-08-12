@@ -22,9 +22,9 @@
 > [!IMPORTANT]
 > **[[Liam Monninger]](liam@ramate.io)**
 >
-> Some of the contents of this roadmap refer to efforts which should in the future be placed outside of OAC. However, I am currently using the OAC repository to plan, while these other structures are being put in place.
+> Some of the contents of this roadmap refer to efforts which should in the future be placed outside OAC. However, I am currently using the OAC repository to plan, while these other structures are being put in place.
 >
-> I further believe this is reasonable given--from one perspective--Ramate and Robles are at the service of pursuing OAC.
+> I further believe this is reasonable given -- from one perspective -- Ramate and Robles are at the service of pursuing OAC.
 
 > [!NOTE]
 > **[[Liam Monninger]](liam@ramate.io)**
@@ -73,7 +73,7 @@
     - **[T1.6](#t16-clean-hardware-and-reset-developer-environment)**: Clean hardware and reset developer environment
     - **[T1.7](#t17-wardley-maps)**: Wardley Maps
 
-**T1** is a one day scramble to update high-level roadmaps and organizational understanding, as well as to ensure that the key repositories [OAC](https://github.com/ramate-io/oac), [Ramate](https://github.com/ramate-io/ramate), and [Robles](https://github.com/ramate-io/robles) are prepared for usage for development.
+**T1** is a one-day scramble to update high-level roadmaps and organizational understanding, as well as to ensure that the key repositories [OAC](https://github.com/ramate-io/oac), [Ramate](https://github.com/ramate-io/ramate), and [Robles](https://github.com/ramate-io/robles) are prepared for usage for development.
 
 **T1** seeks to accomplish the following itemized objectives:
 
@@ -95,7 +95,7 @@ The [Ramate](https://github.com/ramate-io/ramate) repository is still mainly jus
 #### T1.4: Clean and update [Robles](https://github.com/ramate-io/robles) repository
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-The [Robles](https://github.com/ramate-io/robles) repository is still mainly just a copy of the [OAC](https://github.com/ramate-io/oac) repository. It should be updated to reflect the unique specification, documentation, and planning performed under the [Robles](https://github.com/ramate-io/robles) project.
+The "[Robles](https://github.com/ramate-io/robles)" repository is still mainly just a copy of the [OAC](https://github.com/ramate-io/oac) repository. It should be updated to reflect the unique specification, documentation, and planning performed under the [Robles](https://github.com/ramate-io/robles) project.
 
 #### T1.5: Update [ramate.io](https://www.ramate.io)
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -127,7 +127,7 @@ In an effort to develop a strong high-level organizational understanding, we'll 
 - **Contents:**
     - **[T2.1](#t21-write-vectors-philosophy-of-work)**: Write "Vectors philosophy of work"
     - **[T2.2](#t22-write-wardley-maps-in-the-context-of-compute-infrastructure)**: Write "Wardley Maps in the context of compute infrastructure"
-    - **[T2.3](#t23-write-on-the-rarity-of-sub-sampling-protocols)**: Write "On the rarity of sub-sampling protocols"
+    - **[T2.3](#t23-write-on-the-rarity-of-subsampling-protocols)**: Write "On the rarity of subsampling protocols"
     - **[T2.4](#t24-write-traits-and-coroutines)**: Write "Traits and coroutines"
     - **[T2.5](#t25-write-verification-and-traits)**: Write "Verification and traits"
     - **[T2.6](#t26-write-the-value-in-decentralization)**: Write "The value in decentralization"
@@ -146,7 +146,7 @@ Write a memo describing the "vectors" philosophy of work which describes summing
 
 This is advanced to describe an initial sense of the philosophy of work behind the Ramate, OAC, and Robles.
 
-This should most like be an RMEMO.
+This should most likely be an RLOG.
 
 #### T2.2: Write "Wardley Maps in the context of compute infrastructure"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -155,10 +155,10 @@ Write a memo describing the particular application of Wardley Maps in the contex
 
 This is advanced to develop a better sense of Wardley Maps in the contexts relevant to Ramate, OAC, and Robles, and to record learnings.
 
-#### T2.3: Write "On the rarity of sub-sampling protocols"
+#### T2.3: Write "On the rarity of subsampling protocols"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Write a memo describing the current state of protocols matching or similar to the sub-sampling techniques which are slated for formalization under BFA.
+Write a memo describing the current state of protocols matching or similar to the subsampling techniques which are slated for formalization under BFA.
 
 This is advanced to provide a brief motivation for BFA and prepare to contend with detractions.
 
@@ -196,31 +196,31 @@ Write a memo provoking the notion of using topos theory to better describe class
 
 ### T3: BFA First Draft
 > [!IMPORTANT]
-> **T3** focuses on rapidly producing a first draft of BFA an concretely identifying weakpoints.
+> **T3** focuses on rapidly producing a first draft of BFA and concretely identifying weakpoints.
 
 - **Starts:** T1 + 1 day
 - **Depends-on:** [T1](#t1-organization-and-updating-oroad-0)
 - **Ends:** T3 + 5 days
 - **Contents:**
-    - **[T3.1](#t31-produce-latex-shell-draft-of-oart-2-bfa)**: Produce Latex shell draft of **OART-2: BFA**
+    - **[T3.1](#t31-produce-latex-draft-of-oart-2-bfa)**: Produce Latex draft of **OART-2: BFA**
     - **[T3.2](#t32-provide-annotated-bibliography-for-oart-2-bfa)**: Provide annotated bibliography for **OART-2: BFA**
-    - **[T3.3](#t33-write-olog-identifying-weakpoints-in-oart-2-bfa-shell-draft)**: Write OLOG identifying weakpoints in **OART-2: BFA** shell draft
+    - **[T3.3](#t33-write-olog-identifying-weakpoints-in-oart-2-bfa-draft)**: Write OLOG identifying weakpoints in **OART-2: BFA** draft
 
 **T3** focuses on producing a first draft of the BFA paper.
 
 **T3** seeks to accomplish the following itemized objectives:
 
-#### T3.1: Produce Latex shell draft of **OART-2: BFA**
+#### T3.1: Produce Latex draft of **OART-2: BFA**
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Simply write the Latex shell draft of **OART-2: BFA**.
+Simply write the Latex draft of **OART-2: BFA**.
 
 #### T3.2: Provide annotated bibliography for **OART-2: BFA**
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 Write the annotated bibliography for **OART-2: BFA**. This should allow for better and more complete comparative review in the near future.
 
-#### T3.3: Write OLOG identifying weakpoints in **OART-2: BFA** shell draft
+#### T3.3: Write OLOG identifying weakpoints in **OART-2: BFA** draft
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
 Try to identify weakpoints in the initial BFA conceptualization. This should help inform planning which respects where the paper will need to be bolstered most.
@@ -260,7 +260,7 @@ Provide guides for using `emframed`. Identify common patterns and reason through
 #### T4.4: Generate specification for `emframed` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Generate a specification, likely RASPEC, for `emframed`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
+Generate a specification, likely RSPEC, for `emframed`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
 
 ### T5: `cite` API
 > [!IMPORTANT]
@@ -281,7 +281,7 @@ Generate a specification, likely RASPEC, for `emframed`. We ask for to be done a
 #### T5.1: Produce initial `cite` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-The initial `cite` API shall contain macros for citing and reporting un-cited or discrepant implementations. It will implement this for several common use cases with appropriate parameterization.
+The initial `cite` API shall contain macros for citing and reporting missing citations or discrepant implementations. It will implement this for several common use cases with appropriate parameterization.
 
 #### T5.2: Provide demo of `cite` API using some specification within Ramate, Robles, or OAC
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -291,7 +291,7 @@ Provide a demo of using `cite` with Ramate, Robles, or OAC to trigger warnings. 
 #### T5.3: Generate specification for `cite` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Generate a specification, likely RASPEC, for `cite`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
+Generate a specification, likely RSPEC, for `cite`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
 
 ### T6: `roadline` API
 > [!IMPORTANT]
@@ -322,7 +322,7 @@ Using a video formatted document such as this one, demonstrate the utility of th
 #### T6.3: Generate specification for `roadline` API
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Generate a specification, likely RASPEC, for `roadline`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
+Generate a specification, likely RSPEC, for `roadline`. We ask for to be done after the initial concept in this case to allow for a more informed specification to be generated.
 
 ## Agreeing
 - **[AGR-1: Liam Monninger](./agreeing/agr-001-liam-monninger/README.md):** argues that this roadmap describes an effective plan for both procedural and psychological preparation ([Liam Monninger](mailto:liam@ramate.io)).

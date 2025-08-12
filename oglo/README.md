@@ -1,5 +1,5 @@
 # OGLO
-Description of OGLO
+OAC Glosses (OGLO) are defined terms for OAC.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OGLO: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

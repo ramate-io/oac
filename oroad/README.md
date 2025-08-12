@@ -1,4 +1,5 @@
 # OROAD
+OAC Roadmaps (OROAD) are roadmaps describing the intents and objectives of the OAC organization.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OROAD: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

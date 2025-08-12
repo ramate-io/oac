@@ -2,7 +2,7 @@
 - **Authors:** [Liam Monninger](liam@ramate.io)
 - **Holder:** [OAC](https://github.com/ramate-io/oac)
 - **Pubkey:** [`cafe3368`](./pub.key)
-- **Original issuer:** [OGOV-O: Founding](../../../ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md)
+- **Original issuer:** [OGOV-0: Founding](../../../ogov/oera-000-000-000-dulan/ogov-000-000-000/README.md)
 - **Contents:**
     - **[Terms](#terms)**
     - **[Conditions](#conditions)**
@@ -21,7 +21,7 @@ We hereby endorse this, the [OAC](https://github.com/ramate-io/oac) repository, 
 ### T2: Correctness of [OAC](https://github.com/ramate-io/oac) `main`
 We hereby certify all content under [OAC](https://github.com/ramate-io/oac) repository on its `main` branch is a correct representation of the OAC paradigm.
 
-Pursuant to [T1](#t1-self-endorsement), we certify whatever content is on its `main` branch is correct, owing the to reflexive nature of this certificate.
+Pursuant to [T1](#t1-self-endorsement), we certify whatever content is on its `main` branch is correct, owing to the reflexive nature of this certificate.
 
 ## Conditions
 - **Contents:**

@@ -1,5 +1,5 @@
 # OGUIDE
-OAC Guides (OGUIDE) provide useful guides and summaries of OAC.
+OAC Guides (OGUIDE) are guides or summaries of OAC.
 
 <!--START OAC INDEX: DO NOT REMOVE THIS LINE -->
 ## [OGUIDE: OERA-0: DULAN](oera-000-000-000-dulan/README.md)

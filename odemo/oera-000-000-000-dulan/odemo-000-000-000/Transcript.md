@@ -1,6 +1,7 @@
 # Transcript
 - **Authors:** [Liam Monninger](liam@ramate.io)
 
+<!-- ltex: enabled=false -->
 <!-- vale off -->
 00:00 Hey everybody. I'm going to be demonstrating the OIC repository. I'm going to be talking through how to find information, uhm, in it and how to make contributions.
 00:10 Uh, the OIC repository is concerned with this thing that I call an artifact. An artifact is a specification, a demonstration like this, run it.
@@ -94,6 +95,7 @@
 19:26 Umm, to make it so that other people have that available, please do go ahead and tag with relevant projects as you work on anything.
 19:38 That's all. See you in the next. Next.
 <!-- vale on -->
+<!-- ltex: enabled=true -->
 
 <!--OAC FOOTER: DO NOT REMOVE THIS LINE-->
 ---
