@@ -153,6 +153,7 @@ if [ -d "oera" ]; then
         
         # Only process directories that start with "oera"
         if [[ "$oera_name" =~ ^oera ]]; then
+            # Link the era itself
             target_path="artifacts/${oera_name}"
             
             echo "  🔗 Creating artifacts link: ${target_path} -> ../oera/${oera_name}"
@@ -173,6 +174,44 @@ if [ -d "oera" ]; then
                 echo "  ❌ Failed to create artifacts link: ${target_path}"
                 FAILED_LINKS+=("${target_path}")
             fi
+            
+            # Also link individual artifacts within the era (agreeing/dissenting)
+            for sub_type in "agreeing" "dissenting"; do
+                sub_dir="${oera_dir}${sub_type}"
+                if [ -d "$sub_dir" ]; then
+                    for artifact_dir in "${sub_dir}"/*/; do
+                        # Skip if not a directory
+                        [ ! -d "$artifact_dir" ] && continue
+                        
+                        artifact_name=$(basename "$artifact_dir")
+                        
+                        # Skip README.md and other files
+                        [ "$artifact_name" = "README.md" ] && continue
+                        
+                        # Create link for individual artifact
+                        artifact_target_path="artifacts/${artifact_name}"
+                        
+                        echo "  🔗 Creating artifacts link: ${artifact_target_path} -> ../oera/${oera_name}/${sub_type}/${artifact_name}"
+                        
+                        # Remove existing link if it exists
+                        if [ -e "${artifact_target_path}" ] || [ -L "${artifact_target_path}" ]; then
+                            rm -rf "${artifact_target_path}"
+                        fi
+                        
+                        # Create the symbolic link (relative path)
+                        if ln -s "../oera/${oera_name}/${sub_type}/${artifact_name}" "${artifact_target_path}"; then
+                            ARTIFACTS_LINKS_CREATED=$((ARTIFACTS_LINKS_CREATED + 1))
+                            echo "  ✅ Created artifacts link: ${artifact_target_path}"
+                            
+                            # Add the symlink to git if it's not already tracked
+                            git add "${artifact_target_path}" 2>/dev/null || true
+                        else
+                            echo "  ❌ Failed to create artifacts link: ${artifact_target_path}"
+                            FAILED_LINKS+=("${artifact_target_path}")
+                        fi
+                    done
+                fi
+            done
         fi
     done
 fi
