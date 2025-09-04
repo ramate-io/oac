@@ -1,0 +1,156 @@
+#!/bin/bash
+
+set -e
+
+# Status helper function
+status() {
+    if [ $? -eq 0 ]; then
+        echo "✅ $1"
+    else
+        echo "❌ $1"
+        return 1
+    fi
+}
+
+echo "Running pre-commit hook: Creating symbolic links for era indexed artifacts..."
+
+# Check if artifact-types file exists
+if [ ! -f "artifact-types" ]; then
+    echo "❌ artifact-types file not found"
+    exit 1
+fi
+
+# Read artifact types
+ARTIFACT_TYPES=$(cat artifact-types)
+status "Reading artifact types" || exit 1
+
+TOTAL_LINKS_CREATED=0
+FAILED_LINKS=()
+
+# Process each artifact type
+for artifact_type in $ARTIFACT_TYPES; do
+    echo "🔗 Processing artifact type: ${artifact_type}"
+    
+    # Check if artifact type directory exists
+    if [ ! -d "${artifact_type}" ]; then
+        echo "⚠️  Directory ${artifact_type} does not exist, skipping..."
+        continue
+    fi
+    
+    # Find all era directories (directories that contain artifact subdirectories)
+    for era_dir in "${artifact_type}"/*/; do
+        # Skip if no era directories found
+        [ ! -d "$era_dir" ] && continue
+        
+        era_name=$(basename "$era_dir")
+        
+        # Only process directories that start with "oera"
+        if [[ ! "$era_name" =~ ^oera ]]; then
+            echo "  ⏭️  Skipping non-era directory: ${era_name}"
+            continue
+        fi
+        
+        echo "  📁 Processing era: ${era_name}"
+        
+        # Find all artifact directories within this era
+        for artifact_dir in "${era_dir}"/*/; do
+            # Skip if no artifact directories found
+            [ ! -d "$artifact_dir" ] && continue
+            
+            artifact_name=$(basename "$artifact_dir")
+            
+            # Skip README.md files and other non-directory entries
+            [ "$artifact_name" = "README.md" ] && continue
+            
+            # Define source (era-indexed) and target (non-era-indexed) paths
+            source_path="${artifact_type}/${era_name}/${artifact_name}"
+            target_path="${artifact_type}/${artifact_name}"
+            artifact_path="artifacts/${artifact_name}"
+            
+            echo "    🔗 Creating symlink: ${target_path} -> ${source_path}"
+            
+            # Remove existing symlink or file if it exists
+            if [ -e "${target_path}" ] || [ -L "${target_path}" ]; then
+                rm -rf "${target_path}"
+            fi
+            
+            # Create the symbolic link (relative path)
+            if ln -s "${era_name}/${artifact_name}" "${target_path}"; then
+                TOTAL_LINKS_CREATED=$((TOTAL_LINKS_CREATED + 1))
+                echo "    ✅ Created symlink: ${target_path}"
+                
+                # Add the symlink to git if it's not already tracked
+                git add "${target_path}" 2>/dev/null || true
+            else
+                echo "    ❌ Failed to create symlink: ${target_path}"
+                FAILED_LINKS+=("${target_path}")
+            fi
+
+            echo "    🔗 Creating symlink: ${artifact_path} -> ${source_path}"
+
+            # Remove existing symlink or file if it exists
+            if [ -e "${artifact_path}" ] || [ -L "${artifact_path}" ]; then
+                rm -rf "${artifact_path}"
+            fi
+
+            # Create the symbolic link (relative path)
+            if ln -s "../${source_path}" "${artifact_path}"; then
+                echo "    ✅ Created symlink: ${artifact_path}"
+                git add "${artifact_path}" 2>/dev/null || true
+            else
+                echo "    ❌ Failed to create symlink: ${artifact_path}"
+                FAILED_LINKS+=("${artifact_path}")
+            fi
+
+        done
+    done
+done
+
+# Also link OERA artifacts directly (since they're not era-indexed)
+if [ -d "oera" ]; then
+    echo "  📁 Adding OERA artifacts to ./artifacts/"
+    for oera_dir in oera/*/; do
+        # Skip if not a directory
+        [ ! -d "$oera_dir" ] && continue
+        
+        oera_name=$(basename "$oera_dir")
+        
+        # Only process directories that start with "oera"
+        if [[ "$oera_name" =~ ^oera ]]; then
+            # Link the era itself
+            target_path="artifacts/${oera_name}"
+            
+            echo "  🔗 Creating artifacts link: ${target_path} -> ../oera/${oera_name}"
+            
+            # Remove existing link if it exists
+            if [ -e "${target_path}" ] || [ -L "${target_path}" ]; then
+                rm -rf "${target_path}"
+            fi
+            
+            # Create the symbolic link (relative path)
+            if ln -s "../oera/${oera_name}" "${target_path}"; then
+                ARTIFACTS_LINKS_CREATED=$((ARTIFACTS_LINKS_CREATED + 1))
+                echo "  ✅ Created artifacts link: ${target_path}"
+                
+                # Add the symlink to git if it's not already tracked
+                git add "${target_path}" 2>/dev/null || true
+            else
+                echo "  ❌ Failed to create artifacts link: ${target_path}"
+                FAILED_LINKS+=("${target_path}")
+            fi
+        fi
+    done
+fi
+
+# Report results
+echo "✨ Symbolic linking complete! Created ${TOTAL_LINKS_CREATED} type-level symbolic links and ${ARTIFACTS_LINKS_CREATED} artifacts-level symbolic links."
+
+if [ ${#FAILED_LINKS[@]} -gt 0 ]; then
+    echo "❌ The following symbolic links failed to create:"
+    for link in "${FAILED_LINKS[@]}"; do
+        echo "   - ${link}"
+    done
+    exit 1
+fi
+
+exit 0

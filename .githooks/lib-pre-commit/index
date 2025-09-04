@@ -76,6 +76,12 @@ for type_dir in $ARTIFACT_TYPES; do
     
     # Process each era directory
     for era_name in $ERA_DIRS; do
+        # Only process directories that start with "oera"
+        if [[ ! "$era_name" =~ ^oera ]]; then
+            echo "   ⏭️  Skipping non-era directory: ${era_name}"
+            continue
+        fi
+        
         era_path="${type_dir}/${era_name}"
         readme_path="${era_path}/README.md"
         
