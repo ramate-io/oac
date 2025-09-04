@@ -65,6 +65,7 @@ for artifact_type in $ARTIFACT_TYPES; do
             # Define source (era-indexed) and target (non-era-indexed) paths
             source_path="${artifact_type}/${era_name}/${artifact_name}"
             target_path="${artifact_type}/${artifact_name}"
+            artifact_path="artifacts/${artifact_name}"
             
             echo "    🔗 Creating symlink: ${target_path} -> ${source_path}"
             
@@ -84,61 +85,24 @@ for artifact_type in $ARTIFACT_TYPES; do
                 echo "    ❌ Failed to create symlink: ${target_path}"
                 FAILED_LINKS+=("${target_path}")
             fi
-        done
-    done
-done
 
-# Create top-level artifacts directory
-echo "🗂️  Creating top-level artifacts directory..."
+            echo "    🔗 Creating symlink: ${artifact_path} -> ${target_path}"
 
-# Create artifacts directory if it doesn't exist
-if [ ! -d "artifacts" ]; then
-    mkdir -p artifacts
-fi
-
-ARTIFACTS_LINKS_CREATED=0
-
-# Link all non-era-indexed artifacts to ./artifacts/
-for artifact_type in $ARTIFACT_TYPES; do
-    # Skip if artifact type directory doesn't exist
-    [ ! -d "${artifact_type}" ] && continue
-    
-    # Find all non-era-indexed symlinks we just created
-    for artifact_link in "${artifact_type}"/*/; do
-        # Skip if not a directory
-        [ ! -d "$artifact_link" ] && continue
-        
-        artifact_name=$(basename "$artifact_link")
-        
-        # Skip era directories (they start with "oera")
-        [[ "$artifact_name" =~ ^oera ]] && continue
-        
-        # Skip README.md and other files
-        [ "$artifact_name" = "README.md" ] && continue
-        
-        # Only process if this is actually a symlink (one we just created)
-        if [ -L "$artifact_link" ]; then
-            target_path="artifacts/${artifact_name}"
-            
-            echo "  🔗 Creating artifacts link: ${target_path} -> ../${artifact_type}/${artifact_name}"
-            
-            # Remove existing link if it exists
-            if [ -e "${target_path}" ] || [ -L "${target_path}" ]; then
-                rm -rf "${target_path}"
+            # Remove existing symlink or file if it exists
+            if [ -e "${artifact_path}" ] || [ -L "${artifact_path}" ]; then
+                rm -rf "${artifact_path}"
             fi
-            
+
             # Create the symbolic link (relative path)
-            if ln -s "../${artifact_type}/${artifact_name}" "${target_path}"; then
-                ARTIFACTS_LINKS_CREATED=$((ARTIFACTS_LINKS_CREATED + 1))
-                echo "  ✅ Created artifacts link: ${target_path}"
-                
-                # Add the symlink to git if it's not already tracked
-                git add "${target_path}" 2>/dev/null || true
+            if ln -s "../${target_path}" "${artifact_path}"; then
+                echo "    ✅ Created symlink: ${artifact_path}"
+                git add "${artifact_path}" 2>/dev/null || true
             else
-                echo "  ❌ Failed to create artifacts link: ${target_path}"
-                FAILED_LINKS+=("${target_path}")
+                echo "    ❌ Failed to create symlink: ${artifact_path}"
+                FAILED_LINKS+=("${artifact_path}")
             fi
-        fi
+
+        done
     done
 done
 
