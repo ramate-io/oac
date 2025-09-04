@@ -86,7 +86,7 @@ for artifact_type in $ARTIFACT_TYPES; do
                 FAILED_LINKS+=("${target_path}")
             fi
 
-            echo "    🔗 Creating symlink: ${artifact_path} -> ${target_path}"
+            echo "    🔗 Creating symlink: ${artifact_path} -> ${source_path}"
 
             # Remove existing symlink or file if it exists
             if [ -e "${artifact_path}" ] || [ -L "${artifact_path}" ]; then
@@ -94,7 +94,7 @@ for artifact_type in $ARTIFACT_TYPES; do
             fi
 
             # Create the symbolic link (relative path)
-            if ln -s "../${target_path}" "${artifact_path}"; then
+            if ln -s "../${source_path}" "${artifact_path}"; then
                 echo "    ✅ Created symlink: ${artifact_path}"
                 git add "${artifact_path}" 2>/dev/null || true
             else
