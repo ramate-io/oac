@@ -1,0 +1,20 @@
+[package]
+name = "cite-helper-macro-git-test"
+version = { workspace = true }
+edition  = { workspace = true }
+license  = { workspace = true }
+authors = { workspace = true }
+repository = { workspace = true }
+homepage = { workspace = true }
+publish = { workspace = true }
+rust-version = { workspace = true }
+
+[dependencies]
+cite = { workspace = true }
+oac = { workspace = true }
+
+[dev-dependencies]
+trybuild = { workspace = true }
+
+[lints]
+workspace = true
