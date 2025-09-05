@@ -1,5 +1,5 @@
 [package]
-name = "cite-helper-macro-git-test"
+name = "oac-test"
 version = { workspace = true }
 edition  = { workspace = true }
 license  = { workspace = true }

@@ -226,15 +226,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "cite-helper-macro-git-test"
-version = "0.0.1"
-dependencies = [
- "cite",
- "oac",
- "trybuild",
-]
-
-[[package]]
 name = "cite-http"
 version = "0.0.1"
 source = "git+https://github.com/ramate-io/cite?rev=64899c90d8445fdf6e7d7324f1c83d1c2a7e4e6f#64899c90d8445fdf6e7d7324f1c83d1c2a7e4e6f"
@@ -1047,6 +1038,15 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "oac-test"
+version = "0.0.1"
+dependencies = [
+ "cite",
+ "oac",
+ "trybuild",
 ]
 
 [[package]]

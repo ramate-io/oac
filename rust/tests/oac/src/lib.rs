@@ -1,5 +1,5 @@
 use cite::cite;
-use helper_macro_git::helper_macro_git;
+use oac::oac;
 
 /// Test the git source with citation footnote
 #[oac(odemo, 0)]
