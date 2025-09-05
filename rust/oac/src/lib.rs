@@ -96,8 +96,6 @@ pub fn oac(args: TokenStream, input: TokenStream) -> TokenStream {
 		.to_string_lossy()
 		.to_string();
 
-	println!("link_path: {}", link_path);
-
 	// Create the actual GitSource directly
 	let git_source = GitSource::try_new(
 		"https://github.com/ramate-io/oac",
