@@ -1,0 +1,26 @@
+error: custom attribute panicked
+ --> tests/ui/fail/invalid_specifier.rs:7:1
+  |
+7 | #[oac(odemo, 1)]
+  | ^^^^^^^^^^^^^^^^
+  |
+  = help: message: Failed to read artifact symlink: "Failed to find artifact symlink at: $WORKSPACE/odemo/odemo-000-000-001"
+
+error[E0425]: cannot find function `test_oac_source` in this scope
+  --> tests/ui/fail/invalid_specifier.rs:13:2
+   |
+13 |     test_oac_source();
+   |     ^^^^^^^^^^^^^^^ not found in this scope
+   |
+help: consider importing this function
+   |
+1  + use oac_test::test_oac_source;
+   |
+
+warning: unused import: `cite::cite`
+ --> tests/ui/fail/invalid_specifier.rs:1:5
+  |
+1 | use cite::cite;
+  |     ^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
