@@ -179,7 +179,7 @@ dependencies = [
 [[package]]
 name = "cite"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=136cf791ed1a6953794da467a73eb43b27936994#136cf791ed1a6953794da467a73eb43b27936994"
+source = "git+https://github.com/ramate-io/cite?rev=1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3#1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3"
 dependencies = [
  "cite-core",
  "cite-git",
@@ -193,7 +193,7 @@ dependencies = [
 [[package]]
 name = "cite-cache"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=136cf791ed1a6953794da467a73eb43b27936994#136cf791ed1a6953794da467a73eb43b27936994"
+source = "git+https://github.com/ramate-io/cite?rev=1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3#1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3"
 dependencies = [
  "cargo_metadata",
  "cite-core",
@@ -204,7 +204,7 @@ dependencies = [
 [[package]]
 name = "cite-core"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=136cf791ed1a6953794da467a73eb43b27936994#136cf791ed1a6953794da467a73eb43b27936994"
+source = "git+https://github.com/ramate-io/cite?rev=1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3#1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3"
 dependencies = [
  "serde",
  "serde_json",
@@ -214,9 +214,10 @@ dependencies = [
 [[package]]
 name = "cite-git"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=136cf791ed1a6953794da467a73eb43b27936994#136cf791ed1a6953794da467a73eb43b27936994"
+source = "git+https://github.com/ramate-io/cite?rev=1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3#1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3"
 dependencies = [
  "cite-core",
+ "file-lock",
  "git2",
  "glob",
  "regex",
@@ -228,7 +229,7 @@ dependencies = [
 [[package]]
 name = "cite-http"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=136cf791ed1a6953794da467a73eb43b27936994#136cf791ed1a6953794da467a73eb43b27936994"
+source = "git+https://github.com/ramate-io/cite?rev=1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3#1fd7c635f1bacfa320ca6d5dc98f8f376d9a4fc3"
 dependencies = [
  "chrono",
  "cite-cache",
@@ -353,6 +354,16 @@ name = "fastrand"
 version = "2.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "37909eebbb50d72f9059c3b6d82c0463f2ff062c9e95845c43a6c9c0355411be"
+
+[[package]]
+name = "file-lock"
+version = "2.1.11"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "040b48f80a749da50292d0f47a1e2d5bf1d772f52836c07f64bfccc62ba6e664"
+dependencies = [
+ "cc",
+ "libc",
+]
 
 [[package]]
 name = "find-msvc-tools"
