@@ -1,0 +1,20 @@
+When it matches below, you should basically parse the attributes from <cite below> first. Then you should merge these with the remaining attributes from the cite expression, redirecting from the initial source. It's probably better if you rewrite all of this to actually work over a key, value map (string to string) and then test against that. 
+
+You can match the initial source to the key "src" e.g., src = "git", src = "http", src = "below". In the case of src = "below" you can replace this with the reparsed src while parsing <cite> below. 
+
+Then all you would have to do is something like this...
+
+let my kwargs = Map::new();
+
+kwargs.insert("src", first_arg);
+
+if first_arg = "below" {
+   parse_below_into_kwargs(&mut attrs, &mut kwargs);
+}
+
+assert_src_no_longer_below(kwargs);
+
+// just parse the args into the map
+parse_cite_kwargs(args, &mut kwargs);
+
+validate_with_kwargs(&kwargs);

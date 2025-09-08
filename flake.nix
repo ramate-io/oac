@@ -23,6 +23,7 @@
 
         # An LLVM build environment
         dependencies = with pkgs; [
+          cargo-machete
           ltex-ls-plus
           lychee
           chafa

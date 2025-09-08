@@ -1,0 +1,26 @@
+error: Invalid artifact type 'omope'. Must be one of the types listed in artifact-types file
+ --> tests/ui/fail/oac_invalid_artifacts.rs:7:1
+  |
+7 | #[oac(omope, 1)]
+  | ^^^^^^^^^^^^^^^^
+  |
+  = note: this error originates in the attribute macro `oac` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+error[E0425]: cannot find function `test_oac_source` in this scope
+  --> tests/ui/fail/oac_invalid_artifacts.rs:13:2
+   |
+13 |     test_oac_source();
+   |     ^^^^^^^^^^^^^^^ not found in this scope
+   |
+help: consider importing this function
+   |
+1  + use oac_test::test_oac_source;
+   |
+
+warning: unused import: `cite::cite`
+ --> tests/ui/fail/oac_invalid_artifacts.rs:1:5
+  |
+1 | use cite::cite;
+  |     ^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default

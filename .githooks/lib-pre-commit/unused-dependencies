@@ -1,0 +1,30 @@
+#!/bin/bash
+
+set -e
+
+# Status helper function
+status() {
+    if [ $? -eq 0 ]; then
+        echo "✅ $1"
+    else
+        echo "❌ $1"
+        return 1
+    fi
+}
+
+echo "Running pre-commit hook: Unused dependencies check with cargo machete..."
+
+# Check if cargo machete is available
+if ! command -v cargo-machete &> /dev/null; then
+    echo "❌ cargo machete command not found. Please ensure you're in the nix development shell."
+    exit 1
+fi
+
+# Run cargo machete
+if cargo-machete; then
+    echo "✅ cargo machete completed successfully"
+    exit 0
+else
+    echo "❌ cargo machete found unused dependencies. Please review and fix the issues above."
+    exit 1
+fi
