@@ -64,9 +64,9 @@ reqwest = { version = "0.12", features = ["json"] }
 trybuild = { git = "https://github.com/l-monninger/trybuild", rev = "21f376043b136e3f24f7b5e146890b9496699ee8" }
 glob = "0.3"
 
-cite = { git = "https://github.com/ramate-io/cite", rev = "331780a1ac3b6e00b0c34fd695e1b0c926fa1d39" }
-cite-core = { git = "https://github.com/ramate-io/cite", rev = "331780a1ac3b6e00b0c34fd695e1b0c926fa1d39" }
-cite-git = { git = "https://github.com/ramate-io/cite", rev = "331780a1ac3b6e00b0c34fd695e1b0c926fa1d39" }
+cite = { git = "https://github.com/ramate-io/cite", rev = "8d1d28a9f18a1f945ab1f63d9521fa3d410230d49" }
+cite-core = { git = "https://github.com/ramate-io/cite", rev = "8d1d28a9f18a1f945ab1f63d9521fa3d410230d49" }
+cite-git = { git = "https://github.com/ramate-io/cite", rev = "8d1d28a9f18a1f945ab1f63d9521fa3d410230d49" }
 
 # interal
 oac = { path = "rust/oac" }
