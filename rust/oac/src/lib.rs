@@ -42,13 +42,7 @@ pub fn oac(args: TokenStream, input: TokenStream) -> TokenStream {
 	let mut item = parse_macro_input!(input as syn::Item);
 
 	// get the current commit hash
-	let commit_hash = std::process::Command::new("git")
-		.arg("rev-parse")
-		.arg("HEAD")
-		.output()
-		.expect("Failed to get current commit hash");
-	let commit_hash =
-		String::from_utf8(commit_hash.stdout).expect("Failed to convert commit hash to string");
+	let commit_hash = "ac7dfd85c718a7a22427386a955d4232c36b9b8f";
 
 	// get the working directory of the build as would be used by cargo
 	let manifest_dir =

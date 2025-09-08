@@ -172,7 +172,7 @@ This will serve to motivate `emframed`.
 #### T2.5: Write "Verification and traits"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
 
-Write a memo describing approaches to formal verification in Rust w.r.t. traits. Emphasize the [Assume-Guarantee] approach.
+Write a memo describing approaches to formal verification in Rust w.r.t. traits. Emphasize the [Assume-Guarantee](https://ntrs.nasa.gov/api/citations/20060017073/downloads/20060017073.pdf) approach.
 
 #### T2.6: Write "The value in decentralization"
 - **Lead:** [Liam Monninger](mailto:liam@ramate.io)
