@@ -179,7 +179,7 @@ dependencies = [
 [[package]]
 name = "cite"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=331780a1ac3b6e00b0c34fd695e1b0c926fa1d39#331780a1ac3b6e00b0c34fd695e1b0c926fa1d39"
+source = "git+https://github.com/ramate-io/cite?rev=8d1d28a9f18a1f945ab1f63d9521fa3d410230d4#8d1d28a9f18a1f945ab1f63d9521fa3d410230d4"
 dependencies = [
  "cite-core",
  "cite-git",
@@ -193,7 +193,7 @@ dependencies = [
 [[package]]
 name = "cite-cache"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=331780a1ac3b6e00b0c34fd695e1b0c926fa1d39#331780a1ac3b6e00b0c34fd695e1b0c926fa1d39"
+source = "git+https://github.com/ramate-io/cite?rev=8d1d28a9f18a1f945ab1f63d9521fa3d410230d4#8d1d28a9f18a1f945ab1f63d9521fa3d410230d4"
 dependencies = [
  "cargo_metadata",
  "cite-core",
@@ -204,7 +204,7 @@ dependencies = [
 [[package]]
 name = "cite-core"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=331780a1ac3b6e00b0c34fd695e1b0c926fa1d39#331780a1ac3b6e00b0c34fd695e1b0c926fa1d39"
+source = "git+https://github.com/ramate-io/cite?rev=8d1d28a9f18a1f945ab1f63d9521fa3d410230d4#8d1d28a9f18a1f945ab1f63d9521fa3d410230d4"
 dependencies = [
  "serde",
  "serde_json",
@@ -214,7 +214,7 @@ dependencies = [
 [[package]]
 name = "cite-git"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=331780a1ac3b6e00b0c34fd695e1b0c926fa1d39#331780a1ac3b6e00b0c34fd695e1b0c926fa1d39"
+source = "git+https://github.com/ramate-io/cite?rev=8d1d28a9f18a1f945ab1f63d9521fa3d410230d4#8d1d28a9f18a1f945ab1f63d9521fa3d410230d4"
 dependencies = [
  "cite-core",
  "file-lock",
@@ -229,7 +229,7 @@ dependencies = [
 [[package]]
 name = "cite-http"
 version = "0.0.1"
-source = "git+https://github.com/ramate-io/cite?rev=331780a1ac3b6e00b0c34fd695e1b0c926fa1d39#331780a1ac3b6e00b0c34fd695e1b0c926fa1d39"
+source = "git+https://github.com/ramate-io/cite?rev=8d1d28a9f18a1f945ab1f63d9521fa3d410230d4#8d1d28a9f18a1f945ab1f63d9521fa3d410230d4"
 dependencies = [
  "chrono",
  "cite-cache",
