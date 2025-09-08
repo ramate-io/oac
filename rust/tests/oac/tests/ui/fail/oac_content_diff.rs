@@ -8,7 +8,8 @@ use oac::oac;
 #[cite(
 	above,
 	reason = "Testing oac source 2",
-	referenced_revision = "8186abec357fcc37a78fc57056c38057a58692d1"
+	referenced_revision = "8186abec357fcc37a78fc57056c38057a58692d1",
+	current_revision = "ac7dfd85c718a7a22427386a955d4232c36b9b8f"
 )]
 pub fn test_oac_source() {
 	println!("This function has a citation with a git source");

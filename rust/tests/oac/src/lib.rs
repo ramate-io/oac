@@ -1,7 +1,7 @@
 use cite::cite;
 use oac::oac;
 
-/// Test the git source with citation footnote
+/// Test the the oac source with a couple of citations
 #[oac(odemo, 0)]
 #[cite(above, reason = "Testing oac source 1")]
 #[oac(oroad, 5)]
