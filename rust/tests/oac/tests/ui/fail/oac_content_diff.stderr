@@ -1,10 +1,10 @@
 error: Git citation content has changed!
                 Remote: https://github.com/ramate-io/oac
                 Path: oroad/oera-000-000-000-dulan/oroad-000-000-005/
-                Revision: main
+                Revision: ac7dfd85c718a7a22427386a955d4232c36b9b8f
        Fdiff --git a/oroad/oera-000-000-000-dulan/oroad-000-000-005/README.md b/oroad/oera-000-000-000-dulan/oroad-000-000-005/README.md
        new file mode 100644
-       index 0000000..b43e1ef
+       index 0000000..40cdd5e
        --- /dev/null
        +++ b/oroad/oera-000-000-000-dulan/oroad-000-000-005/README.md
        H@@ -0,0 +1,356 @@
@@ -182,7 +182,7 @@ error: Git citation content has changed!
        +#### T2.5: Write "Verification and traits"
        +- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
        +
-       +Write a memo describing approaches to formal verification in Rust w.r.t. traits. Emphasize the [Assume-Guarantee](https://ntrs.nasa.gov/api/citations/20060017073/downloads/20060017073.pdf) approach.
+       +Write a memo describing approaches to formal verification in Rust w.r.t. traits. Emphasize the [Assume-Guarantee] approach.
        +
        +#### T2.6: Write "The value in decentralization"
        +- **Lead:** [Liam Monninger](mailto:liam@ramate.io)
@@ -401,8 +401,9 @@ error: Git citation content has changed!
 8  | / #[cite(
 9  | |     above,
 10 | |     reason = "Testing oac source 2",
-11 | |     referenced_revision = "8186abec357fcc37a78fc57056c38057a58692d1"
-12 | | )]
+11 | |     referenced_revision = "8186abec357fcc37a78fc57056c38057a58692d1",
+12 | |     current_revision = "ac7dfd85c718a7a22427386a955d4232c36b9b8f"
+13 | | )]
    | |__^
    |
    = note: this error originates in the attribute macro `cite` (in Nightly builds, run with -Z macro-backtrace for more info)
