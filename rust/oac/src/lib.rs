@@ -42,7 +42,7 @@ pub fn oac(args: TokenStream, input: TokenStream) -> TokenStream {
 	let mut item = parse_macro_input!(input as syn::Item);
 
 	// get the current commit hash
-	let commit_hash = "ac7dfd85c718a7a22427386a955d4232c36b9b8f";
+	let commit_hash = "e7e346173fbee4798a90092301e4fb681527a79b";
 
 	// get the working directory of the build as would be used by cargo
 	let manifest_dir =
