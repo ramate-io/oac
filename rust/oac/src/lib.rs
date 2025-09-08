@@ -47,10 +47,8 @@ pub fn oac(args: TokenStream, input: TokenStream) -> TokenStream {
 		.arg("HEAD")
 		.output()
 		.expect("Failed to get current commit hash");
-	let _commit_hash =
+	let commit_hash =
 		String::from_utf8(commit_hash.stdout).expect("Failed to convert commit hash to string");
-	// harcode for now until we figure out missing reference fetch;
-	let commit_hash = "d2ca47cbf2de6038070a4d13d4f07713a9a557e2";
 
 	// get the working directory of the build as would be used by cargo
 	let manifest_dir =
