@@ -99,7 +99,7 @@ pub fn oac(args: TokenStream, input: TokenStream) -> TokenStream {
 	// Create the actual GitSource directly
 	let git_source = GitSource::try_new(
 		"https://github.com/ramate-io/oac",
-		&link_path,
+		&format!("{}/", link_path), // add a trailing slash to the link path
 		&commit_hash,
 		"main",
 		// use the caps(artifact-type)-doc as the name
