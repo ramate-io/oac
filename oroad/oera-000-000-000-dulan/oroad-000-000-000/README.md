@@ -6,6 +6,8 @@
     - **[Agreeing](#agreeing)**
     - **[Dissenting](#dissenting)**
     - **[Appendix](#appendix)**
+ 
+<iframe src="https://roadline.dev/gh/ramate-io/oac/oroad/oera-000-000-000-dulan/oroad-000-000-000/README.md" width="200" height="200"></iframe>
 
 ## Summary
 **OROAD-0** is the foundational roadmap for OAC proposed in response to [OPROC-0: Decentralized Consequence](../../../oproc/oera-000-000-000-dulan/oproc-000-000-000/README.md). **OROAD-0** seeks to develop and validate a series of foundational papers, render a series of implementations from these papers, and the output applications demonstrating the utility of these implementations. In the end, **OROAD-0** describes the series efforts which will be used to determine whether OAC is worth pursuing.
